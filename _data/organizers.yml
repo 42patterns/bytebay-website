@@ -1,0 +1,5 @@
+-
+  group: "Organizatorzy"
+  elements:
+    - {name: "Jola Spodzieja", caption: "Sprzedaż, partnerzy", phone: "+48 508 790 094", description: "Bingo HR", link: "http://bingohr.pl", imageUrl: "photo-jola.jpg"}
+    - {name: "Jakub Marchwicki", caption: "Rada programowa", phone: "+48 607 183 320", description: "Trójmiasto JUG", link: "http://jakub.marchwicki.pl", imageUrl: "photo-jakub.jpg"}

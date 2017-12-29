@@ -1,5 +1,5 @@
 # Plugins
-gems:
+plugins:
 - jekyll-sitemap
 safe: false
 
@@ -11,7 +11,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME', 'Gemfile', 'Gemfi
 
 # Site Settings
 title: "ByteBay 2018: 100% warsztatów"
-email: "devfest@gdg.org.ua"
+email: "hi@bytebay.pl"
 description: "ByteBay to konferencja 100% warsztatów, 100% praktyki"
 baseurl: ""
 url: "https://bytebay.pl"
@@ -29,7 +29,7 @@ organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "http://lviv.gdg.org.ua/"
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
+metaKeywords: "bytebay, warsztaty, java, javascript, devops, Gdańsk, gdansk"
 twitterAccount: "@bytebay"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
@@ -50,14 +50,14 @@ navigationLinks:
  # - {permalink: "/logistics/", text: "Logistics"}
  # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 rightNavigationButtons:
  # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 
 # Hero Block
-heroImage: "gdansk-cropped.jpg"
+heroImage: "stadion-cropped.jpg"
 heroTitle: "ByteBay 2018 - <typeout>"
-eventDate: "Gdańsk, Marzec 2018"
+eventDate: "Gdańsk, 15/16 Marzec 2018"
 typeoutTextValues: '"", "Warsztaty", "Networking", "Programowanie", "Agile"'
 typeoutFallback: "100% Warsztatów"
 heroButtons:
@@ -67,17 +67,17 @@ heroButtons:
 # About Block
 aboutTitle: "Co to jest ByteBay?"
 aboutBlock:
- - {title: "Keynote", image: "conference.jpg", text: "Programowanie to nie tylko rozmowy o programowaniu. Rozpocznijmy inaczej, inspirująco - spójrzmy na to co robimy z zupełnie innej perspektywy!?" }
+ - {title: "Keynote", image: "conference.jpg", text: "Programowanie to nie tylko rozmowy o kodzie. Rozpocznijmy inaczej, inspirująco - spójrzmy na to co robimy z zupełnie innej perspektywy!?" }
  - {title: "Warsztaty", image: "hackathon.jpg", text: "100% praktycznej wiedzy, przekazanej w warsztatowej formie. Bez zbędnej ściemy, nawijania - tylko kod, rozwiązania i doświadczenie." }
- - {title: "Networking", image: "workshop.jpg", text: "200 spragnionych wiedzy osób to przeogromne pole do wymiany doświadczeń, kontaktów, wrażeń. " }
+ - {title: "Networking", image: "workshop.jpg", text: "250 spragnionych wiedzy osób to przeogromne pole do wymiany doświadczeń, kontaktów, wrażeń. " }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+ - {count: "250", specialCharacter: "+", info: "uczestników", detail: "z całej Polski"}
+ - {count: "80", specialCharacter: "+", info: "godzin", detail: "warsztatów"}
+ - {count: "30", specialCharacter: "+", info: "trenerów"}
+ - {count: "8", specialCharacter: "", info: "równoległych ścieżek", detail: "oraz strefa relaksu"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
@@ -89,29 +89,29 @@ rockstarSpeakersTitle: "Rockstar speakers"
 rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
-locationBlockTitle: "Location"
-eventLocationName: "Conference Hall"
+locationBlockTitle: "Lokalizacja"
+eventLocationName: "Stadion Energa"
 eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
-eventStreetAddress: "22 Teatral'na St"
-eventAddressLocality: "Lviv"
-eventAddressLocalityRegion: "Lvivska"
-eventPostalCode: "79000"
-eventAddressCountry: "Ukraine"
-eventStartTime: "2014-10-25T10:00"
+eventStreetAddress: "Pokoleń Lechii Gdańsk 1"
+eventAddressLocality: "Gdańsk"
+eventAddressLocalityRegion: ""
+eventPostalCode: "80-560"
+eventAddressCountry: "Polska"
+eventStartTime: "2018-03-15T9:00"
 eventDoorTime: "09:00"
-eventEndTime: "2014-10-25T20:00"
-eventPlaceCoordinates: "49.843237, 24.028751"
-mapCenterCoordinates: "49.842537, 24.025701"
-mapMobileCenterCoordinates: "49.841620, 24.029411"
+eventEndTime: "2014-03-16T17:00"
+eventPlaceCoordinates: "54.3900786,18.6392969"
+mapCenterCoordinates: "54.388915,18.630398"
+mapMobileCenterCoordinates: "54.384854,18.636528"
 
 # Venue Block
-venueBlockTitle: "Venue"
-venueBigImage: "venue_0.jpg"
-venueSmallImage1: "venue_1.jpg"
-venueSmallImage2: "venue_2.jpg"
-venueSmallImage3: "venue_3.jpg"
-venueTitle: "Kinopalace Cinema"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+venueBlockTitle: "Stadion Energa"
+venueBigImage: "stadion_1.jpg"
+venueSmallImage1: "stadion_2.jpg"
+venueSmallImage2: "stadion_3.jpg"
+venueSmallImage3: "stadion_4.jpg"
+venueTitle: "Nietuzinkowe miejsce"
+venueFeatures: ["Zupełnie inna przestrzeń szkoleniowa", "Strefa reklaksu", "Networking"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
@@ -120,8 +120,8 @@ twitterHashTag: "devfest"
 twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
-organizersTitle: "Organizers"
-partnersTitle: "Partners"
+organizersTitle: "Organizatorzy"
+partnersTitle: "Sponsorzy"
 partnersC4sponsorsButton: "Become a sponsor"
 
 # Subscribe Block

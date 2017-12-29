@@ -11,12 +11,19 @@
             @media (max-width: 767px) {
                 width: 40%;
                 max-width: 160px;
+            };
+            div.info {
+              padding-top: 10px;
+              div.name {
+                font-weight: bold;
+              }
             }
         }
     }
     img {
         width: 100%;
         transition: $base-transition;
+        border-radius: 50%;
         filter: grayscale(1);
         &:hover {
             filter: grayscale(0);
