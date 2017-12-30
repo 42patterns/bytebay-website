@@ -42,10 +42,10 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 # Navigation
 navigationLinks:
- # - {permalink: "/", text: "Home"}
+ - {permalink: "/", text: "Strona główna"}
  # - {permalink: "/blog/", text: "Blog"}
  # - {permalink: "/schedule/", text: "Schedule"}
- # - {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/speakers/", text: "Trenerzy"}
  # - {permalink: "/team/", text: "Team"}
  # - {permalink: "/logistics/", text: "Logistics"}
  # - {permalink: "/hackathon/", text: "Hackathon"}
@@ -72,7 +72,7 @@ aboutBlock:
  - {title: "Networking", image: "workshop.jpg", text: "250 spragnionych wiedzy osób to przeogromne pole do wymiany doświadczeń, kontaktów, wrażeń. " }
 
 # Statistic Block
-statisticBlockImage: "statistic.jpg"
+statisticBlockImage: ""
 statisticBlock:
  - {count: "250", specialCharacter: "+", info: "uczestników", detail: "z całej Polski"}
  - {count: "80", specialCharacter: "+", info: "godzin", detail: "warsztatów"}
@@ -85,8 +85,8 @@ latestNewsTitle: "Latest news"
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
 rockstarSpeakersCount: 4
-rockstarSpeakersTitle: "Rockstar speakers"
-rockstarSpeakersButtonText: "See all speakers"
+rockstarSpeakersTitle: "Najlepsi trenerzy i szkoleniowcy"
+rockstarSpeakersButtonText: "Zobacz wszystkich trenerów"
 
 # Location Block
 locationBlockTitle: "Lokalizacja"

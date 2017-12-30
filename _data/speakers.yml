@@ -1,0 +1,36 @@
+-
+  id: 3
+  name: "Jarosław"
+  surname: "Pałka"
+  company: "Symentis"
+  title: "Główny trener, Architect"
+  bio: "Od ponad 20 lat w branży IT, jako administrator baz danych, programista, architekt, manager i 'inżynier od spraw katastrof'. Brałem udział w małych, średnich i nonsensownie dużych projektach, prowadzonych zgodnie zasadami 'waterfall', Agile oraz przy braku jakichkolwiek metodyk, z tym samym zawsze skutkiem. To doprowadziło mnie do wniosku, że nieważne co robisz, tak długo, jak robisz to dobrze, w najprostszy z możliwych sposobów i używasz właściwych narzędzi, które wykonają pracę za Ciebie. W międzyczasie dałem się porwać ideą TDD oraz Software Craftmanship, do granic możliwości wyeksploatować tak piękne w swej prostocie pomysły jak REST i NoSQL, by potem porzucić je by zgłębić tajniki 'system thinking' i zachwycić się siłą jaką niesie z sobą 'metafora' oraz odkryć, że rządzą nami te same prawa 'natury'. <br />Niepokorny wyznawca kościoła JVM, badacz bytecode'u i JIT oraz wszelkiej maści parserów, interpeterów i kompilatorów. "
+  thumbnailUrl: jarek_palka.jpg
+  rockstar: true
+  ribbon:
+    - {abbr: "Symentis", title: "Symentis", url: "https://symentis.pl"}
+    - {abbr: "Allegro", title: "Allegro Group", url: "https://tech.allegro.pl"}
+  social:
+    - {name: "twitter", link: "https://twitter.com/j_palka"}
+-
+  id: 4
+  name: "Wiktor"
+  surname: "Sztajerowski"
+  company: "Symentis"
+  title: "Programista, trener"
+  bio: 'Programista z ponad 5-cio letnim stażem, trener i konsultant w Symentis.pl, aspirujący mówca konferencyjny, znany między innymi z konferencji 4Developers i Confitura. Obecnie Java Developer w Smart Coders, entuzjasta NoSQL’a i orędownik wykorzystywania więcej niż jednej bazy danych w systemach w słusznych celach, dla sławy i zysku. Prywatnie jeden z liderów łódzkiego JUG’a oraz Zwinnej Łodzi, grupy pasjonatów metody „agile”, a także współinicjator spotkań, Software Architecture & Design Debate, platformy nowego, ciekawego i szerszego spojrzenia na architekturę systemów IT.'
+  thumbnailUrl: wiktor_sztajerowski.jpg
+  social:
+    - {name: "twitter", link: "https://twitter.com/wsztajerowski"}
+
+-
+  id: 5
+  name: "Sławomir"
+  surname: "Sobótka"
+  company: "Bottega IT Minds"
+  title: "Główny trener / architekt"
+  bio: "Jestem trenerem i konsultantem w firmie Bottega IT Minds, specjalizuję się w technologiach Java EE. W codziennej pracy integruję Domain Driven Design, wzorce, style architektoniczne, zwinne procesy wytwórcze i zdrowy rozsądek. Stosuję nadrzędną zasadę: rozpoznać klasę problemu z jaką mamy do czynienia i dobrać do niej odpowiednią klasę narzędzia. Hobbystycznie interesuję się psychologią pozytywną i kognitywistyką. Lubię myśleć o sobie jako entuzjaście Software Craftsmanship."
+  thumbnailUrl: slawek_sobotka.jpg
+  rockstar: true
+  social:
+    - {name: "twitter", link: "https://twitter.com/bottega_it"}

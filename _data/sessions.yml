@@ -1,0 +1,39 @@
+-
+  id: 307
+  title: "Przerwa kawowa"
+  place: "Hall"
+  service: true
+  description: ""
+-
+  id: 503
+  title: "Przerwa lunchowa"
+  place: "Hall"
+  service: true
+-
+  id: 001
+  title: "JVM: przez dziurkę od klucza"
+  description: ""
+  subtype: deep dive
+  speakers: [3]
+  language: pl
+  complexity: "Intermediate"
+  presentation: "https://speakerdeck.com/gdglviv/mateusz-herych-guava-beyond-collections"
+  video: "//www.youtube.com/embed/v3SCiUqI1yQ"
+
+-
+  id: 002
+  title: "O optymalizacji MongoDB przykładów kilka"
+  description: ""
+  subtype: workshop
+  speakers: [4]
+  language: pl
+  complexity: "Intermediate"
+
+-
+  id: 003
+  title: "Co gryzie świadomego programistę DDD"
+  description: ""
+  subtype: keynote
+  speakers: [5]
+  language: pl
+  complexity: "sesja plenarna"
