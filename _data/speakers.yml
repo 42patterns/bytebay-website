@@ -32,5 +32,44 @@
   bio: "Jestem trenerem i konsultantem w firmie Bottega IT Minds, specjalizuję się w technologiach Java EE. W codziennej pracy integruję Domain Driven Design, wzorce, style architektoniczne, zwinne procesy wytwórcze i zdrowy rozsądek. Stosuję nadrzędną zasadę: rozpoznać klasę problemu z jaką mamy do czynienia i dobrać do niej odpowiednią klasę narzędzia. Hobbystycznie interesuję się psychologią pozytywną i kognitywistyką. Lubię myśleć o sobie jako entuzjaście Software Craftsmanship."
   thumbnailUrl: slawek_sobotka.jpg
   rockstar: true
+  ribbon:
+    - {abbr: "Bottega", title: "Bottega IT Minds", url: "https://bottega.com.pl"}
   social:
     - {name: "twitter", link: "https://twitter.com/bottega_it"}
+-
+  id: 6
+  name: "Mariusz"
+  surname: "Gil"
+  company: "Bottega IT Minds"
+  title: "Architect"
+  bio: "Software architect i trener, z branżą IT związany od ponad 16 lat. Pasjonuje się projektowaniem i implementacją systemów o złożonych wymaganiach biznesowych, machine-learningiem i dostarczaniem wartości biznesowej klientom. Speaker i organizator eventów dla developerów, chcących rozwijać swoje umiejętności zawodowe."
+  thumbnailUrl: mariusz_gil.jpg
+  rockstar: true
+  ribbon:
+    - {abbr: "Bottega", title: "Bottega IT Minds", url: "https://bottega.com.pl"}
+    - {abbr: "Source Ministry", title: "Source Ministry", url: "https://sourceministry.com/"}
+  social:
+    - {name: "twitter", link: "https://twitter.com/mariuszgil"}
+-
+  id: 7
+  name: "Michał"
+  surname: "Michałuk"
+  company: "Bottega IT Minds"
+  title: "Trainer, Craftsman"
+  bio: "Doświadczony w wytwarzaniu nowego oprogramowania zarówno dla startup-ów o skrajnie zwinnym kontekście, jak i zbiurokratyzowanych korporacji z klasycznym modelem. Po tych doświadczeniach jest pewien, że skupienie na wartości dostarczanej przez oprogramowanie klientowi i prostota rozwiązania są kluczem do sukcesu projektów. Kilkuletnia kariera w globalnej korporacji, począwszy od programisty skończywszy na technicznym architekcie grupy projektów, była dla niego doskonałą lekcją wieloletniego utrzymanie oraz rozwoju oprogramowania w olbrzymiej skali. Wtedy poznał dwa kluczowe punkty do zrównoważonego rozwoju oprogramowania i zespołu. Testowanie i refaktoryzacja oprogramowania legacy w środowisku korporacyjnym kiedy \"nie mamy czasu na jakość\", przynosi zysk dla organizacji i daje wiele satysfakcji programistom do tej pory zmęczonym projektem. Doskonałość warsztatu programistycznego i biegłość w technologiach indywidualnych programistów promieniuje na cały zespól i przynosi wyraźne korzyści dla projektu i organizacji. Ma oryginalne spojrzenie na wytwarzanie oprogramowania: rozwój oprogramowania to inwestycja, a praktyki Agile i Domain-Driven Design pozwalają podążać optymalną ścieżką do osiągnięcia szybkiego zwrotu z tej inwestycji."
+  thumbnailUrl: michal_michaluk.jpg
+  ribbon:
+    - {abbr: "Bottega", title: "Bottega IT Minds", url: "https://bottega.com.pl"}
+
+-
+  id: 8
+  name: "Grzgorz"
+  surname: "Dyrda"
+  company: ""
+  title: "Polyglot programmer"
+  bio: "Grzegorz koduję odkąd pamięta. Robił apki desktopowe, backendy, frontendy, embedded, systemy bankowe, płatnicze i inne cuda... Jednak dopiero na platformach mobilnych czuję się jak “ryba w wodzie” :) Od 2012 brał udział w tworzeniu wielu apek na Androida i iOS, na każdym etapie - od pomysłu i ustalania wymagań, przez architekturę, logikę biznesową, UI/UX, aż po publikację w Sklepie i kontakt z użytkownikiem końcowym, marketing itd.
+
+  Od kilku lat tworzy i sprzedaje własne apki, i tak zarabia na chleb i wczasy na Kanarach ;) Prywatnie - snuję plany na milionowe imperium, prowadzę bloga (blog.geekydevs.com), chodzę po górach, gram na gitarze, czytam..."
+  thumbnailUrl: grzegorz_dyrda.jpg
+  social:
+    - {name: "twitter", link: "https://twitter.com/grzegorzdyrda"}
