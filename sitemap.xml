@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://bytebay.pl/</loc>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>https://bytebay.pl/speakers/</loc>
+<loc>http://localhost:4000/speakers/</loc>
 </url>
 <url>
-<loc>https://bytebay.pl/img/sections-background/navigation.html</loc>
+<loc>http://localhost:4000/img/sections-background/navigation.html</loc>
 <lastmod>2018-01-03T23:02:42+01:00</lastmod>
 </url>
 </urlset>
