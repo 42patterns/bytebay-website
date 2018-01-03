@@ -63,13 +63,13 @@
 
 -
   id: 8
-  name: "Grzgorz"
+  name: "Grzegorz"
   surname: "Dyrda"
-  company: ""
+  company: "Geeeky Devs"
   title: "Polyglot programmer"
   bio: "Grzegorz koduję odkąd pamięta. Robił apki desktopowe, backendy, frontendy, embedded, systemy bankowe, płatnicze i inne cuda... Jednak dopiero na platformach mobilnych czuję się jak “ryba w wodzie” :) Od 2012 brał udział w tworzeniu wielu apek na Androida i iOS, na każdym etapie - od pomysłu i ustalania wymagań, przez architekturę, logikę biznesową, UI/UX, aż po publikację w Sklepie i kontakt z użytkownikiem końcowym, marketing itd.
 
-  Od kilku lat tworzy i sprzedaje własne apki, i tak zarabia na chleb i wczasy na Kanarach ;) Prywatnie - snuję plany na milionowe imperium, prowadzę bloga (blog.geekydevs.com), chodzę po górach, gram na gitarze, czytam..."
+  Od kilku lat tworzy i sprzedaje własne apki, i tak zarabia na chleb i wczasy na Kanarach ;) Prywatnie - snuję plany na milionowe imperium, prowadzi bloga (blog.geekydevs.com), chodzi po górach, gra na gitarze, czyta..."
   thumbnailUrl: grzegorz_dyrda.jpg
   social:
     - {name: "twitter", link: "https://twitter.com/grzegorzdyrda"}
