@@ -11,6 +11,7 @@
     - {abbr: "Symentis", title: "Symentis", url: "https://symentis.pl"}
     - {abbr: "Allegro", title: "Allegro Group", url: "https://tech.allegro.pl"}
   social:
+    - {name: "site", link: "http://geekyprimitives.wordpress.com/"}
     - {name: "twitter", link: "https://twitter.com/j_palka"}
 -
   id: 4
@@ -20,6 +21,8 @@
   title: "Programista, trener"
   bio: 'Programista z ponad 5-cio letnim stażem, trener i konsultant w Symentis.pl, aspirujący mówca konferencyjny, znany między innymi z konferencji 4Developers i Confitura. Obecnie Java Developer w Smart Coders, entuzjasta NoSQL’a i orędownik wykorzystywania więcej niż jednej bazy danych w systemach w słusznych celach, dla sławy i zysku. Prywatnie jeden z liderów łódzkiego JUG’a oraz Zwinnej Łodzi, grupy pasjonatów metody „agile”, a także współinicjator spotkań, Software Architecture & Design Debate, platformy nowego, ciekawego i szerszego spojrzenia na architekturę systemów IT.'
   thumbnailUrl: wiktor_sztajerowski.jpg
+  ribbon:
+    - {abbr: "Symentis", title: "Symentis", url: "https://symentis.pl"}
   social:
     - {name: "twitter", link: "https://twitter.com/wsztajerowski"}
 
@@ -29,12 +32,13 @@
   surname: "Sobótka"
   company: "Bottega IT Minds"
   title: "Główny trener / architekt"
-  bio: "Jestem trenerem i konsultantem w firmie Bottega IT Minds, specjalizuję się w technologiach Java EE. W codziennej pracy integruję Domain Driven Design, wzorce, style architektoniczne, zwinne procesy wytwórcze i zdrowy rozsądek. Stosuję nadrzędną zasadę: rozpoznać klasę problemu z jaką mamy do czynienia i dobrać do niej odpowiednią klasę narzędzia. Hobbystycznie interesuję się psychologią pozytywną i kognitywistyką. Lubię myśleć o sobie jako entuzjaście Software Craftsmanship."
+  bio: "Jest trenerem i konsultantem w firmie Bottega IT Minds, specjalizuje się w technologiach Java EE. W codziennej pracy integruje Domain Driven Design, wzorce, style architektoniczne, zwinne procesy wytwórcze i zdrowy rozsądek. Stosuje nadrzędną zasadę: rozpoznać klasę problemu z jaką ma się do czynienia i dobrać do niej odpowiednią klasę narzędzia. Hobbystycznie interesuje się psychologią pozytywną i kognitywistyką. Lubi myśleć o sobie jako entuzjaście Software Craftsmanship."
   thumbnailUrl: slawek_sobotka.jpg
   rockstar: true
   ribbon:
     - {abbr: "Bottega", title: "Bottega IT Minds", url: "https://bottega.com.pl"}
   social:
+    - {name: "site", link: "http://art-of-software.blogspot.com/"}
     - {name: "twitter", link: "https://twitter.com/bottega_it"}
 -
   id: 6
@@ -77,16 +81,15 @@
   id: 8
   name: "Grzegorz"
   surname: "Dyrda"
-  company: "Geeeky Devs"
-  title: "Polyglot programmer"
-  bio: "Grzegorz koduję odkąd pamięta. Robił apki desktopowe, backendy, frontendy, embedded, systemy bankowe, płatnicze i inne cuda... Jednak dopiero na platformach mobilnych czuję się jak “ryba w wodzie” :) Od 2012 brał udział w tworzeniu wielu apek na Androida i iOS, na każdym etapie - od pomysłu i ustalania wymagań, przez architekturę, logikę biznesową, UI/UX, aż po publikację w Sklepie i kontakt z użytkownikiem końcowym, marketing itd.
-
-  Od kilku lat tworzy i sprzedaje własne apki, i tak zarabia na chleb i wczasy na Kanarach ;) Prywatnie - snuję plany na milionowe imperium, prowadzi bloga (blog.geekydevs.com), chodzi po górach, gra na gitarze, czyta..."
+  company: "Geeky Devs"
+  title: "Full Stack Mobile Developer"
+  bio: "Programista od ponad 15 lat. Przedsiębiorca od trzech. Minimalista i pragmatyk - stąd pewnie nieskrywana miłość do Kotlina :) Od 5 lat związany głównie z rynkiem apek mobilnych. Na co dzień tworzy i sprzedaje własne apki, czym zarabia na chleb i wczasy na Kanarach :) Prywatnie - snuje plany na milionowe imperium, czyta, bloguje, chodzi po górach, gra na gitarze i zaraża innych swoją pasją :)"
   thumbnailUrl: grzegorz_dyrda.jpg
+  ribbon:
+    - {abbr: "Geeky Devs", title: "Geeky Devs", url: "https://geekydevs.com"}
   social:
     - {name: "twitter", link: "https://twitter.com/grzegorzdyrda"}
-
-
+    - {name: "site", link: "http://geekydevs.com/"}
 
 -
   id: 10
@@ -98,6 +101,8 @@
 
   Lubi proste rozwiązania skomplikowanych problemów.  Na codzień zajmuje się tematami z zakresu architektury aplikacji biznesowych, Domain-Driven Design, Continuous Delivery, technologii Java oraz testowania automatycznego. Prywatnie mąż, ojciec piątki dzieci."
   thumbnailUrl: lukasz_szydlo.jpg
+  ribbon:
+    - {abbr: "Bottega", title: "Bottega IT Minds", url: "https://bottega.com.pl"}  
   social:
     - {name: "twitter", link: "https://twitter.com/lszydlo"}
 
@@ -108,4 +113,6 @@
   company: "IT Kontekst"
   title: "Trener, Architekt"
   bio: "Prowadzący własną działalność specjalista do spraw trudnych, zawodowo rozwiązuje problemy związane z projektowaniem architektury systemów, integracją, wydajnością i jakością kodu. Znajduje obsesyjną wręcz przyjemność w wynajdowaniu sensu w cudzym kodzie. Prywatnie rozwiązuje problemy związane z wychowaniem 2-ki dzieciaków i znajdowaniem czasu na żeglowanie i czytanie literatury fantastycznej."
+  ribbon:
+    - {abbr: "IT Kontekst", title: "IT Kontekst", url: "http://itkontekst.pl/"}
   thumbnailUrl: wojtek_oczkowski.jpg
