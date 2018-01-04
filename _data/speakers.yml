@@ -51,6 +51,18 @@
   social:
     - {name: "twitter", link: "https://twitter.com/mariuszgil"}
 -
+  id: 9
+  name: "Daniel"
+  surname: "Pokusa"
+  company: "Onwelo"
+  title: "Architekt"
+  bio: "Zapalony zwolennik zwinnych metodyk prowadzenia projektów, automatyzacji i efektywności. Z jednej strony programista, ściśle związany z rodziną języków JVM oraz kierownik projektów, z drugiej trener zajmujący się wsparciem w zakresie jakości projektów, organizacji zespołu, rekrutacji i rozwoju personalnego. Każdego dnia stara się obalić mit programisty we flanelowej koszuli nie posiadającego zdolności interpersonalnych, a jedynie wiedzę techniczną. Wierzy, że istotą wytwarzania dobrego oprogramowania jest komunikacja, współpraca i umiejętność dzielenia się wiedzą. Współtwórca konferencji SpreadIT oraz aktywny uczestnik wydarzeń ze światka IT. Bloguje na http://software-empathy.pl"
+  thumbnailUrl: daniel_pokusa.jpg
+  ribbon:
+    - {abbr: "Onwelo", title: "Onwelo", url: "https://onwelo.pl/"}
+  social:
+    - {name: "twitter", link: "https://twitter.com/dpokusa"}
+-
   id: 7
   name: "Michał"
   surname: "Michałuk"
@@ -73,3 +85,27 @@
   thumbnailUrl: grzegorz_dyrda.jpg
   social:
     - {name: "twitter", link: "https://twitter.com/grzegorzdyrda"}
+
+
+
+-
+  id: 10
+  name: "Łukasz"
+  surname: "Szydło"
+  company: "Bottega"
+  title: "Trener, Software Craftsman"
+  bio: "Programista pasjonat, fan “Software Craftsmanship” i zwinnego podejścia do wytwarzania oprogramowania.
+
+  Lubi proste rozwiązania skomplikowanych problemów.  Na codzień zajmuje się tematami z zakresu architektury aplikacji biznesowych, Domain-Driven Design, Continuous Delivery, technologii Java oraz testowania automatycznego. Prywatnie mąż, ojciec piątki dzieci."
+  thumbnailUrl: lukasz_szydlo.jpg
+  social:
+    - {name: "twitter", link: "https://twitter.com/lszydlo"}
+
+-
+  id: 11
+  name: "Wojciech"
+  surname: "Oczkowski"
+  company: "IT Kontekst"
+  title: "Trener, Architekt"
+  bio: "Prowadzący własną działalność specjalista do spraw trudnych, zawodowo rozwiązuje problemy związane z projektowaniem architektury systemów, integracją, wydajnością i jakością kodu. Znajduje obsesyjną wręcz przyjemność w wynajdowaniu sensu w cudzym kodzie. Prywatnie rozwiązuje problemy związane z wychowaniem 2-ki dzieciaków i znajdowaniem czasu na żeglowanie i czytanie literatury fantastycznej."
+  thumbnailUrl: wojtek_oczkowski.jpg
