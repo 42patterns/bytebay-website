@@ -70,6 +70,15 @@ aboutBlock:
  - {title: "Keynote", image: "conference.jpg", text: "Programowanie to nie tylko rozmowy o kodzie. Rozpocznijmy inaczej, inspirująco - spójrzmy na to co robimy z zupełnie innej perspektywy!?" }
  - {title: "Warsztaty", image: "hackathon.jpg", text: "100% praktycznej wiedzy, przekazanej w warsztatowej formie. Bez zbędnej ściemy, nawijania - tylko kod, rozwiązania i doświadczenie." }
  - {title: "Networking", image: "workshop.jpg", text: "250 spragnionych wiedzy osób to przeogromne pole do wymiany doświadczeń, kontaktów, wrażeń. " }
+aboutTopicsTitle: "ByteBay to pełne spektrum tematów"
+aboutTopicsLead: "Czego możesz się spodziewać na sesjach warsztatowych"
+aboutTopics:
+  - {title: "JVM, Java, Kotlin, Scala", text: "Nie tylko frameworki ale przede wszystkim zasady dzałania samej platformy JVM (maszyny wirtualnej) oraz języków na niej funkcjonujących"}
+  - {title: "JavaScript, frontend", text: "Sprawny, nowoczesny, ergonomiczny i łatwy w utrzymaniu interfejs użytkoniwka. To co użytkownik widzi, jest równie ważne jak samo działanie aplikacji."}
+  - {title: "Architektura, Domain Driven Design", text: "Budowanie i modelowanie systemów w oparciu o to co się dzieje w rzeczywistym świecie. Budujemy systemy monolityczne, rozproszone (mikro serwisowe)."}
+  - {title: "Machine Learning, Sztuczna inteligencja", text: "To co się teraz dzieje w IT to jedno. To co będzie się działo za dekadę - to zupełnie inny paradygment. Uczenie maszynowe, AI to tematy które dają wgląd w to co robią najwięksi w branży."}
+  - {title: "Infrastruktura, chmura, DevOps", text: "Aplikacja to jeden aspekt IT. Środowisko w którym aplikacja działa, to kolejny. Jak wdrażać (Docker, wirtualizacja, Kubernetes)? Gdzie wdrażać (chmura, PaaS, IaaS)? Która chmurę wybrać."}
+  - {title: "Samo-rozwój programistów", text: "Sprawy techniczne to jedno, ale równie ważne jest kształtowanie umiejętności interpersonalnych, komunikacji, prezentowania pomysłów przed szerszym audytorium (czy programistów, czy  managerów)."}
 
 # Statistic Block
 statisticBlockImage: ""
