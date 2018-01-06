@@ -7,10 +7,6 @@ gem 'compass'
 gem 'sass-media_query_combiner'
 gem 'autoprefixer-rails'
 
-group :development do
-  gem 'travis'
-end
-
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
 end
