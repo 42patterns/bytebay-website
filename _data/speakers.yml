@@ -4,7 +4,9 @@
   surname: "Pałka"
   company: "Symentis"
   title: "Główny trener, Architect"
-  bio: "Od ponad 20 lat w branży IT, jako administrator baz danych, programista, architekt, manager i 'inżynier od spraw katastrof'. Brałem udział w małych, średnich i nonsensownie dużych projektach, prowadzonych zgodnie zasadami 'waterfall', Agile oraz przy braku jakichkolwiek metodyk, z tym samym zawsze skutkiem. To doprowadziło mnie do wniosku, że nieważne co robisz, tak długo, jak robisz to dobrze, w najprostszy z możliwych sposobów i używasz właściwych narzędzi, które wykonają pracę za Ciebie. W międzyczasie dałem się porwać ideą TDD oraz Software Craftmanship, do granic możliwości wyeksploatować tak piękne w swej prostocie pomysły jak REST i NoSQL, by potem porzucić je by zgłębić tajniki 'system thinking' i zachwycić się siłą jaką niesie z sobą 'metafora' oraz odkryć, że rządzą nami te same prawa 'natury'. <br />Niepokorny wyznawca kościoła JVM, badacz bytecode'u i JIT oraz wszelkiej maści parserów, interpeterów i kompilatorów. "
+  bio: "Od ponad 20 lat w branży IT, jako administrator baz danych, programista, architekt, manager i 'inżynier od spraw katastrof'. Brałem udział w małych, średnich i nonsensownie dużych projektach, prowadzonych zgodnie zasadami 'waterfall', Agile oraz przy braku jakichkolwiek metodyk, z tym samym zawsze skutkiem. To doprowadziło mnie do wniosku, że nieważne co robisz, tak długo, jak robisz to dobrze, w najprostszy z możliwych sposobów i używasz właściwych narzędzi, które wykonają pracę za Ciebie. W międzyczasie dałem się porwać ideą TDD oraz Software Craftmanship, do granic możliwości wyeksploatować tak piękne w swej prostocie pomysły jak REST i NoSQL, by potem porzucić je by zgłębić tajniki 'system thinking' i zachwycić się siłą jaką niesie z sobą 'metafora' oraz odkryć, że rządzą nami te same prawa 'natury'.
+
+  Niepokorny wyznawca kościoła JVM, badacz bytecode'u i JIT oraz wszelkiej maści parserów, interpeterów i kompilatorów. "
   thumbnailUrl: jarek_palka.jpg
   rockstar: true
   ribbon:
@@ -102,7 +104,7 @@
   Lubi proste rozwiązania skomplikowanych problemów.  Na codzień zajmuje się tematami z zakresu architektury aplikacji biznesowych, Domain-Driven Design, Continuous Delivery, technologii Java oraz testowania automatycznego. Prywatnie mąż, ojciec piątki dzieci."
   thumbnailUrl: lukasz_szydlo.jpg
   ribbon:
-    - {abbr: "Bottega", title: "Bottega IT Minds", url: "https://bottega.com.pl"}  
+    - {abbr: "Bottega", title: "Bottega IT Minds", url: "https://bottega.com.pl"}
   social:
     - {name: "twitter", link: "https://twitter.com/lszydlo"}
 
@@ -116,3 +118,47 @@
   ribbon:
     - {abbr: "IT Kontekst", title: "IT Kontekst", url: "http://itkontekst.pl/"}
   thumbnailUrl: wojtek_oczkowski.jpg
+
+-
+  id: 12
+  name: "Łukasz"
+  surname: "Łuczak"
+  company: "Symentis"
+  title: "Projektant programista poliglota"
+  bio: "Projektant programista poliglota żyjący w cyfrowym świecie, który ponad połowę życia spędził tworząc oprogramowanie, a przez ostatnią dekadę dostarczając rozwiązania komercyjne (nierzadko klasy enterprise*). Pasjonat dla którego nie ma rzeczy niemożliwych, a każdy projekt stanowi wyzwanie oraz szansę rozwoju. Wyznawca metodyk Agile i TQM. Umie napisać poprawnie działającą aplikację w środowisku serwerowym, przeglądarkowym, mobilnym czy też pulpitowym wykorzystując przy tym różne języki i narzędzia. Tworzył rozwiązania na systemy zintegrowane oraz poczynił kilka implementacji na procesory sygnałowe. Piastował role analityczne, programistyczne, architektoniczne a także liderskie, mentorskie i audytorskie. Od kilku lat udowadnia, że javascript to nie tylko gwiazdki latające za kursorem ale przede wszystkim ekosystem który wyprzedził swój czas pozwalając na tworzenie cudów. Zapytany o proste rzeczy potrafi poczynić wielogodzinny wykład zahaczając przy tym o różne dziedziny nauki. Autor i mentor w eduweb.pl,  trener i konsultant w Symentis.pl
+
+  * - enterprise w znaczeniu \"nie ma na świecie osoby, który zrozumie dlaczego to działa\""
+  thumbnailUrl: lukasz_luczak.jpg
+  ribbon:
+    - {abbr: "Vistex", title: "Vistex Poland", url: "https://www.vistex.com/about-us/"}
+    - {abbr: "Symentis", title: "Symentis", url: "https://symentis.pl"}
+  social:
+    - {name: "twitter", link: "https://twitter.com/lukasz_luczak"}
+
+-
+  id: 13
+  name: "Paweł"
+  surname: "Kapała"
+  company: "kapware.com"
+  title: "Business Driven Developer"
+  bio: "Inżynier, business driven developer, programista Clojure, przedsiębiorca w kapware.com. Współorganizator Toruń JUG. Pozostający w długoletnim związku małżeńskim z JVM od 2006 roku."
+  thumbnailUrl: pawel_kapala.jpg
+  ribbon:
+    - {abbr: "kapware.com", title: "kapware.com", url: "https://kapware.com"}
+  social:
+    - {name: "twitter", link: "https://twitter.com/kapware"}
+    - {name: "site", link: "http://kapware.com/"}
+
+-
+  id: 14
+  name: "Krzysztof"
+  surname: "Kaczmarek"
+  company: "Symentis"
+  title: "Programista, intruktor kungfu"
+  bio: "Krzysztof jest inżynierem oprogramowania w Tooploox, który \"zwiedził\" absurdalnie duże i bardzo małe projekty dochodząc do wniosku że można stosować dowolne metodyki i narzędzia, tak długo jak robisz to dobrymi ludźmi i w najprostszy z możliwych sposobów. W wolnym czasie mistrz kungfu i autor naprawdę słabych dowcipów."
+  thumbnailUrl: krzysztof_kaczmarek.jpg
+  ribbon:
+    - {abbr: "Symentis", title: "Symentis", url: "https://symentis.pl"}
+    - {abbr: "Tooploox", title: "Tooploox", url: "https://tooploox.com"}
+  social:
+    - {name: "twitter", link: "https://twitter.com/SihingKK"}
