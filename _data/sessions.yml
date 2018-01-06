@@ -1,14 +1,28 @@
 -
-  id: 307
+  id: 1001
   title: "Przerwa kawowa"
-  place: "Hall"
+  place: "I piętro - Atom Club"
   service: true
-  description: ""
+  description: "Kawa, napoje oraz przekąski bądą także dostępne podczas przerw w sesjach (w połowie czasu trwania sesji)"
 -
-  id: 503
+  id: 1002
   title: "Przerwa lunchowa"
-  place: "Hall"
+  place: "I piętro - Atom Club"
   service: true
+-
+  id: 1003
+  title: "Meet & Greet"
+  place: "I piętro - Atom Club"
+  service: true
+  description: "To ten moment gdy łapiesz piwo i rozmawiasz z uczestnikami, trenerami."
+-
+  id: 9990
+  title: "Keynote"
+  place: "Atom Club"
+-
+  id: 9991
+  title: "Sesje warsztatowe"
+  place: "Atom Club"
 -
   id: 001
   title: "JVM: przez dziurkę od klucza"

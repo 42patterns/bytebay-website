@@ -44,7 +44,7 @@ c4BannerText: "Call 4 Trainers"
 navigationLinks:
  - {permalink: "/", text: "Strona główna"}
  # - {permalink: "/blog/", text: "Blog"}
- # - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/schedule/", text: "Agenda"}
  - {permalink: "/speakers/", text: "Trenerzy"}
  # - {permalink: "/team/", text: "Team"}
  # - {permalink: "/logistics/", text: "Logistics"}

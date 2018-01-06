@@ -1,0 +1,77 @@
+-
+  date: "2018-03-15"
+  dateReadable: "15 marzec"
+  tracks:
+    - {title: "Deep dive", color: "#90be4e"}
+    - {title: "Deep dive", color: "#03a9f4"}
+    - {title: "Warsztat", color: "#e91e63"}
+    - {title: "Warsztat", color: "#e91e63"}
+    - {title: "Warsztat", color: "#e91e63"}
+    - {title: "Warsztat", color: "#e91e63"}
+  timeslots:
+    - {
+    	startTime: "09:00",
+    	endTime: "10:00",
+    	sessionIds: [9990]
+    }
+    - {
+      startTime: "10:00",
+      endTime: "10:30",
+      sessionIds: [1001]
+    }
+    - {
+        startTime: "10:30",
+        endTime: "13:00",
+        sessionIds: [9991]
+    }
+    - {
+    	startTime: "13:00",
+    	endTime: "14:00",
+    	sessionIds: [1002]
+    }
+    - {
+    	startTime: "14:00",
+    	endTime: "16:30",
+    	sessionIds: [9991]
+    }
+    - {
+    	startTime: "16:30",
+    	endTime: "19:00",
+    	sessionIds: [1003]
+    }
+-
+  date: "2014-03-16"
+  dateReadable: "16 marzec"
+  tracks:
+    - {title: "Deep dive", color: "#90be4e"}
+    - {title: "Deep dive", color: "#03a9f4"}
+    - {title: "Warsztat", color: "#e91e63"}
+    - {title: "Warsztat", color: "#e91e63"}
+    - {title: "Warsztat", color: "#e91e63"}
+    - {title: "Warsztat", color: "#e91e63"}
+  timeslots:
+    - {
+    	startTime: "9:00",
+    	endTime: "11:30",
+    	sessionIds: [9991]
+    }
+    - {
+    	startTime: "11:30",
+    	endTime: "12:30",
+    	sessionIds: [1002]
+    }
+    - {
+        startTime: "12:30",
+        endTime: "15:00",
+        sessionIds: [9991]
+    }
+    - {
+    	startTime: "15:00",
+    	endTime: "15:30",
+    	sessionIds: [1001]
+    }
+    - {
+    	startTime: "15:30",
+    	endTime: "16:30",
+    	sessionIds: [9990]
+    }
