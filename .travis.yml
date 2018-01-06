@@ -1,0 +1,14 @@
+language: ruby
+branches:
+  only:
+  - master
+rvm:
+- 2.2.0
+sudo: false
+before_script:
+- git config --global user.name 'Travis CI'
+- git config --global user.email 'kuba.marchwicki+travis@gmail.com'
+script: bundle exec rake deploy
+env:
+  global:
+  - secure: kf/0PF/oLz528EcYEWj9eQUBbXI7H2KeXvyUfIlk2me87TdKHTg+8Uk7vjpLRPSdtPMbUbkjNdf3ZlFwY4EcyGxqO+NA/I6kBTiteEGoxYYDSefgrgvKTYCCWJM8637FbfOD971F2lfB26GFFQRtseFug8Z2+3DRd1eTJH+uNSRA1zovBuYNP2FK6yv0ygFyb5606K7bc0fMl7wav9a9sYdGjBle2WKR+94Jrat21NEh7m5kLqi3pVPZc9Mwmq+opeST0LwnJWtyAupdyc+z6hPwvZLcr+Gtnl1WwhaxJqRjCzL2OLS7JvtUnQBxTsDAAkr5fSmL1UE0cvNuYzsYV3wJz2x7yEPhILl+Zrm/X8X/rVxXAPLOGG0GppURT/+WC/6M7MES+3ShMy+irlpRJCWs5kcbahfpzABnjkdRkeM/Vq+GT2KFK01w9MRhSP2eL4uIgy1RufkX2Sdskue6infSw8aDNVqHb0cE5LWLsmszoxjxwH7MfDgwVyuCVIY5aDeraTposVLWP31JKMt+7bsuuP73tZjJpiuEv4PvBBRFGQIk07e1nFs7yBbSwf4esIN8oXGVHjPgcje+HxHK1n7Kam53bq31QEYHVQ+OWq5m8qFoa6RBdL41/9wYbJULvsI+kQoiaqFN6k3OggFZ4gcRjgwnfOWAC22aL7G05K8=
