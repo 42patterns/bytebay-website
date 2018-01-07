@@ -31,9 +31,9 @@ organizerLink: "http://lviv.gdg.org.ua/"
 # Head
 metaKeywords: "bytebay, warsztaty, java, javascript, devops, Gdańsk, gdansk"
 twitterAccount: "@bytebay"
-socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
-socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
-socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+socialImageSrcGooglePlus: "/img/seo/share-google-plus.png"
+socialImageSrcTwitter: "/img/seo/share-twitter.png"
+socialImageSrcFacebook: "/img/seo/share-facebook.png"
 
 # Documents
 c4pUrl: "http://goo.gl/ZeiXSe"
