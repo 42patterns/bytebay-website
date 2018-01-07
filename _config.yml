@@ -12,7 +12,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'Gemfile', 'Gemfile.lock']
 # Site Settings
 title: "ByteBay 2018: 100% warsztatów"
 email: "hi@bytebay.pl"
-description: "ByteBay to konferencja 100% warsztatów, 100% praktyki"
+description: "15/16 marzec 2018. Gdańsk, Stadion Energa. 100% warsztatów, 100% praktyki - ByteBay 2018"
 baseurl: ""
 url: "http://bytebay.pl"
 permalink: "/blog/:title"
