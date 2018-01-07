@@ -1,1 +1,1 @@
-Sitemap: https://bytebay.pl/sitemap.xml
+Sitemap: http://bytebay.pl/sitemap.xml
