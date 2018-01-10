@@ -50,9 +50,11 @@ navigationLinks:
  # - {permalink: "/logistics/", text: "Logistics"}
  # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
+ - {link: "/#tickets", text: "Bilety"}
  - {link: "http://goo.gl/ZeiXSe", text: "Call 4 Trainers"}
 rightNavigationButtons:
  - {link: "http://goo.gl/ZeiXSe", text: "Call 4 Trainers"}
+ - {link: "/#tickets", text: "Bilety"}
 
 # Hero Block
 heroImage: "gdansk-cropped.jpg"

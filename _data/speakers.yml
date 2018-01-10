@@ -162,3 +162,16 @@
     - {abbr: "Tooploox", title: "Tooploox", url: "https://tooploox.com"}
   social:
     - {name: "twitter", link: "https://twitter.com/SihingKK"}
+
+-
+  id: "15"
+  name: "Paweł"
+  surname: "Włodarski"
+  company: "Idemia"
+  title: "Starszy Inżynier Oprogramowania"
+  bio: 'Od kilku lat w ramach łódzkiego JUGa (czyli grupy miłośników technologii już nie tylko okołojavowywch) organizuję wykłady, warsztaty i ćwiczenia – tak zwana praca u podstaw społeczności IT. Co roku także trochę pomagam przy organizacji chyba największej w Łodzi konferencji skupiającej się na technologiach mobilnych – \"Mobilization\". Komercyjnie już od ponad 10 lat programuję w Javie a ostatnio doszła do tego i Scala.'
+  thumbnailUrl: pawel_wlodarski.jpg
+  ribbon:
+    - {abbr: "Idemia", title: "Idemia", url: "https://www.idemia.com/"}
+  social:
+    - {name: "twitter", link: "https://twitter.com/PawelWlodarski"}
