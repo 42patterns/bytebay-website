@@ -2,8 +2,6 @@
   group: "Organizatorzy"
   elements:
     - {name: "Magdalena Makowska", caption: "Opiekun klienta", phone: "+48 576 621 170", description: "Bingo HR", link: "mailto:m.makowska@bingohr.pl", imageUrl: "photo-magda.png"}
-
     - {name: "Monika Wańkowicz", caption: "Koordynator Projektu", phone: "+48 536 710 157", description: "Bingo HR", link: "mailto:m.makowska@bingohr.pl", imageUrl: "photo-monika.jpg"}
-    - {name: "Jola Spodzieja", caption: "Sprzedaż, partnerzy", phone: "+48 508 790 094", description: "Bingo HR", link: "mailto:j.spodzieja@bingohr.pl", imageUrl: "photo-jola.jpg"}
-
-    - {name: "Jakub Marchwicki", caption: "Rada programowa", phone: "+48 607 183 320", description: "Trójmiasto JUG", link: "http://jakub.marchwicki.pl", imageUrl: "photo-jakub.jpg"}
+    - {name: "Jola Spodzieja", caption: "Organizacja", phone: "+48 508 790 094", description: "Bingo HR", link: "mailto:j.spodzieja@bingohr.pl", imageUrl: "photo-jola.jpg"}
+    - {name: "Jakub Marchwicki", caption: "Organizacja, program", phone: "+48 607 183 320", description: "Trójmiasto JUG", link: "http://jakub.marchwicki.pl", imageUrl: "photo-jakub.jpg"}

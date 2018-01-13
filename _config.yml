@@ -49,6 +49,7 @@ navigationLinks:
  # - {permalink: "/team/", text: "Team"}
  # - {permalink: "/logistics/", text: "Logistics"}
  # - {permalink: "/hackathon/", text: "Hackathon"}
+ - {permalink: "/#subscribe", text: "Nasz newsletter"}
 bottomNavigationLinks:
  - {link: "/#tickets", text: "Bilety"}
  - {link: "http://goo.gl/ZeiXSe", text: "Call 4 Trainers"}
