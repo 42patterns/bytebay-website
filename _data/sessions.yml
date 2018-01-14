@@ -1,3 +1,8 @@
+# # complexity:
+#   - Wprowadzenie
+#   - Coś już tam trzeba wiedzieć
+#   - Rozpracowujemy niunse
+#   - Expert - krew, pot i łzy
 -
   id: 1001
   title: "Przerwa kawowa"
@@ -19,35 +24,46 @@
   id: 9990
   title: "Keynote"
   place: "Atom Club"
+  service: true
 -
   id: 9991
   title: "Sesje warsztatowe"
   place: "Atom Club"
+  service: true
+
+-
+  id: 003
+  title: "Co gryzie świadomego programistę DDD"
+  description: "W swojej pracy spotykając dziesiątki zespołów zauważam wzorce pytań/dylematów/rozterek jakie pojawiają wraz ze wzrostem doświadczenia i świadomości zespołu. Na pewnym poziomie zaawansowania wszyscy zadają te same pytania:
+
+    - jak określić granicę agregatów?
+
+    - jak opracować stabilne API?
+
+    - czym kierować się przy modularyzacji? - a co ze smutnym CRUDem, którego też mamy?
+
+    - dlaczego byznes nie chce z nami rozmawiać?
+
+    - jak być partnerem a nie podwykonawcą?
+
+    Tak na prawdę pytania te są ogólne a metodyki (jak np. DDD) jedynie szybciej do nich doprowadza. Podczas prezentacji przyjrzymy się tym typowym pytaniom na poziomie modelu, architektury i organizacji - spróbuję odpowiedzieć na nie w postaci konkretnych technik i rozwiązań."
+  speakers: [5]
+  subtype: "Keynote"
+
 -
   id: 001
   title: "JVM: przez dziurkę od klucza"
-  description: ""
-  subtype: deep dive
+  description: "JVM to złożona maszyna, która napędza nasze systemy. Codziennie w pocie czoła przerzuca terabajty obiektów pomiędzy kolejnymi generacjami w GC, generuje strumienie optymalnego kodu skompilowanego przez jeden z kompilatorów JIT, w międzyczasie próbując dogadać się z systemem operacyjnym. Jednak nie zawsze w naszej maszynowni wszystko przebiega zgodnie z planem. Gdzie szukać informacji? Jak odczytywać i interpretować wartości metryk? Kiedy winny jest JVM, nasza aplikacja, a w jakim przypadku system operacyjny?
+
+  Podczas tej sesji postaram się pokazać dostępne narzędzia, magiczne przełączniki i dostępne rozwiązania potrzebne w pracy każdego \"kryminologa\" JVM. Sesja będzie przeznaczona dla osób, które zaczynają przygodę z optymalizacją JVM. Porozmawiamy o zapisywaniu zdarzeń z JVM, narzędziach ukrytych w JDK,w tym także Java Mission Control i Flight Recorder i zobaczymy jak Java płonie :). Nie zapomnimy też o narzędziach dostępnych w systemie operacyjnym Linux."
+  subtype: Deep dive
   speakers: [3]
-  language: pl
-  complexity: "Intermediate"
-  presentation: "https://speakerdeck.com/gdglviv/mateusz-herych-guava-beyond-collections"
-  video: "//www.youtube.com/embed/v3SCiUqI1yQ"
+  complexity: "Rozpracowujemy niunse"
 
 -
   id: 002
   title: "O optymalizacji MongoDB przykładów kilka"
   description: ""
-  subtype: workshop
+  subtype: Warsztat
   speakers: [4]
-  language: pl
-  complexity: "Intermediate"
-
--
-  id: 003
-  title: "Co gryzie świadomego programistę DDD"
-  description: ""
-  subtype: keynote
-  speakers: [5]
-  language: pl
-  complexity: "sesja plenarna"
+  complexity: "Rozpracowujemy niunse"

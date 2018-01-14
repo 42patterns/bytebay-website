@@ -20,9 +20,9 @@
       sessionIds: [1001]
     }
     - {
-        startTime: "10:30",
-        endTime: "13:00",
-        sessionIds: [9991]
+      startTime: "10:30",
+      endTime: "13:00",
+      sessionIds: [9991]
     }
     - {
     	startTime: "13:00",
@@ -61,9 +61,9 @@
     	sessionIds: [1002]
     }
     - {
-        startTime: "12:30",
-        endTime: "15:00",
-        sessionIds: [9991]
+      startTime: "12:30",
+      endTime: "15:00",
+      sessionIds: [9991]
     }
     - {
     	startTime: "15:00",
