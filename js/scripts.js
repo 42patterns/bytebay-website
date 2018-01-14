@@ -100,7 +100,9 @@
             });
         });
         $(function() {
-            if(window.location.href.indexOf("schedule") > -1 && window.location.hash) {
+            if(window.location.hash &&
+              (window.location.href.indexOf("schedule") > -1
+               || window.location.href.indexOf("speaker") > -1)) {
                 var hash = window.location.hash;
                 $(hash).click();
             }
@@ -225,7 +227,7 @@
             var iframe = $(this).find('iframe');
             iframe.attr('src', iframe.attr('src'));
         });
-        $('.slot').click(function() {
+        $('.slot, .speaker').click(function() {
             location.hash = $(this).attr('id');
         });
 
