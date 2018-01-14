@@ -15,18 +15,6 @@
   social:
     - {name: "site", link: "http://geekyprimitives.wordpress.com/"}
     - {name: "twitter", link: "https://twitter.com/j_palka"}
--
-  id: 4
-  name: "Wiktor"
-  surname: "Sztajerowski"
-  company: "Symentis"
-  title: "Programista, trener"
-  bio: 'Programista z ponad 5-cio letnim stażem, trener i konsultant w Symentis.pl, aspirujący mówca konferencyjny, znany między innymi z konferencji 4Developers i Confitura. Obecnie Java Developer w Smart Coders, entuzjasta NoSQL’a i orędownik wykorzystywania więcej niż jednej bazy danych w systemach w słusznych celach, dla sławy i zysku. Prywatnie jeden z liderów łódzkiego JUG’a oraz Zwinnej Łodzi, grupy pasjonatów metody „agile”, a także współinicjator spotkań, Software Architecture & Design Debate, platformy nowego, ciekawego i szerszego spojrzenia na architekturę systemów IT.'
-  thumbnailUrl: wiktor_sztajerowski.jpg
-  ribbon:
-    - {abbr: "Symentis", title: "Symentis", url: "https://symentis.pl"}
-  social:
-    - {name: "twitter", link: "https://twitter.com/wsztajerowski"}
 
 -
   id: 5
@@ -68,6 +56,21 @@
     - {abbr: "Onwelo", title: "Onwelo", url: "https://onwelo.pl/"}
   social:
     - {name: "twitter", link: "https://twitter.com/dpokusa"}
+
+-
+  id: 4
+  name: "Wiktor"
+  surname: "Sztajerowski"
+  company: "Symentis"
+  title: "Programista, trener"
+  bio: 'Programista z ponad 5-cio letnim stażem, trener i konsultant w Symentis.pl, aspirujący mówca konferencyjny, znany między innymi z konferencji 4Developers i Confitura. Obecnie Java Developer w Smart Coders, entuzjasta NoSQL’a i orędownik wykorzystywania więcej niż jednej bazy danych w systemach w słusznych celach, dla sławy i zysku. Prywatnie jeden z liderów łódzkiego JUG’a oraz Zwinnej Łodzi, grupy pasjonatów metody „agile”, a także współinicjator spotkań, Software Architecture & Design Debate, platformy nowego, ciekawego i szerszego spojrzenia na architekturę systemów IT.'
+  thumbnailUrl: wiktor_sztajerowski.jpg
+  ribbon:
+    - {abbr: "Symentis", title: "Symentis", url: "https://symentis.pl"}
+  social:
+    - {name: "twitter", link: "https://twitter.com/wsztajerowski"}
+
+
 -
   id: 7
   name: "Michał"
@@ -164,7 +167,7 @@
     - {name: "twitter", link: "https://twitter.com/SihingKK"}
 
 -
-  id: "15"
+  id: 15
   name: "Paweł"
   surname: "Włodarski"
   company: "Idemia"
@@ -175,3 +178,29 @@
     - {abbr: "Idemia", title: "Idemia", url: "https://www.idemia.com/"}
   social:
     - {name: "twitter", link: "https://twitter.com/PawelWlodarski"}
+
+-
+  id: 16
+  name: "Zbyszko"
+  surname: "Papierski"
+  company: "Dynatrace"
+  title: "Programista"
+  bio: "Inżynier, z silnym uzależnieniem od produktowej warstwy rozwiązania. Związany w przeszłości z Allegro, Jirą a ostatnio Dynatrace. Wszędzie gdzie się da szuka ciekawych danych, szczególnie takich bez struktury, Po godzinach zajmuje się inicjatywami trójmiejskiego JUGa, takimi jak Hackengarten, a także ostatnio próbuje nauczyć się swojego pierwszego (i najprawdodopodobniej ostatniego) języka orientalnego."
+  thumbnailUrl: zbyszko_papierski.jpg
+  ribbon:
+    - {abbr: "Dynatrace", title: "Dynatrace", url: "https://www.dynatrace.com/"}
+  social:
+    - {name: "twitter", link: "https://twitter.com/zpapierski"}
+
+-
+  id: 17
+  name: "Bartłomiej"
+  surname: "Witczak"
+  company: "DayOne"
+  title: "Unicorn"
+  bio: "Codziennie uczę się nowych rzeczy i testuje rożne narzędzia, żeby nie wkręcać śruby młotkiem. Pracowałem w małych, średnich i dużych firmach - teraz realizuję marzenia i zdobyte doświadczenia wykorzystuję rozwijając własną firmę - DayOne. Wkręciłem się w programowanie funkcyjne - Haskell, Elm, Elixir - staram się czerpać, co się da w codziennej pracy. "
+  thumbnailUrl: bartek_witczak.jpg
+  ribbon:
+    - {abbr: "DayOne", title: "DayOne", url: "https://dayone.pl/"}
+  social:
+    - {name: "twitter", link: "https://twitter.com/bartekwitczak"}
