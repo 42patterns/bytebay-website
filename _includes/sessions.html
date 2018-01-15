@@ -1,5 +1,8 @@
 <section id="sessions" class="sessions">
     <div class="content-wrapper">
+    {%  if page.subtitle != null %}
+      {% include sessions-intro.html %}
+    {% endif %}
 		{% for session in site.data.sessions %}
 			{% if session.service != true %}
 				<div class="col-lg-10 col-lg-offset-1" id="sessionDetail-{{ session.id }}" tabindex="-1">

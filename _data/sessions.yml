@@ -1,8 +1,13 @@
 # # complexity:
-#   - Wprowadzenie
+#   - {title: "Wprowadzenie"}
 #   - Coś już tam trzeba wiedzieć
-#   - Rozpracowujemy niunse
+#   - Rozpracowujemy niuanse
 #   - Expert - krew, pot i łzy
+# sessiontype:
+#   - {title: "Warsztat"}
+#   - {title: "Deep dive"}
+#   - {titel: "Keynote"}
+
 -
   id: 1001
   title: "Przerwa kawowa"
@@ -33,14 +38,16 @@
 
 -
   id: 003
-  title: "Co gryzie świadomego programistę DDD"
+  title: "Co gryzie świadomego programistę"
   description: "W swojej pracy spotykając dziesiątki zespołów zauważam wzorce pytań/dylematów/rozterek jakie pojawiają wraz ze wzrostem doświadczenia i świadomości zespołu. Na pewnym poziomie zaawansowania wszyscy zadają te same pytania:
 
     - jak określić granicę agregatów?
 
     - jak opracować stabilne API?
 
-    - czym kierować się przy modularyzacji? - a co ze smutnym CRUDem, którego też mamy?
+    - czym kierować się przy modularyzacji?
+
+    - a co ze smutnym CRUDem, którego też mamy?
 
     - dlaczego byznes nie chce z nami rozmawiać?
 
@@ -58,7 +65,7 @@
   Podczas tej sesji postaram się pokazać dostępne narzędzia, magiczne przełączniki i dostępne rozwiązania potrzebne w pracy każdego \"kryminologa\" JVM. Sesja będzie przeznaczona dla osób, które zaczynają przygodę z optymalizacją JVM. Porozmawiamy o zapisywaniu zdarzeń z JVM, narzędziach ukrytych w JDK,w tym także Java Mission Control i Flight Recorder i zobaczymy jak Java płonie :). Nie zapomnimy też o narzędziach dostępnych w systemie operacyjnym Linux."
   subtype: Deep dive
   speakers: [3]
-  complexity: "Rozpracowujemy niunse"
+  complexity: "Rozpracowujemy niuanse"
 
 -
   id: 002
@@ -66,4 +73,4 @@
   description: ""
   subtype: Warsztat
   speakers: [4]
-  complexity: "Rozpracowujemy niunse"
+  complexity: "Rozpracowujemy niuanse"
