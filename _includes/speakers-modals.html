@@ -13,7 +13,7 @@
 							<div class="close-mask" data-dismiss="modal"></div>
 						</div>
 						{% if site.showSessions %}
-							{% for session in site.data.sessions %}
+							{% for session in site.data.sessions.list %}
 								{% for session_speaker in session.speakers %}
 									{% if session_speaker == speaker.id %}
 										<h4>{{ session.title }}</h4>
