@@ -218,3 +218,17 @@
     - {abbr: "iSA", title: "infoShare Academy", url: "http://infoshareacademy.com"}
   social:
     - {name: "Linkedin", link: "https://www.linkedin.com/in/maciejkrajewski/"}
+-
+  id: 19
+  name: "Michał"
+  surname: "Miszczyszyn"
+  company: "Type of Web"
+  title: "Full Stack JavaScript Developer"
+  bio: "Michał jest programistą JavaScript z wieloma latami profesjonalnego doświadczenia. Obecnie za pośrednictwem X-Team współpracuje z zespołami w USA gdzie tworzy aplikacje internetowe. Organizator meet.js Summit i meet.js Gdańsk. Bloger na typeofweb.com, a okazyjnie także prelegent."
+  thumbnailUrl: michal_miszczyszyn.jpg
+  ribbon:
+    - {abbr: "Type of Web", title: "Type of Web", url: "https://typeofweb.com/"}
+    - {abbr: "X-Team", title: "X-Team", url: "https://x-team.com/"}
+  social:
+    - {name: "site", link: "https://typeofweb.com/"}
+    - {name: "twitter", link: "https://twitter.com/mmiszy"}
