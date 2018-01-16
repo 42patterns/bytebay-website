@@ -50,7 +50,9 @@
                 </div>
                 {% endfor %}
             </div>
-            <a href="{{ site.c4pUrl }}" class="btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">{{ site.c4BannerText }}</a>
+            {% for button in site.heroButtons %}
+            <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
+            {% endfor %}
         </div>
     </div>
 </section>

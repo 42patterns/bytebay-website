@@ -35,11 +35,6 @@ socialImageSrcGooglePlus: "/img/seo/share-google-plus.png"
 socialImageSrcTwitter: "/img/seo/share-twitter.png"
 socialImageSrcFacebook: "/img/seo/share-facebook.png"
 
-# Documents
-c4pUrl: "http://goo.gl/ZeiXSe"
-c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
-c4BannerText: "Call 4 Trainers"
-
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Strona główna"}
@@ -52,11 +47,11 @@ navigationLinks:
  # - {permalink: "/hackathon/", text: "Hackathon"}
  - {permalink: "/#subscribe", text: "Nasz newsletter"}
 bottomNavigationLinks:
- - {link: "/#tickets", text: "Bilety"}
- - {link: "http://goo.gl/ZeiXSe", text: "Call 4 Trainers"}
+ - {link: "/#tickets", text: "Kup bilet"}
+ - {link: "http://goo.gl/ZeiXSe", text: "Dołącz jako trener"}
 rightNavigationButtons:
- - {link: "http://goo.gl/ZeiXSe", text: "Call 4 Trainers"}
- - {link: "/#tickets", text: "Bilety"}
+ - {link: "http://goo.gl/ZeiXSe", text: "Dołącz jako trener"}
+ - {link: "/#tickets", text: "Kup bilet"}
 
 # Hero Block
 heroImage: "gdansk-cropped.jpg"
@@ -65,8 +60,8 @@ eventDate: "15/16 marca 2018, Gdańsk - Stadion Energa"
 typeoutTextValues: '"", "Warsztaty", "Networking", "Programowanie", "Agile"'
 typeoutFallback: "100% Warsztatów"
 heroButtons:
- - {link: "http://goo.gl/ZeiXSe", text: "Call 4 Trainers"}
- - {permalink: "/#tickets", text: "Bilety"}
+ - {link: "http://goo.gl/ZeiXSe", text: "Dołącz jako trener"}
+ - {permalink: "/#tickets", text: "Kup bilet"}
 
 # About Block
 aboutTitle: "Co to jest ByteBay?"
