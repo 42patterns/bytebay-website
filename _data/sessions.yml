@@ -108,3 +108,26 @@ list:
     subtype: 0
     speakers: [7]
     complexity: 1
+  -
+    id: 006
+    title: "Docker - wstępniaczek"
+    description: "Dzięki zastosowaniu dockera możemy w prosty sposób zapewnić izolację serwisów, zwiększając tym samym bezpieczeństwo i stabilność aplikacji. Podejście kontenerowe umożliwia nam sprawne i pełne odtworzenie środowisk produkcyjnych w każdym miejscu (nawet na swoim laptopie). Poznasz technologię, która rozwiąże większość problemów, jakie masz dzisiaj ze środowiskami dev/test i prod. W prosty i łatwy sposób będziesz w stanie dostarczać kolejne \"paczki\" z softem do klienta oraz co najważniejsze, będziesz miał pewność, że jak \"działa lokalnie to zadziała też na produkcji\" :)
+
+    Trener ma ponad 3 letnie doświadczenie z dockerem, był odpowiedzialny za zdockeryzowanie aplikacji czasu rzeczywistego opartej na javie składającej się z kilkudziesięciu różnych kontenerów. Nie ma pytania z docker’a na które nie zna odpowiedzi.
+
+    Podczas warsztatu poruszymy następujące kwestie:
+    <ul>
+    <li>Czym jest Docker
+    <li>Tworzenie kontenerów
+    <li>Zarządzanie kontenerami
+    <li>Dokeryzowanie aplikacji
+    <li>Zarządzanie obrazami Dockera
+    <li>Budowanie skalowalnej aplikacji
+    </ul>
+
+    <b>Oczekiwany poziom:</b> Podstawowa wiedza z zakresu linuxa - poruszanie się po konsoli, instalowanie paczek itd. Doświadczenie z dockerem mile widziane, gwarantuje że poznasz go lepiej.
+
+    <b>Co trzeba mieć na kompie:</b> zainstalowaną najnowszą wersję <a href=\"https://docs.docker.com/engine/installation/\"dockera (Community Edition)</a> i <a href=\"https://docs.docker.com/compose/install/\">docker-compose’a</a> - zlecany linux lub os x"
+    subtype: 0
+    speakers: [18]
+    complexity: 0
