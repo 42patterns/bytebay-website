@@ -204,3 +204,17 @@
     - {abbr: "DayOne", title: "DayOne", url: "https://dayone.pl/"}
   social:
     - {name: "twitter", link: "https://twitter.com/bartekwitczak"}
+
+-
+  id: 18
+  name: "Maciej"
+  surname: "Krajewski"
+  company: "Yameo"
+  title: "Managing Director / Trener"
+  bio: "Maciej to propagator idei zarządzania przez cele. Elokwentny, lubi pracować z energią własną i grupową. Ma wieloletnie doświadczenie w zarządzaniu zespołami developerskimi. Zjadł zęby na realizacji projektów informatycznych w metodologiach klasycznych (certyfikacja PMP oraz PRINCE2) i realizowanych zwinnie (LeSS). Przez 7 lat zarządzał jednym z głównych produktów firmy od strony technologicznej, wspierając zespół jako devops, a następnie dyrektor techniczny. Wielki fanboy docker’a :slightly_smiling_face:. Obecnie dyrektor zarządzający w Yameo Sp. z o.o. Prywatnie, Ironman wannabe…"
+  thumbnailUrl: maciej_krajewski.jpg
+  ribbon:
+    - {abbr: "Yameo", title: "Yameo", url: "http://yameo.pl"}
+    - {abbr: "iSA", title: "infoShare Academy", url: "http://infoshareacademy.com"}
+  social:
+    - {name: "Linkedin", link: "https://www.linkedin.com/in/maciejkrajewski/"}
