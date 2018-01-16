@@ -232,3 +232,18 @@
   social:
     - {name: "site", link: "https://typeofweb.com/"}
     - {name: "twitter", link: "https://twitter.com/mmiszy"}
+-
+  id: 20
+  name: "Marcin"
+  surname: "Stożek"
+  company: "Collective Sense"
+  title: "Senior Devops Engineer"
+  bio: "Za dnia jestem programistą i devopsem, po nocach czytam co słychać na Hacker News. Wierny fan pracy zdalnej. Brałem udział w wielu projektach z różnych dziedzin, od bezpieczeństwa w kolejkach po Hadoopa, od monolitu do mikroserwisów.
+
+  Wyznaję automatyzację oraz wierzę, że Linux to najlepsza rzecz pod słońcem. No, może druga w kolejności zaraz po Vim ;)"
+  thumbnailUrl: marcin.stozek.jpg
+  ribbon:
+  - {abbr: "Collective Sense", title: "Collective Sense", url: "https://www.collective-sense.com"}
+  social:
+  - {name: "site", link: "https://perk.pl"}
+  - {name: "twitter", link: "https://twitter.com/marcinstozek"}
