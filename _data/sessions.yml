@@ -68,10 +68,43 @@ list:
     speakers: [3]
     complexity: 2
 
+  # -
+  #   id: 002
+  #   title: "O optymalizacji MongoDB przykładów kilka"
+  #   description: ""
+  #   subtype: 0
+  #   speakers: [4]
+  #   complexity: 2
+
   -
-    id: 002
-    title: "O optymalizacji MongoDB przykładów kilka"
-    description: ""
+    id: 004
+    title: "Wprowadzenie do Domain-Drived Design na przykładach"
+    description: "Przejdziemy przez przykład aplikacji DDD na podstawie, której wytłumaczę najważniejsze koncepty Domain-Drived Design oraz popularne techniki towarzyszące jak:
+    <ul>
+    <li>CQRS
+    <li>CRUD segregation
+    <li>Hexagonal Architecture
+    <li>Knowledge Crunching
+    <li>Event Storming
+    <li>Domain Story
+    <li>Ubiquitous language
+    <li>Domain Model
+    <li>Invariant
+    <li>Aggregate
+    <li>Domain Event
+    <li>Value Object
+    <li>Bounded Context
+    <li>Context Map
+    </ul>"
+    subtype: 1
+    speakers: [7]
+    complexity: 1
+  -
+    id: 005
+    title: "Sesja Event Storming-u"
+    description: "Na sesji zapoznam was z notacją Event Storming-u, rolą warsztatów ES w procesie zwinnego wytwarzania oprogramowania oraz możliwymi zastosowaniami w waszej codziennej pracy.
+
+    Zastosujemy Event Storming Big Picture, Design Level oraz przyjrzymy się relacji modelu ES z kodem źródłowym."
     subtype: 0
-    speakers: [4]
-    complexity: 2
+    speakers: [7]
+    complexity: 1
