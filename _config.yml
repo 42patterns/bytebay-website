@@ -12,7 +12,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'Gemfile', 'Gemfile.lock']
 # Site Settings
 title: "ByteBay 2018: 100% warsztatów"
 email: "hi@bytebay.pl"
-description: "15/16 marca 2018. Gdańsk, Stadion Energa. 100% warsztatów, 100% praktyki - ByteBay 2018"
+description: "15/16 marca 2018. Stadion Energa Gdańsk. 100% warsztatów, 100% praktyki - ByteBay 2018"
 baseurl: ""
 url: "http://bytebay.pl"
 permalink: "/blog/:title"
@@ -56,7 +56,7 @@ rightNavigationButtons:
 # Hero Block
 heroImage: "gdansk-cropped.jpg"
 heroTitle: "ByteBay 2018 - <typeout>"
-eventDate: "15/16 marca 2018, Gdańsk - Stadion Energa"
+eventDate: "15/16 marca 2018 - Stadion Energa Gdańsk"
 typeoutTextValues: '"", "Warsztaty", "Networking", "Programowanie", "Agile"'
 typeoutFallback: "100% Warsztatów"
 heroButtons:
@@ -98,7 +98,7 @@ rockstarSpeakersButtonText: "Zobacz wszystkich trenerów"
 
 # Location Block
 locationBlockTitle: "Lokalizacja"
-eventLocationName: "Stadion Energa"
+eventLocationName: "Stadion Energa Gdańsk"
 eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
 eventStreetAddress: "Pokoleń Lechii Gdańsk 1"
 eventAddressLocality: "Gdańsk"
@@ -113,8 +113,8 @@ mapCenterCoordinates: "54.388915,18.630398"
 mapMobileCenterCoordinates: "54.384854,18.636528"
 
 # Venue Block
-venueBlockTitle: "Stadion Energa"
-venueBlockLeadText: "Stadion Energa to niemal nieograniczona liczba możliwych warsztatów i sesji <i>deep-dive</i> <br> w niesamowitej scenerii lóż biznesowych, sektorów VIP czy szatni piłkarskich"
+venueBlockTitle: "Stadion Energa Gdańsk"
+venueBlockLeadText: "Stadion Energa Gdańsk to niemal nieograniczona liczba możliwych warsztatów i sesji <i>deep-dive</i> <br> w niesamowitej scenerii lóż biznesowych, sektorów VIP czy szatni piłkarskich"
 venueBigImage: "stadion_1.jpg"
 venueSmallImage1: "stadion_2.jpg"
 venueSmallImage2: "stadion_3.jpg"
