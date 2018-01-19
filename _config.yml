@@ -82,7 +82,7 @@ aboutTopics:
 # Statistic Block
 statisticBlockImage: ""
 statisticBlock:
- - {count: "250", specialCharacter: "+", info: "uczestników", detail: "z całej Polski"}
+ - {count: "350", specialCharacter: "+", info: "uczestników", detail: "z całej Polski"}
  - {count: "80", specialCharacter: "+", info: "godzin", detail: "warsztatów"}
  - {count: "30", specialCharacter: "+", info: "trenerów"}
  - {count: "8", specialCharacter: "", info: "równoległych ścieżek", detail: "oraz strefa relaksu"}
