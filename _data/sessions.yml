@@ -39,7 +39,7 @@ list:
 
   -
     id: 003
-    title: "Co gryzie świadomego programistę?"
+    title: "Co gryzie świadomego programistę DDD?"
     description: "W swojej pracy spotykając dziesiątki zespołów zauważam wzorce pytań/dylematów/rozterek jakie pojawiają wraz ze wzrostem doświadczenia i świadomości zespołu. Na pewnym poziomie zaawansowania wszyscy zadają te same pytania:
 
       - jak określić granicę agregatów?
@@ -130,4 +130,46 @@ list:
     <b>Co trzeba mieć na kompie:</b> zainstalowaną najnowszą wersję <a href=\"https://docs.docker.com/engine/installation/\"dockera (Community Edition)</a> i <a href=\"https://docs.docker.com/compose/install/\">docker-compose’a</a> - zlecany linux lub os x"
     subtype: 0
     speakers: [18]
+    complexity: 0
+  -
+    id: 007
+    title: "Uczenie maszynowe i jak budować systemy analizy sentymentu?"
+    description: "W trakcie warsztatu pokażę dlaczego analiza sentymentu jest istotna nie tylko w biznesie, ale również wykorzystywana m.in. przez służby bezpieczeństwa. Zaprezentuję jak przygotować architekturę pod własny system i wykorzystamy algorytmy uczenia maszynowego."
+    subtype: 1
+    speakers: [21]
+    complexity: 1
+  -
+    id: 008
+    title: "Clojure Koans & REST assured"
+    description: "<b>Clojure Koans</b>
+
+    Nie znasz Clojure? Nie ma problemu! Przy użyciu prostych przykładów, rozwiązując praktyczne zadania polegające na naprawieniu testów jednostkowych nauczysz się języka krok po kroku. Zapraszam wszystkich, którzy chcą spróbować sił w programowaniu funkcyjnym i zobaczyć o co na prawdę chodzi z tymi \"nawiasami\".
+
+    <b>REST assured</b>
+
+    Zbudujmy coś praktycznego! Krok po kroku, małymi zmianami zbudujemy razem prostą aplikację, która będzie odpowiadać na http. Taki typowy przypadek użycia. Pozwoli to przećwiczyć wiedzę nabytą w pierwszej części warsztatu.
+
+    Wymagania przed warsztatem: laptop z nowożytna przeglądarka internetową"
+    subtype: 0
+    speakers: [13]
+    complexity: 0
+
+  -
+    id: 009
+    title: "Jak przygotować swoją pierwszą prezentację (lub ulepszyć istniejące)?"
+    description: "Jeżeli nosisz w sobie kawałek wartościowej wiedzy ale zastanawiasz się jak ją \"sformatować\" w formę ciekawej prezentacji to zapraszam na mój warsztat.
+
+    Zajmiemy się jednym z kilku aspektów wystąpienia: przygotowaniem treści.
+
+    Podczas warsztatu będziemy ćwiczyć sprawdzone techniki:
+
+    - nawiązanie połączenia z odbiorcami poprzez role i problemy
+
+    - prowadzenia osi narracji poprzez pytania jakie stawiają sobie odbiorcy
+
+    - używanie \"włączającego\" języka i trybu dialogu
+
+    - kilka wzorców tworzenia prezentacji: ADEPT, Context-problem-questions-solutions, triada, łuk narracyjny, metaprogramy"
+    subtype: 0
+    speakers: [5]
     complexity: 0
