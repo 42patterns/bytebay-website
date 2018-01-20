@@ -583,3 +583,15 @@
     }
 
 })(jQuery);
+
+//Sessions filters
+function showFilteredSessions(type) {
+  console.log(type)
+  if (type === 'all') {
+      $('#sessions .sessionDetails').show()
+  } else {
+    $('#sessions .sessionDetails').hide()
+    $('#sessions .' + type).show()
+  }
+
+}
