@@ -173,3 +173,55 @@ list:
     subtype: 0
     speakers: [5]
     complexity: 0
+  -
+    id: 010
+    title: "JMX w praktyce"
+    subtype: 0
+    speakers: [22]
+    complexity: 1
+
+  -
+    id: 11
+    title: "Zawładnij (hiper)tekstem, czyli jak zbudować wyszukiwarkę?"
+    description: "Przeszukiwanie tekstu zagościło na dobre we współczesnych aplikacjach internetowych. Czy zastanawiałeś się, jak to właściwie działa? Może chciałbyś stworzyć własną wyszukiwarkę, obsługującą różnorodne formy danych wejściowych?
+
+    Poznaj Lucene - silnik wyszukiwania leżący u podstaw popularnych rozwiązań, takich jak Elasticsearch, Opengrok, czy Apache Solr. Dowiedz się, jak zbudowany jest indeks wyszukiwarki i jak sprawić, aby użytkownik szybko znalazł interesujące go dane. W ramach warsztatu zobaczysz, jak sprowadzić tekst do postaci, którą można efektywnie przeszukiwać. Nauczysz się także stosować Lucene w praktyce, krok po kroku budując własną, coraz bardziej wyrafinowaną wyszukiwarkę.
+
+    Wymagany laptop i podstawowa znajomość Javy."
+    subtype: 0
+    speakers: [16, 23]
+    complexity: 0
+  -
+    id: 12
+    title: "Speed-up code evaluation by jit compilation"
+    subtype: 0
+    speakers: [24, 25]
+    complexity: 3
+
+  -
+    id: 13
+    title: "ElasticSearch: wydajnościowe pułapki?"
+    subtype: 1
+    speakers: [26]
+    complexity: 2
+
+  -
+    id: 14
+    title: "Wydajność bazy danych z perspektywy programisty"
+    description: "Na warsztacie pokażemy, co dzieje się \"na zapleczu\" relacyjnej bazy danych, kiedy wykonujemy codzienne czynności i odpowiemy na odwieczne pytanie \"dlaczego tak wolno?\".
+
+    Zaczynając od wnioskowania o samych danych, przejdziemy stopniowo do architektury bazy i typowych nieporozumień między bazą a programistą (n+1 query problem, normalizacja-denormalizacja, zarządzanie połączeniami). Po skończonym laboratorium każdy z uczestników powinien czuć się pewnie diagnozując własne problemy z bazą.
+
+    W czasie warsztatu będziemy korzystać z przygotowanego przez nas Microsoft SQL Servera, natomiast poruszane tematy są niezależne od silnika bazy danych.
+
+    wymagania przed warsztatem: laptop min 8 GB RAM (najlepiej 16GB), dowolny OS, zainstalowany VirtualBox, Java JDK8 albo Java JDK9"
+    subtype: 0
+    speakers: [27]
+    complexity: 2
+
+  -
+    id: 15
+    title: "Java Mission Control + Flight Recorder — diagnozowanie problemów wydajnościowych na produkcji"
+    subtype: 0
+    speakers: [28, 29]
+    complexity: 1

@@ -70,18 +70,6 @@
   social:
     - {name: "twitter", link: "https://twitter.com/wsztajerowski"}
 
-
--
-  id: 7
-  name: "Michał"
-  surname: "Michałuk"
-  company: "Bottega IT Minds"
-  title: "Trainer, Craftsman"
-  bio: "Doświadczony w wytwarzaniu nowego oprogramowania zarówno dla startup-ów o skrajnie zwinnym kontekście, jak i zbiurokratyzowanych korporacji z klasycznym modelem. Po tych doświadczeniach jest pewien, że skupienie na wartości dostarczanej przez oprogramowanie klientowi i prostota rozwiązania są kluczem do sukcesu projektów. Kilkuletnia kariera w globalnej korporacji, począwszy od programisty skończywszy na technicznym architekcie grupy projektów, była dla niego doskonałą lekcją wieloletniego utrzymanie oraz rozwoju oprogramowania w olbrzymiej skali. Wtedy poznał dwa kluczowe punkty do zrównoważonego rozwoju oprogramowania i zespołu. Testowanie i refaktoryzacja oprogramowania legacy w środowisku korporacyjnym kiedy \"nie mamy czasu na jakość\", przynosi zysk dla organizacji i daje wiele satysfakcji programistom do tej pory zmęczonym projektem. Doskonałość warsztatu programistycznego i biegłość w technologiach indywidualnych programistów promieniuje na cały zespól i przynosi wyraźne korzyści dla projektu i organizacji. Ma oryginalne spojrzenie na wytwarzanie oprogramowania: rozwój oprogramowania to inwestycja, a praktyki Agile i Domain-Driven Design pozwalają podążać optymalną ścieżką do osiągnięcia szybkiego zwrotu z tej inwestycji."
-  thumbnailUrl: michal_michaluk.jpg
-  ribbon:
-    - {abbr: "Bottega", title: "Bottega IT Minds", url: "https://bottega.com.pl"}
-
 -
   id: 8
   name: "Grzegorz"
@@ -95,6 +83,144 @@
   social:
     - {name: "twitter", link: "https://twitter.com/grzegorzdyrda"}
     - {name: "site", link: "http://geekydevs.com/"}
+
+-
+  id: 16
+  name: "Zbyszko"
+  surname: "Papierski"
+  company: "Dynatrace"
+  title: "Programista"
+  bio: "Inżynier, z silnym uzależnieniem od produktowej warstwy rozwiązania. Związany w przeszłości z Allegro, Jirą a ostatnio Dynatrace. Wszędzie gdzie się da szuka ciekawych danych, szczególnie takich bez struktury, Po godzinach zajmuje się inicjatywami trójmiejskiego JUGa, takimi jak Hackengarten, a także ostatnio próbuje nauczyć się swojego pierwszego (i najprawdodopodobniej ostatniego) języka orientalnego."
+  thumbnailUrl: zbyszko_papierski.jpg
+  ribbon:
+    - {abbr: "Dynatrace", title: "Dynatrace", url: "https://www.dynatrace.com/"}
+  social:
+    - {name: "twitter", link: "https://twitter.com/zpapierski"}
+
+-
+  id: 22
+  name: "Wiktor"
+  surname: "Bachnik"
+  company: "Dynatrace"
+  title: "Chief Software Architect"
+  bio: "Programista lubiący wyzwania. Oprócz aspektów technicznych, zainteresowany również społeczną stroną rozwoju oprogramowania."
+  thumbnailUrl: "Wiktor_Bachnik.jpg"
+  ribbon:
+    - {abbr: "Dynatrace", title: "Dynatrace", url: "https://www.dynatrace.com/"}
+
+-
+  id: 23
+  name: "Jakub"
+  surname: "Słota"
+  company: "Dynatrace"
+  title: "Programista"
+  bio: "Programista full-stack specjalizujący się w technologii Java, od początku kariery zawodowej związany z firmą Dynatrace. Jeden z pierwszych członków zespołu Log Analytics, rozwijającego projekt służący do szeroko pojętej analizy logów. Entuzjastycznie nastawiony do paradygmatów programowania, wzorców projektowych oraz dobrych praktyk, prowadzących do zwiększenia czytelności i testowalności kodu.
+
+  W czasie wolnym od komputera można go spotkać na koncertach muzyki filmowej, w kinie lub na szlaku górskim. Stara się równoważyć stacjonarny charakter wykonywanej pracy, przestrzegając zasad zdrowego stylu życia."
+  thumbnailUrl: "Jakub_Slota.jpg"
+  ribbon:
+    - {abbr: "Dynatrace", title: "Dynatrace", url: "https://www.dynatrace.com"}
+
+-
+  id: 24
+  name: "Kasper"
+  surname: "Kulikowski"
+  company: "Dynatrace"
+  title: "Software Engineer"
+  bio: "Absolwent ETI, Programista i trener Java, lokalny patriota. Od 3 lat w Dynatrace, gdzie pracowałem przy kilku projektach, aktualnie przy module do analizy logów.
+
+  Po pracy prowadzę warsztaty z programowania i podnoszę ciężkie rzeczy."
+  thumbnailUrl: "Kasper_Kulikowski.jpg"
+  ribbon:
+    - {abbr: "Dynatrace", title: "Dynatrace", url: "https://www.dynatrace.com"}
+  social:
+    - {name: "github", link: "https://github.com/Kulikowski"}
+    - {name: "LinkedIn", link: "https://www.linkedin.com/in/kasper-kulikowski/"}
+
+-
+  id: 25
+  name: "Przemysław"
+  surname: "Delewski"
+  company: "Dynatrace"
+  title: "Senior Software Engineer"
+  bio: "Interesuje mnie redukowanie luki pomiędzy problemem a rozwiązaniem. Ponadto wszystko co jest związanie z projektowaniem oprogramowania, językami domain specific, kompilatorami i generowaniem kodu."
+  thumbnailUrl: "Przemyslaw_Delewski.jpg"
+  ribbon:
+    - {abbr: "Dynatrace", title: "Dynatrace", url: "https://www.dynatrace.com"}
+
+  social:
+    - {name: "github", link: "https://github.com/PDelak"}
+
+-
+  id: 26
+  name: "Dominika"
+  surname: "Makuch"
+  company: "Dynatrace"
+  title: "Software Developer"
+  bio: "Programistka i wielbicielka języka Java oraz technologii okołowyszukiwarkowych, ostatnio pilnie zgłębiająca zagadnienia wokół machine learningu i big data. W ciągu ostatnich 10 lat zdarzało jej się pracować jako software developer, software architect, cloud software engineer, team leader czy technical project manager i zajmować się backendami serwerów wyszukiwawczych, CMSów, platformy mailingowej czy big data'owej platformy będącej częścią projektu autonomicznego samochodu. Obecnie, w Dynatrace, pracuje nad rozwojem zaawansowanych systemów monitorujących.
+
+  Poza pracą dzieli się wiedzą w ramach trójmiejskiego JUGa i w InfoShare Academy a jej prezentacja nt. machine learningu była top3 speakerów konferencji JDD2016."
+  thumbnailUrl: "Dominka_Makuch.jpg"
+  rockstar: true
+  ribbon:
+    - {abbr: "Dynatrace", title: "Dynatrace", url: "https://www.dynatrace.com/"}
+
+-
+  id: 27
+  name: "Grzegorz"
+  surname: "Witczak"
+  company: "Dynatrace"
+  title: "Software developer"
+  bio: "Od niemal czterech lat w Dynatrace zajmuję się rozwijaniem narzędzia do monitorowania baz danych, ułatwiając życie programistom i devopsom na całym świecie.
+
+  Po godzinach gadżeciarz i pasjonat bezpieczeństwa IT, buduję różne cuda z wykorzystaniem Raspberry Pi."
+  thumbnailUrl: "Grzegorz_Witczak.jpg"
+  ribbon:
+    - {abbr: "Dynatrace", title: "Dynatrace", url: "https://www.dynatrace.com/"}
+
+  social:
+    - {name: "StackOverflow", link: "https://stackoverflow.com/users/1061543/greg-witczak"}
+    - {name: "github", link: "https://github.com/greg-witczak"}
+    - {name: "LinkedIn", link: "https://pl.linkedin.com/in/gwitczak"}
+
+-
+  id: 29
+  name: "Marcin"
+  surname: "Okraszewski"
+  company: "Dynatrace"
+  title: "Chief Software Architect"
+  bio: "Od ponad 10 lat pracuję w firmie Dynatrace, obecnie na stanowisku architekta. W trakcie mojej przygody z Dynatrace miałem okazję rozwijać diametralnie różne produkty - od analizatora ruchu sieciowego w C++ o ogromnych wymaganiach wydajnościowych, przez aplikację desktopową w .Net i pluginy dla platformy Eclipse, po rozwiązania SaaS z użyciem Big Data pracujące w chmurze Amazon. A po godzinach wychowuję kolejne pokolenie informatyków."
+  thumbnailUrl: "marcin_okraszewski.jpg"
+  ribbon:
+    - {abbr: "Dynatrace", title: "Dynatrace", url: "https://www.dynatrace.com/"}
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/okrasz/"}
+
+
+-
+  id: 28
+  name: "Michał"
+  surname: "Weyer"
+  company: "Dynatrace"
+  title: "Software developer"
+  bio: "Siedem lat kariery spędziłem w bankach, gdzie błędy łatwo przeliczało się na pieniądze. Od dwóch lat w Dynatrace pracuję nad tym, żeby praca developerów była mniej stresująca i bardziej widoczna."
+  thumbnailUrl: "Michal_Weyer.jpg"
+  ribbon:
+    - {abbr: "Dynatrace", title: "Dynatrace", url: "https://www.dynatrace.com/"}
+  social:
+    - {name: "site", link: "codeinanger.com"}
+
+
+-
+  id: 7
+  name: "Michał"
+  surname: "Michałuk"
+  company: "Bottega IT Minds"
+  title: "Trainer, Craftsman"
+  bio: "Doświadczony w wytwarzaniu nowego oprogramowania zarówno dla startup-ów o skrajnie zwinnym kontekście, jak i zbiurokratyzowanych korporacji z klasycznym modelem. Po tych doświadczeniach jest pewien, że skupienie na wartości dostarczanej przez oprogramowanie klientowi i prostota rozwiązania są kluczem do sukcesu projektów. Kilkuletnia kariera w globalnej korporacji, począwszy od programisty skończywszy na technicznym architekcie grupy projektów, była dla niego doskonałą lekcją wieloletniego utrzymanie oraz rozwoju oprogramowania w olbrzymiej skali. Wtedy poznał dwa kluczowe punkty do zrównoważonego rozwoju oprogramowania i zespołu. Testowanie i refaktoryzacja oprogramowania legacy w środowisku korporacyjnym kiedy \"nie mamy czasu na jakość\", przynosi zysk dla organizacji i daje wiele satysfakcji programistom do tej pory zmęczonym projektem. Doskonałość warsztatu programistycznego i biegłość w technologiach indywidualnych programistów promieniuje na cały zespól i przynosi wyraźne korzyści dla projektu i organizacji. Ma oryginalne spojrzenie na wytwarzanie oprogramowania: rozwój oprogramowania to inwestycja, a praktyki Agile i Domain-Driven Design pozwalają podążać optymalną ścieżką do osiągnięcia szybkiego zwrotu z tej inwestycji."
+  thumbnailUrl: michal_michaluk.jpg
+  ribbon:
+    - {abbr: "Bottega", title: "Bottega IT Minds", url: "https://bottega.com.pl"}
 
 -
   id: 10
@@ -166,19 +292,6 @@
     - {name: "twitter", link: "https://twitter.com/PawelWlodarski"}
 
 -
-  id: 16
-  name: "Zbyszko"
-  surname: "Papierski"
-  company: "Dynatrace"
-  title: "Programista"
-  bio: "Inżynier, z silnym uzależnieniem od produktowej warstwy rozwiązania. Związany w przeszłości z Allegro, Jirą a ostatnio Dynatrace. Wszędzie gdzie się da szuka ciekawych danych, szczególnie takich bez struktury, Po godzinach zajmuje się inicjatywami trójmiejskiego JUGa, takimi jak Hackengarten, a także ostatnio próbuje nauczyć się swojego pierwszego (i najprawdodopodobniej ostatniego) języka orientalnego."
-  thumbnailUrl: zbyszko_papierski.jpg
-  ribbon:
-    - {abbr: "Dynatrace", title: "Dynatrace", url: "https://www.dynatrace.com/"}
-  social:
-    - {name: "twitter", link: "https://twitter.com/zpapierski"}
-
--
   id: 17
   name: "Bartłomiej"
   surname: "Witczak"
@@ -229,10 +342,10 @@
   Wyznaję automatyzację oraz wierzę, że Linux to najlepsza rzecz pod słońcem. No, może druga w kolejności zaraz po Vim ;)"
   thumbnailUrl: marcin.stozek.jpg
   ribbon:
-  - {abbr: "Collective Sense", title: "Collective Sense", url: "https://www.collective-sense.com"}
+    - {abbr: "Collective Sense", title: "Collective Sense", url: "https://www.collective-sense.com"}
   social:
-  - {name: "site", link: "https://perk.pl"}
-  - {name: "twitter", link: "https://twitter.com/marcinstozek"}
+    - {name: "site", link: "https://perk.pl"}
+    - {name: "twitter", link: "https://twitter.com/marcinstozek"}
 
 -
   id: 21
