@@ -12,7 +12,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'Gemfile', 'Gemfile.lock']
 # Site Settings
 title: "ByteBay 2018: 100% warsztatów"
 email: "hi@bytebay.pl"
-description: "15/16 marca 2018. Stadion Energa Gdańsk. 100% warsztatów, 100% praktyki - ByteBay 2018"
+description: "15-16 marca 2018. Stadion Energa Gdańsk. 100% warsztatów, 100% praktyki - ByteBay 2018"
 baseurl: ""
 url: "http://bytebay.pl"
 permalink: "/blog/:title"
@@ -56,7 +56,7 @@ rightNavigationButtons:
 # Hero Block
 heroImage: "gdansk-cropped.jpg"
 heroTitle: "ByteBay 2018 - <typeout>"
-eventDate: "15/16 marca 2018 - Stadion Energa Gdańsk"
+eventDate: "15-16 marca 2018 - Stadion Energa Gdańsk"
 typeoutTextValues: '"", "Warsztaty", "Networking", "Programowanie", "Agile"'
 typeoutFallback: "100% Warsztatów"
 heroButtons:
@@ -75,8 +75,8 @@ aboutTopics:
   - {title: "JVM, Java, Kotlin, Scala", text: "Nie tylko frameworki ale przede wszystkim zasady działania samej platformy JVM (maszyny wirtualnej) oraz języków na niej funkcjonujących"}
   - {title: "JavaScript, frontend", text: "Sprawny, nowoczesny, ergonomiczny i łatwy w utrzymaniu interfejs użytkoniwka. To co użytkownik widzi, jest równie ważne jak samo działanie aplikacji."}
   - {title: "Architektura, Domain Driven Design", text: "Budowanie i modelowanie systemów w oparciu o to co się dzieje w rzeczywistym świecie. Budujemy systemy monolityczne, rozproszone (mikro serwisowe)."}
-  - {title: "Machine Learning, Sztuczna inteligencja", text: "To co się teraz dzieje w IT to jedno. To co będzie się działo za dekadę - to zupełnie inny paradygment. Uczenie maszynowe, AI to tematy które dają wgląd w to co robią najwięksi w branży."}
-  - {title: "Infrastruktura, chmura, DevOps", text: "Aplikacja to jeden aspekt IT. Środowisko w którym aplikacja działa, to kolejny. Jak wdrażać (Docker, wirtualizacja, Kubernetes)? Gdzie wdrażać (chmura, PaaS, IaaS)? Która chmurę wybrać."}
+  - {title: "Machine Learning, Sztuczna inteligencja", text: "To co się teraz dzieje w IT to jedno. To co będzie się działo za dekadę - to zupełnie inny paradygmat. Uczenie maszynowe, AI to tematy które dają wgląd w to co robią najwięksi w branży."}
+  - {title: "Infrastruktura, chmura, DevOps", text: "Aplikacja to jeden aspekt IT. Środowisko w którym aplikacja działa, to kolejny. Jak wdrażać (Docker, wirtualizacja, Kubernetes)? Gdzie wdrażać (chmura, PaaS, IaaS)? Którą chmurę wybrać."}
   - {title: "Samorozwój programistów", text: "Sprawy techniczne to jedno, ale równie ważne jest kształtowanie umiejętności interpersonalnych, komunikacji, prezentowania pomysłów przed szerszym audytorium (czy programistów, czy  managerów)."}
 
 # Statistic Block

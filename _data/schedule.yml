@@ -1,6 +1,6 @@
 -
   date: "2018-03-15"
-  dateReadable: "15 marzec"
+  dateReadable: "15 marca"
   tracks:
     - {title: "Deep dive", color: "#90be4e"}
     - {title: "Deep dive", color: "#03a9f4"}
@@ -41,7 +41,7 @@
     }
 -
   date: "2014-03-16"
-  dateReadable: "16 marzec"
+  dateReadable: "16 marca"
   tracks:
     - {title: "Deep dive", color: "#90be4e"}
     - {title: "Deep dive", color: "#03a9f4"}
