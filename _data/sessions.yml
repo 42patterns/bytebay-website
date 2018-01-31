@@ -225,3 +225,121 @@ list:
     subtype: 0
     speakers: [28, 29]
     complexity: 1
+
+  -
+    id: 16
+    title: "Introduction to Kotlin"
+    description: "Jeśli coraz częściej słyszysz o Kotlinie, ale dotąd nie miałeś(-aś) czasu bliżej się z nim zapoznać, to te warsztaty są właśnie dla Ciebie :)
+
+    Zapraszam na piękną przygodę poznawania języka, który czerpie pełnymi garściami z doświadczeń swoich wielkich poprzedników - Java, C#, Groovy, JavaScript, Scala, Swift - biorąc z nich to, co najlepsze, a odrzucając to, co słabe.
+
+    Najpierw omówimy założenia języka i motywy jakie przyświecały jego twórcom (JetBrains). A potem włączymy IntelliJ i zaczniemy się bawić :) Serio - niektóre rozwiązania są tak genialne, że wywołują niekontrolowany uśmiech na twarzy :) Przećwiczymy najważniejsze elementy składni języka i jego najciekawsze funkcjonalności, rozwiązując przy tym sporo praktycznych zadań.
+
+    Wymagania względem uczestników:
+
+      - Żadna wiedza o Kotlinie nie jest wymagana (warsztaty będą od samych podstaw)
+
+      - Przyda się znajomość Javy (będzie sporo porównań Kotlin vs Java)
+
+      - Przynosimy laptopy z zainstalowanym IntelliJ IDEA (może być darmowa wersja Community)"
+    subtype: 0
+    speakers: [8]
+    complexity: 1
+
+  -
+    id: 17
+    title: "JUnit5"
+    description: "To praktyczny warsztat adresowane jest  do programistów Java, chcących poznać najnowszą wersję frameworka do tworzenia testów jednostkowych - Junit 5.
+    JUnit 5 to całkowicie nowy projekt, oferujący wiele ciekawych funkcjonalności takich jak m.in. całkowite wsparcie dla Javy w wersji 8, wstrzykiwanie parametrów, testy parametryzowane czy w końcu nowe i API umożliwiające łatwiejsze niż kiedykolwiek rozszerzanie możliwości frameworka i dostosowanie go do potrzeb projektowych .
+    JUnit 5 daje całkowicie nowe możliwości pisania testów. Na szkoleniu poznasz podstawy Junit 5 jak również sposoby integracji z popularnymi bibliotekami takimi jak Mockito,  AssertJ czy RESTAssured. Poznasz również możliwości wykorzystania frameworku w tworzeniu testów integracyjnych dla aplikacji opartych o Spring Boot i Spring Framework.
+
+    <figure>
+    <figcaption>Zakres:</figcaption>
+      <ul>
+      <li>Gradle i Maven oraz wsparcie IDE
+      <li>Junit 5 - wprowadzenie
+      <li>Asersje oraz integracja z AssertJ
+      <li>Testowanie wyjątków
+      <li>Testy parametryzowane
+      <li>Mockito
+      <li>Spring / Spring Boot
+      <li>REST Assured
+      <li>Extension API
+      </ul></figure>"
+    subtype: 0
+    speakers: [30, 31]
+    complexity: 0
+
+  -
+    id: 18
+    title: "Wprowadzenie do Scali"
+    description: "Java 10 tuż tuż i już nikogo nie będzie dziwić zapis var s=”hello”. Alternatywne języki JVM wpływają na to jak rozwija się sama Java i chciałbym was zachęcić do poznania mechanizmów w tychże językach zanim wszystko trafi do mainstreamu.
+
+    Ponieważ Java przyzwyczaiła nas do podejścia obiektowego to i od tego zaczniemy nasza naukę. Zobaczymy, że Scala jest tak naprawde bardziej obiektowa niż Java a także i wprowadza wiele ciekawych mechanizmów, które sprawdziły się na tyle, że również pojawiają się w Kotlinie.
+
+    W dalszej części - w zależności od tego co będzie chciała robić publiczność - możemy pójść dalej w system typów lub skupić się na funkcjach.
+
+    Nie trzeba znać Scali, trzeba trochę znać Javę.
+
+    <figure><figcaption>Przed warsztatem warto przygotować środowisko:</figcaption>
+      <ol>
+      <li>Wyciągnijcie kod : https://github.com/PawelWlodarski/workshops
+      <li>Zainstalujcie https://www.jetbrains.com/idea/ community edition (bezpłatne) i później w opcjach zainstalujcie plugin do scali.
+      <li>Zaimportujcie projekt (ten z wyciągniętego kodu) do IDE.
+      <li>Otwórzcie klaskę \"TestingJavaClassAnswer\" (2 razy Shift otwiera okno wyszukiwania) i odpalcie (ctrl+Shift+F10). Powinien pojawić się zielony pasek.
+      </ol></figure>
+      Kto chętny może zapoznać się z teorią : https://pawelwlodarski.gitbooks.io/workshops/content/"
+    subtype: 0
+    speakers: [15]
+    complexity: 0
+
+  -
+    id: 19
+    title: "Kubernetes od podstaw"
+    description: "W świecie systemów rozproszonych, mikrousług, zdarzeń programiście nie wystarczy już tylko wiedzieć jak napisać i zbudować kod źródłowy. W świecie, w którym system podzielony jest na kilka, kilkanaście, kilkadziesiąt lub kilkaset modułów przychodzi taki moment w którym potrzebujemy skomunikować się z innymi komponentami.
+
+    W tym samym świecie systemy produkcyjnie uruchamiamy w chmurze. I wszystko ładnie, pięknie, ale jak tutaj prowadzić development? Czy każdy programista powinien mieć swoją chmurę na którą będzie w stanie wrzucić swoje \"dziecko w trakcie aktu tworzenia\"? Czy musimy uruchamiać wszystko? Co z kosztem? W takim razie może powinienem uruchamiać swoją lokalną instancję poza chmurą? Ale czy wtedy nie istnieje ryzyko, że inny sposób wdrożenia podczas developmentu spowoduje problemy na środowiskach produkcyjnych?
+
+    A może by tak dało się prościej? Może da się tworzyć w oparciu o takie same podejście do wdrożeń na lokalnej maszynie programisty z możliwością wybrania, które elementy faktycznie powinny zostać uruchomione? Może development mógłby działać podobnie do produkcji i gwarantować taki sam sposób wdrożenia?
+
+    Chciałbym Wam pokazać jedną z alternatyw- podejście które jest wygodne zarówno od strony OPSów jak i programistów, podejście, które potrafi bardzo przyspieszyć i ułatwić development. Podejście, które pozwoli nam (programistom) i administratorom wejść w świat kultury devops i naprawdę lepiej rozumieć siebie nawzajem.
+
+    <figure><figcaption>W ramach warsztatów:</figcaption>
+    <ul>
+    <li>Skonfigurujesz poprawnie lokalne środowisko pracy z kubernetesem
+    <li>Na podstawie przygotowanych i udostępnionych obrazów dockera przykładowych aplikacji wdrożysz własne moduły na kilka różnych sposobów wraz z wyróżnieniem wad i zalet każdego z podejść
+    <li>Opracujesz automatyczny restart aplikacji na wypadek problemów i zobaczysz jak działa to w praktyce
+    <li>Skonfigurujesz na potrzeby developmentu bazy danych i inne usługi serwisowe
+    <li>Zdefiniujesz automatyczne skalowanie aplikacji
+    <li>Przeprowadzisz rolling-release przykładowej aplikacji gwarantując tzw. \"zero-downtime\"
+    <li>Dowiesz się jak rekonfigurować aplikację za pomocą config map
+    <li>Zabezpieczysz hasła i klucze do baz danych
+    </ul></figure>
+
+    Wszystko to pozwoli Ci swobodnie pracować i przygotowywać konfiguracje aplikacji za które administratorzy Cię pokochają :)
+
+    <figure><figcaption>Wymagania</figcaption>
+    <ul>
+    <li>Komputer z minimum 8GB pamięci (mocno zalecane 12GB) i procesor z minimum dwoma core'ami
+    <li>Skonfigurowany i zainstalowany docker
+    <li>Podstawowa znajomość komend dockera (pobieranie obrazów z dockerhub, budowanie obrazów). Znajomość przygotowywania plików dockera może pomóc, ale nie jest konieczna.
+    <li>Zainstalowany edytor tekstu
+    <li>Konsola użytkownika i podstawowa umiejętność jej obsługi w swoim systemie operacyjnym
+    </ul></figure>"
+    subtype: 0
+    speakers: [9]
+    complexity: 0
+
+  -
+    id: 20
+    title: "Testowanie wydajności kodu Javy za pomocą narzędzia JMH."
+    description: "Testowanie wydajności kodu. A co w tym trudnego? Wystarczy System.currentTimeMillis() przed i po wywołaniu metody i po kłopocie. Przecież sam Bruce Eckel tak robił. Okazuje że można przy okazji popełnić wiele typowych błędów, które mogą spowodować, że nasze szacowania będą bezużyteczne. W ramach sesji warsztatowej wykorzystamy narzędzie JMH do testowania naszych kawałków kodu i zobaczymy jak pomoże nam ono tych błędów uniknąć. Przy okazji poznamy też triki JIT-compilera, którymi sprawia, że java potrafi działać naprawdę szybko ale przy okazji czyni pisanie microbenchmarków zadaniem nie tak trywialnym jakby się mogło na pierwszy rzut oka wydawać.
+
+    Uczestnicy powinni umieć programować w Javie.
+
+    <figure><figcaption>Środowisko:</figcaption>
+    Dowolne IDE do Javy plus maven, GIT, podłączenie do internetu.
+    </figure>"
+    subtype: 0
+    speakers: [11]
+    complexity: 1

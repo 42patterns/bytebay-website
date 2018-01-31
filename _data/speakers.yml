@@ -361,3 +361,28 @@
   social:
     - {name: "site", link: "https://about.me/patrykomiotek"}
     - {name: "twitter", link: "https://twitter.com/PatrykOmiotek"}
+
+-
+  id: 30
+  name: "Rafał"
+  surname: "Borowiec"
+  company: "Goyello"
+  bio: "Rafał o sobie: Profesjonalista IT, entuzjasta open source oraz zwinnych metodyk wytwarzania oprogramowania, developer, wykładowca i trener IT, sporadycznie bloger"
+  thumbnailUrl: "rafal_borowiec.jpg"
+  ribbon:
+    - {abbr: "Goyello", title: "Goyello", url: "https://www.goyello.com/pl"}
+  social:
+    - {name: "site", link: "http://blog.codeleak.pl/"}
+    - {name: "twitter", link: "https://twitter.com/kolorobot"}
+
+-
+  id: 31
+  name: "Maciej"
+  surname: "Koziara"
+  company: "Goyello"
+  bio: "Karierę rozpoczął 3 lata temu od przygody z GWT. Potem przyszedł Spring Boot razem z Javą 8 i od tamtej pory skupia się głównie na stronie backendowej, okazjonalnie wspomagając i poznając frontend. Jest fanem czystego kodu, prostych rozwiązań i dużej ilości testów."
+  thumbnailUrl: "maciej_koziara.jpg"
+  ribbon:
+    - {abbr: "Goyello", title: "Goyello", url: "https://www.goyello.com/pl"}
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/maciej-koziara-40247211a/"}
