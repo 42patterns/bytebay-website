@@ -6,8 +6,7 @@
             <div class="row about-details">
                 {% assign animationDelay = 0 %}
                 {% for about in site.aboutBlock %}
-                {% assign colWidth = 12 | divided_by: forloop.length %}
-                <div class="col-md-{{ colWidth }} col-xs-6">
+                <div class="col-lg-4 col-sm-6 col-12">
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
                         <h5>{{ about.title }}</h5>
                         <img class="img-circle" src="{{ site.baseurl }}/img/about-section/{{ about.image }}" height="128" width="128" alt="{{ about.title }}">
@@ -22,7 +21,7 @@
             <div class="row topic-details">
               <h5>{{ site.aboutTopicsTitle }}</h5>
               {% for topic in site.aboutTopics %}
-              <div class="col-md-{{ colWidth }} col-xs-6">
+              <div class="col-lg-4 col-sm-6 col-12"> 
                 <p><strong>{{ topic.title }}</strong></p>
                 <p>{{ topic.text }}</p>
               </div>
