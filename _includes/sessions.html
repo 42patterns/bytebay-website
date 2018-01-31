@@ -29,12 +29,12 @@
 
 		{% for session in site.data.sessions.list %}
 			{% if session.service != true %}
-				<div class="col-lg-10 col-lg-offset-1 sessionDetails {{ site.data.sessions.meta.sessiontype[session.subtype].title | replace: ' ', '-' | downcase }} {{ site.data.sessions.meta.complexity[session.complexity].title | replace: ' ', '-' | downcase }}" id="sessionDetail-{{ session.id }}" tabindex="-1">
-          <div class="color-line" style="position: relative !important; margin-top: 20px; background: {{ site.data.sessions.meta.sessiontype[session.subtype].color }}"></div>
+				<div class="col-lg-10 col-lg-offset-1 sessionDetails {{ site.data.sessions.meta.sessiontype[session.type].title | replace: ' ', '-' | downcase }} {{ site.data.sessions.meta.complexity[session.complexity].title | replace: ' ', '-' | downcase }}" id="sessionDetail-{{ session.id }}" tabindex="-1">
+          <div class="color-line" style="position: relative !important; margin-top: 20px; background: {{ site.data.sessions.meta.sessiontype[session.type].color }}"></div>
 					<div class="people-modal text-left">
 						<h5>{{ session.title }}</h5>
-            {% if session.subtype != null %}
-            <span class="theme-metadata"><span class="caption">Typ sesji: </span><strong>{{ site.data.sessions.meta.sessiontype[session.subtype].title }}</strong></span>
+            {% if session.type != null %}
+            <span class="theme-metadata"><span class="caption">Typ sesji: </span><strong>{{ site.data.sessions.meta.sessiontype[session.type].title }}</strong></span>
             {% endif %}
 						{% if session.complexity != null %}
 						<span class="theme-metadata"><span class="caption">Poziom: </span>{{ site.data.sessions.meta.complexity[session.complexity].title }}</span>

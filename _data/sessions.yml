@@ -12,33 +12,47 @@ list:
   -
     id: 1001
     title: "Przerwa kawowa"
-    place: "I piętro - Atom Club"
+    place: "Atom Club"
     service: true
     description: "Kawa, napoje oraz przekąski bądą także dostępne podczas przerw w sesjach (w połowie czasu trwania sesji)"
   -
     id: 1002
     title: "Przerwa lunchowa"
-    place: "I piętro - Atom Club"
+    place: "Atom Club"
     service: true
   -
     id: 1003
     title: "Meet & Greet"
-    place: "I piętro - Atom Club"
+    place: "T29"
     service: true
     description: "To ten moment gdy łapiesz piwo i rozmawiasz z uczestnikami, trenerami."
   -
     id: 9990
     title: "Keynote"
     place: "Atom Club"
+    type: 2
     service: true
   -
     id: 9991
-    title: "Sesje warsztatowe"
-    place: "Atom Club"
+    title: "Sesja Deep Dive #1"
+    place: ""
+    type: 1
+    service: true
+  -
+    id: 9992
+    title: "Sesja Deep Dive #2"
+    place: ""
+    type: 1
+    service: true
+  -
+    id: 9993
+    title: "Sesja warsztatowa"
+    place: "Skybox - loże biznesowe"
+    type: 0
     service: true
 
   -
-    id: 003
+    id: 3
     title: "Co gryzie świadomego programistę DDD?"
     description: "W swojej pracy spotykając dziesiątki zespołów zauważam wzorce pytań/dylematów/rozterek jakie pojawiają wraz ze wzrostem doświadczenia i świadomości zespołu. Na pewnym poziomie zaawansowania wszyscy zadają te same pytania:
 
@@ -56,28 +70,28 @@ list:
 
       Tak na prawdę pytania te są ogólne a metodyki (jak np. DDD) jedynie szybciej do nich doprowadza. Podczas prezentacji przyjrzymy się tym typowym pytaniom na poziomie modelu, architektury i organizacji - spróbuję odpowiedzieć na nie w postaci konkretnych technik i rozwiązań."
     speakers: [5]
-    subtype: 2
+    type: 2
 
   -
-    id: 001
+    id: 1
     title: "JVM: przez dziurkę od klucza"
     description: "JVM to złożona maszyna, która napędza nasze systemy. Codziennie w pocie czoła przerzuca terabajty obiektów pomiędzy kolejnymi generacjami w GC, generuje strumienie optymalnego kodu skompilowanego przez jeden z kompilatorów JIT, w międzyczasie próbując dogadać się z systemem operacyjnym. Jednak nie zawsze w naszej maszynowni wszystko przebiega zgodnie z planem. Gdzie szukać informacji? Jak odczytywać i interpretować wartości metryk? Kiedy winny jest JVM, nasza aplikacja, a w jakim przypadku system operacyjny?
 
     Podczas tej sesji postaram się pokazać dostępne narzędzia, magiczne przełączniki i dostępne rozwiązania potrzebne w pracy każdego \"kryminologa\" JVM. Sesja będzie przeznaczona dla osób, które zaczynają przygodę z optymalizacją JVM. Porozmawiamy o zapisywaniu zdarzeń z JVM, narzędziach ukrytych w JDK,w tym także Java Mission Control i Flight Recorder i zobaczymy jak Java płonie :). Nie zapomnimy też o narzędziach dostępnych w systemie operacyjnym Linux."
-    subtype: 1
+    type: 1
     speakers: [3]
     complexity: 2
 
   # -
-  #   id: 002
+  #   id: 2
   #   title: "O optymalizacji MongoDB przykładów kilka"
   #   description: ""
-  #   subtype: 0
+  #   type: 0
   #   speakers: [4]
   #   complexity: 2
 
   -
-    id: 004
+    id: 4
     title: "Wprowadzenie do Domain-Drived Design na przykładach"
     description: "Przejdziemy przez przykład aplikacji DDD na podstawie, której wytłumaczę najważniejsze koncepty Domain-Drived Design oraz popularne techniki towarzyszące jak:
     <ul>
@@ -96,20 +110,20 @@ list:
     <li>Bounded Context
     <li>Context Map
     </ul>"
-    subtype: 1
+    type: 1
     speakers: [7]
     complexity: 1
   -
-    id: 005
+    id: 5
     title: "Sesja Event Storming-u"
     description: "Na sesji zapoznam was z notacją Event Storming-u, rolą warsztatów ES w procesie zwinnego wytwarzania oprogramowania oraz możliwymi zastosowaniami w waszej codziennej pracy.
 
     Zastosujemy Event Storming Big Picture, Design Level oraz przyjrzymy się relacji modelu ES z kodem źródłowym."
-    subtype: 0
+    type: 0
     speakers: [7]
     complexity: 1
   -
-    id: 006
+    id: 6
     title: "Docker - wstępniaczek"
     description: "Dzięki zastosowaniu dockera możemy w prosty sposób zapewnić izolację serwisów, zwiększając tym samym bezpieczeństwo i stabilność aplikacji. Podejście kontenerowe umożliwia nam sprawne i pełne odtworzenie środowisk produkcyjnych w każdym miejscu (nawet na swoim laptopie). Poznasz technologię, która rozwiąże większość problemów, jakie masz dzisiaj ze środowiskami dev/test i prod. W prosty i łatwy sposób będziesz w stanie dostarczać kolejne \"paczki\" z softem do klienta oraz co najważniejsze, będziesz miał pewność, że jak \"działa lokalnie to zadziała też na produkcji\" :)
 
@@ -128,18 +142,18 @@ list:
     <b>Oczekiwany poziom:</b> Podstawowa wiedza z zakresu linuxa - poruszanie się po konsoli, instalowanie paczek itd. Doświadczenie z dockerem mile widziane, gwarantuje że poznasz go lepiej.
 
     <b>Co trzeba mieć na kompie:</b> zainstalowaną najnowszą wersję <a href=\"https://docs.docker.com/engine/installation/\"dockera (Community Edition)</a> i <a href=\"https://docs.docker.com/compose/install/\">docker-compose’a</a> - zlecany linux lub os x"
-    subtype: 0
+    type: 0
     speakers: [18]
     complexity: 0
   -
-    id: 007
+    id: 7
     title: "Uczenie maszynowe i jak budować systemy analizy sentymentu?"
     description: "W trakcie warsztatu pokażę dlaczego analiza sentymentu jest istotna nie tylko w biznesie, ale również wykorzystywana m.in. przez służby bezpieczeństwa. Zaprezentuję jak przygotować architekturę pod własny system i wykorzystamy algorytmy uczenia maszynowego."
-    subtype: 1
+    type: 1
     speakers: [21]
     complexity: 1
   -
-    id: 008
+    id: 8
     title: "Clojure Koans & REST assured"
     description: "<b>Clojure Koans</b>
 
@@ -150,12 +164,12 @@ list:
     Zbudujmy coś praktycznego! Krok po kroku, małymi zmianami zbudujemy razem prostą aplikację, która będzie odpowiadać na http. Taki typowy przypadek użycia. Pozwoli to przećwiczyć wiedzę nabytą w pierwszej części warsztatu.
 
     Wymagania przed warsztatem: laptop z nowożytna przeglądarka internetową"
-    subtype: 0
+    type: 0
     speakers: [13]
     complexity: 0
 
   -
-    id: 009
+    id: 9
     title: "Jak przygotować swoją pierwszą prezentację (lub ulepszyć istniejące)?"
     description: "Jeżeli nosisz w sobie kawałek wartościowej wiedzy ale zastanawiasz się jak ją \"sformatować\" w formę ciekawej prezentacji to zapraszam na mój warsztat.
 
@@ -170,13 +184,13 @@ list:
     - używanie \"włączającego\" języka i trybu dialogu
 
     - kilka wzorców tworzenia prezentacji: ADEPT, Context-problem-questions-solutions, triada, łuk narracyjny, metaprogramy"
-    subtype: 0
+    type: 0
     speakers: [5]
     complexity: 0
   -
-    id: 010
+    id: 10
     title: "JMX w praktyce"
-    subtype: 0
+    type: 0
     speakers: [22]
     complexity: 1
 
@@ -188,20 +202,20 @@ list:
     Poznaj Lucene - silnik wyszukiwania leżący u podstaw popularnych rozwiązań, takich jak Elasticsearch, Opengrok, czy Apache Solr. Dowiedz się, jak zbudowany jest indeks wyszukiwarki i jak sprawić, aby użytkownik szybko znalazł interesujące go dane. W ramach warsztatu zobaczysz, jak sprowadzić tekst do postaci, którą można efektywnie przeszukiwać. Nauczysz się także stosować Lucene w praktyce, krok po kroku budując własną, coraz bardziej wyrafinowaną wyszukiwarkę.
 
     Wymagany laptop i podstawowa znajomość Javy."
-    subtype: 0
+    type: 0
     speakers: [16, 23]
     complexity: 0
   -
     id: 12
     title: "Speed-up code evaluation by jit compilation"
-    subtype: 0
+    type: 0
     speakers: [24, 25]
     complexity: 3
 
   -
     id: 13
     title: "ElasticSearch: wydajnościowe pułapki?"
-    subtype: 1
+    type: 1
     speakers: [26]
     complexity: 2
 
@@ -215,14 +229,14 @@ list:
     W czasie warsztatu będziemy korzystać z przygotowanego przez nas Microsoft SQL Servera, natomiast poruszane tematy są niezależne od silnika bazy danych.
 
     wymagania przed warsztatem: laptop min 8 GB RAM (najlepiej 16GB), dowolny OS, zainstalowany VirtualBox, Java JDK8 albo Java JDK9"
-    subtype: 0
+    type: 0
     speakers: [27]
     complexity: 2
 
   -
     id: 15
     title: "Java Mission Control + Flight Recorder — diagnozowanie problemów wydajnościowych na produkcji"
-    subtype: 0
+    type: 0
     speakers: [28, 29]
     complexity: 1
 
@@ -242,7 +256,7 @@ list:
       - Przyda się znajomość Javy (będzie sporo porównań Kotlin vs Java)
 
       - Przynosimy laptopy z zainstalowanym IntelliJ IDEA (może być darmowa wersja Community)"
-    subtype: 0
+    type: 0
     speakers: [8]
     complexity: 1
 
@@ -266,7 +280,7 @@ list:
       <li>REST Assured
       <li>Extension API
       </ul></figure>"
-    subtype: 0
+    type: 0
     speakers: [30, 31]
     complexity: 0
 
@@ -289,7 +303,7 @@ list:
       <li>Otwórzcie klaskę \"TestingJavaClassAnswer\" (2 razy Shift otwiera okno wyszukiwania) i odpalcie (ctrl+Shift+F10). Powinien pojawić się zielony pasek.
       </ol></figure>
       Kto chętny może zapoznać się z teorią : https://pawelwlodarski.gitbooks.io/workshops/content/"
-    subtype: 0
+    type: 0
     speakers: [15]
     complexity: 0
 
@@ -326,7 +340,7 @@ list:
     <li>Zainstalowany edytor tekstu
     <li>Konsola użytkownika i podstawowa umiejętność jej obsługi w swoim systemie operacyjnym
     </ul></figure>"
-    subtype: 0
+    type: 0
     speakers: [9]
     complexity: 0
 
@@ -340,6 +354,6 @@ list:
     <figure><figcaption>Środowisko:</figcaption>
     Dowolne IDE do Javy plus maven, GIT, podłączenie do internetu.
     </figure>"
-    subtype: 0
+    type: 0
     speakers: [11]
     complexity: 1

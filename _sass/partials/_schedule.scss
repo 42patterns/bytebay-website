@@ -125,17 +125,18 @@ $small-label-width: 80px;
     text-align: left;
     transition: $base-transition;
     border-right: $schedule-border;
+    border-left: $schedule-border;
     user-select: none;
     @media (max-width: 767px) {
         border-top: 0;
-        border-left: $schedule-border;
+        // border-left: $schedule-border;
     }
-    &:first-child {
-        border-left: $schedule-border;
-        @media (max-width: 767px) {
-            border-top: 0;
-        }
-    }
+    // &:first-child {
+    //     border-left: $schedule-border;
+    //     @media (max-width: 767px) {
+    //         border-top: 0;
+    //     }
+    // }
 }
 .slot {
     @extend .track-header-slot;
@@ -161,7 +162,7 @@ $small-label-width: 80px;
 }
 .slot-content {
     padding: 20px 15px 30px;
-    min-height: 120px;
+    min-height: 150px;
     background: #fff;
     transform: translateY(0);
     transition: $base-transition;
@@ -177,6 +178,13 @@ $small-label-width: 80px;
     }
     &:hover {
         transform: translateY(5px);
+    }
+
+    ul.slot-speakers {
+      li {
+        float: left;
+        padding-right: 2em;
+      }
     }
 }
 .slot-language {
