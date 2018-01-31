@@ -10,6 +10,11 @@
     - {name: "Travactory", description: "Travactory", link: "http://www.travactory.com/#job-offer", imageUrl: "travactory.png"}
 
 -
+  group: "Partner srebrny"
+  elements:
+    - {name: "Radmor", description: "Travactory", link: "http://www.radmor.com.pl/pol/Praca", imageUrl: "WB_Radmor_logoRGB.jpg"}
+
+-
   group: "Patroni medialni"
   elements:
     - {name: "JUG Trójmiasto", description: "JUG Trójmiasto", link: "https://http://twitter.com/JUGTricity/", imageUrl: jug-trojmiasto.png}
