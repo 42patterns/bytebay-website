@@ -82,13 +82,13 @@ list:
     speakers: [3]
     complexity: 2
 
-  # -
-  #   id: 2
-  #   title: "O optymalizacji MongoDB przykładów kilka"
-  #   description: ""
-  #   type: 0
-  #   speakers: [4]
-  #   complexity: 2
+  -
+    id: 2
+    title: "O optymalizacji MongoDB przykładów kilka"
+    description: ""
+    type: 0
+    speakers: [4]
+    complexity: 2
 
   -
     id: 4
@@ -207,7 +207,7 @@ list:
     complexity: 0
   -
     id: 12
-    title: "Speed-up code evaluation by jit compilation"
+    title: "Speed-up code evaluation by JIT compilation"
     type: 0
     speakers: [24, 25]
     complexity: 3

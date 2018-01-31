@@ -18,8 +18,8 @@
     - {
       startTime: "10:30",
       endTime: "13:00",
-      sessionIds: [1],
-      workshopsIds: [6, 5, 15]
+      sessionIds: [9991],
+      workshopsIds: [6, 5, 16, 11, 15]
     }
     - {
     	startTime: "13:00",
@@ -29,8 +29,8 @@
     - {
     	startTime: "14:00",
     	endTime: "16:30",
-    	sessionIds: [4],
-      workshopsIds: [19, 8, 9]
+    	sessionIds: [1],
+      workshopsIds: [19, 18, 8, 20]
     }
     - {
     	startTime: "16:30",
@@ -48,7 +48,7 @@
     	startTime: "9:00",
     	endTime: "11:30",
       sessionIds: [7],
-      workshopsIds: [14, 18, 20]
+      workshopsIds: [2, 12]
 
     }
     - {
@@ -59,8 +59,8 @@
     - {
       startTime: "12:30",
       endTime: "15:00",
-      sessionIds: [13],
-      workshopsIds: [11, 16]
+      sessionIds: [4],
+      workshopsIds: [14, 10]
     }
     - {
     	startTime: "15:00",
