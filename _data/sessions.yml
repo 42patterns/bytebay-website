@@ -357,3 +357,16 @@ list:
     type: 0
     speakers: [11]
     complexity: 1
+  -
+    id: 21
+    title: "Implementacja OAuth 2.0 za pomocą Spring Boot"
+    description: "W ramach warsztatu opiszę  na czym polega bardzo popularny framework OAuth 2.0  oraz pokażę jak wygląda jego implementacja w Spring Boot oraz jak  zabezpieczyć za jego pomocą system zbudowany w oparciu o mikroserwisy
+
+    Uczestnicy powinni umieć programować w Javie.
+
+    <figure><figcaption>Środowisko:</figcaption>
+    Laptop, z IDE (pref. Intellij), JDK 1.8
+    </figure>"
+    type: 0
+    speakers: [32]
+    complexity: 1

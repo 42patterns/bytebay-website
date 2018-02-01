@@ -386,3 +386,15 @@
     - {abbr: "Goyello", title: "Goyello", url: "https://www.goyello.com/pl"}
   social:
     - {name: "linkedin", link: "https://www.linkedin.com/in/maciej-koziara-40247211a/"}
+
+-
+  id: 32
+  name: "Krzysztof"
+  surname: "Mejka"
+  company: "Travactory"
+  bio: "Aktualnie Senior Java Developer w Travactory.com. Fan mikroserwisów i wypróbowywania nowych technologii. Próbuje każdego przekonać do konsekwentnego podejścia do pracy i programowania. Stara trzymać się  najlepszych praktyk i nie iść na skróty podczas rozwiązywania skomplikowanych problemów."
+  thumbnailUrl: "krzysztof_mejka.jpg"
+  ribbon:
+    - {abbr: "Travactory", title: "Travactory", url: "http://travactory.com/"}
+  social:
+    - {name: "twitter", link: "https://twitter.com/krzysztofmejka"}

@@ -60,7 +60,7 @@
       startTime: "12:30",
       endTime: "15:00",
       sessionIds: [4],
-      workshopsIds: [14, 10]
+      workshopsIds: [14, 10, 21]
     }
     - {
     	startTime: "15:00",
