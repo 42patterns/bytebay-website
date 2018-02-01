@@ -115,10 +115,10 @@ mapMobileCenterCoordinates: "54.384854,18.636528"
 # Venue Block
 venueBlockTitle: "Stadion Energa Gdańsk"
 venueBlockLeadText: "Stadion Energa Gdańsk to niemal nieograniczona liczba możliwych warsztatów i sesji <i>deep-dive</i> <br> w niesamowitej scenerii lóż biznesowych, sektorów VIP czy szatni piłkarskich"
-venueBigImage: "stadion_1.jpg"
-venueSmallImage1: "stadion_2.jpg"
-venueSmallImage2: "stadion_3.jpg"
-venueSmallImage3: "stadion_4.jpg"
+venueBigImage: "stadion_14.jpg"
+venueSmallImage1: "stadion_10.jpg"
+venueSmallImage2: "stadion_11.jpg"
+venueSmallImage3: "stadion_12.jpg"
 venueTitle: "Niebywałe miejsce"
 venueFeatures: ["Zupełnie inna przestrzeń szkoleniowa", "Strefa reklaksu", "Warsztaty w lożach i sky boxach."]
 
