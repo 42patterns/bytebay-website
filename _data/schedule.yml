@@ -2,8 +2,8 @@
   date: "2018-03-15"
   dateReadable: "15 marca"
   tracks:
-    - {title: "Deep dive", color: "#03a9f4"}
     - {title: "Warsztaty", color: "#e91e63"}
+    - {title: "Deep dive", color: "#03a9f4"}
   timeslots:
     - {
     	startTime: "09:00",
@@ -19,7 +19,7 @@
       startTime: "10:30",
       endTime: "13:00",
       sessionIds: [9991],
-      workshopsIds: [6, 5, 16, 11, 15]
+      workshopsIds: [11, 15, 6, 5, 16]
     }
     - {
     	startTime: "13:00",
@@ -48,7 +48,7 @@
     	startTime: "9:00",
     	endTime: "11:30",
       sessionIds: [7],
-      workshopsIds: [2, 12]
+      workshopsIds: [12, 2]
 
     }
     - {
