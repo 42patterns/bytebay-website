@@ -48,9 +48,9 @@ navigationLinks:
  - {permalink: "/#subscribe", text: "Nasz newsletter"}
 bottomNavigationLinks:
  - {link: "/#tickets", text: "Kup bilet"}
- - {link: "http://goo.gl/ZeiXSe", text: "Dołącz jako trener"}
+ # - {link: "http://goo.gl/ZeiXSe", text: "Dołącz jako trener"}
 rightNavigationButtons:
- - {link: "http://goo.gl/ZeiXSe", text: "Dołącz jako trener"}
+ # - {link: "http://goo.gl/ZeiXSe", text: "Dołącz jako trener"}
  - {link: "/#tickets", text: "Kup bilet"}
 
 # Hero Block
@@ -60,7 +60,7 @@ eventDate: "15-16 marca 2018 - Stadion Energa Gdańsk"
 typeoutTextValues: '"", "Warsztaty", "Networking", "Programowanie", "Agile"'
 typeoutFallback: "100% Warsztatów"
 heroButtons:
- - {link: "http://goo.gl/ZeiXSe", text: "Dołącz jako trener"}
+ # - {link: "http://goo.gl/ZeiXSe", text: "Dołącz jako trener"}
  - {permalink: "/#tickets", text: "Kup bilet"}
 
 # About Block
