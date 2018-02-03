@@ -85,7 +85,13 @@ list:
   -
     id: 2
     title: "O optymalizacji MongoDB przykładów kilka"
-    description: ""
+    description: "MongoDB to w ostatnich latach jedna z najpopularniejszych NoSQL'owych baz danych. Jak każda baza obiecuje być szybka, niezawodnia i skalowalna. Jednak jak pokazuje Problem Wyciekającej Abstrakcji (https://en.wikipedia.org/wiki/Leaky_abstraction) nie da się tego osiągnąć bez znajomości niuansów i wewnętrznej implementacji (a przynajmniej wiedzy o tym, jak działa dane narzędzie poniżej publicznego api).
+
+    Na warsztacie przyjrzymy się temu jak poszukiwać wąskie gardła, jak czytać explain() i na co zwracać uwagę. Dokładnie przyjrzymy się indeksom. Dowiemy się jak najlepiej wykorzystywać indeksy do sortowania, dlaczego tak ważna jest kolejność pól w indeksie oraz jakie są zasady, którymi powinniśmy się kierować tworząc indeksy.
+
+    Aby dodać łyżkę dziegciu do beczki miodu rzucimy okiem na ciemniejszą stronę indeksów - zasobożerność i to jak wpływają na wydajność zapisów.
+
+    Oprócz tego zobaczymy kilka trików z klastrami (replica set) oraz na co zwrócić uwagę przy używaniu shardingu."
     type: 0
     speakers: [4]
     complexity: 2
