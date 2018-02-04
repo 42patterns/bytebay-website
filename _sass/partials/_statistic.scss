@@ -1,17 +1,46 @@
 .statistic {
 	.counter {
-		@media (max-width: 767px) {
-			padding-top: 26px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			@media (max-width: 767px) {
+				padding-top: 26px;
+			}
 		}
-	}
+
+		@mixin stat-shared($font-size) {
+			font-size: $font-size;
+	    // color: $link-color;
+			color: white;
+			border-radius: 50%;
+			width: $font-size + 100px;
+			height: $font-size + 100px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
     .stat {
-    	font-size: 100px;
-	    color: $link-color;
+			@include stat-shared(80px);
+
+			&.bgcolor0 {
+				background-color: #3BBFCB;
+			}
+
+			&.bgcolor1 {
+				background-color: #3BBFCB;
+			}
+
+			&.bgcolor2 {
+				background-color: #2A6AA5;
+			}
+
 	    @media (min-width: 768px) and (max-width: 991px) {
-	    	font-size: 80px;
+	    	@include stat-shared(70px);
 	    }
 	    @media (max-width: 767px) {
-			font-size: 70px;
+	    	@include stat-shared(60px);
 	    }
 	}
 	.stat-info {
