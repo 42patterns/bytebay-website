@@ -376,3 +376,40 @@ list:
     type: 0
     speakers: [32]
     complexity: 1
+
+  - id: 22
+    title: "Functional concepts in JavaScript"
+    description: "Niektóre elementy programowania funkcyjne przydadzą się każdemu. Nie będziemy omawiać monad, funktorow i innych ciekawych matematycznych terminów. Zobaczymy w jaki sposób programowanie funkcyjne pomoże nam udoskonalić nasz kod, uczyni go bardziej czytelnym. Będziemy eksperymentowali z kilkoma funkcyjnymi operacjami i typami danych. Prześledzimy konstrukcje, które wykorzystujemy na co dzień i przeniesiemy je do świata programowania funkcyjnego. "
+    type: 0
+    speakers: [17]
+    complexity: 1
+
+  - id: 23
+    title: "How I Learned to Stop Worrying and Love the Functional Programming with Scala."
+    description: "1. ”You must unlearn what you have learned” - probably you heard something about Functional Programming (FP). Maybe you being told that programming in Scala is something complicated, counterproductive and unintuitive. Don’t listen to them, it’s all bullshit!
+
+    2. “Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering” - Doing something new is not easy. You will probably fail few times during this journey, something will be challenging, but stay calm, will get through this. Functional programming is a really funny thing to do. You don’t need to read ten books about monads before going to this workshop. We will be solving some everyday programmer’s problems with easy, rational methods.
+
+    3. “DO or do not! There is no try” - If fear is released, we can proceed. On this workshop, you will DO most of the coding. I will be guiding and mentoring. I will let you explore the force of FP on your own. You gonna see why FP is useful while having some fun.
+
+    Agenda (after each point, we make some exercise):
+
+    - We will start from concepts like Option, that you probably already know (type class)
+
+    - I will explain some concepts behind scala std lib like List (immutability)
+
+    - I will introduce Try / Future (useful scala-tools)
+
+    - We gonna mix some really useful FP stuff like Either concept
+
+    - We gonna to know how to mix and cooperate with all above concepts"
+    type: 0
+    speakers: [33]
+    complexity: 0
+
+  - id: 24
+    title: "Datalog: Biting the Silver Bullet"
+    description: "\"Databases, databases everywhere! Which one do I need?\" -- You need all of them; you need none of them; you're asking all the wrong questions! This workshop is dedicated to solving the data vs code impedance mismatch with a 1970's technology (chevron mustache is optional). This workshop assumes no previous knowledge of Datalog and applies to both client and server applications. If you are interested in data pipelines, GraphQL, event-sourcing, or building maintainable data systems, you will leave a better person* (some restrictions apply, promises are not legally binding)."
+    type: 1
+    speakers: [34]
+    complexity: 0

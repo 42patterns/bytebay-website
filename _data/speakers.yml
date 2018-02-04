@@ -398,3 +398,22 @@
     - {abbr: "Travactory", title: "Travactory", url: "http://travactory.com/"}
   social:
     - {name: "twitter", link: "https://twitter.com/krzysztofmejka"}
+
+-
+  id: 33
+  name: "Andrzej"
+  surname: "Janczak"
+  comapany: "Scalac"
+  bio: "Dreams about perfect and simple solutions with clean code. Love to struggle with complicated, nontrivial problems. Lately develops myself in functional programming, distributed architecture and big data."
+  thumbnailUrl: "andrzej_janczak.jpg"
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/andrzej-janczak/"}
+
+-
+  id: 34
+  name: "Norbert"
+  surname: "Wójtowicz"
+  bio: "Norbert Wójtowicz is a recovering empty-stack developer, whose magic 8-ball predicts that Clojure and ClojureScript will be in your future toolbox. You can find his code and ramblings in various corners of the internet, under the felicitous handle @pithyless."
+  thumbnailUrl: "norbert_wojtowicz.jpg"
+  social:
+    - {name: "twitter", link: "https://twitter.com/pithyless"}
