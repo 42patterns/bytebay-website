@@ -21,9 +21,9 @@
             <div class="row topic-details">
               <h5>{{ site.aboutTopicsTitle }}</h5>
               {% for topic in site.aboutTopics %}
-              <div class="col-lg-4 col-sm-6 col-12"> 
-                <p><strong>{{ topic.title }}</strong></p>
-                <p>{{ topic.text }}</p>
+              <div class="topic col-lg-4 col-sm-6 col-12">
+                <p class="heading"><strong>{{ topic.title }}</strong></p>
+                <p class="details">{{ topic.text }}</p>
               </div>
               {% endfor %}
             </div>
