@@ -1,5 +1,4 @@
--
-  id: 3
+- id: 3
   name: "Jarosław"
   surname: "Pałka"
   company: "Symentis"
@@ -16,8 +15,7 @@
     - {name: "site", link: "http://geekyprimitives.wordpress.com/"}
     - {name: "twitter", link: "https://twitter.com/j_palka"}
 
--
-  id: 5
+- id: 5
   name: "Sławomir"
   surname: "Sobótka"
   company: "Bottega IT Minds"
@@ -30,8 +28,8 @@
   social:
     - {name: "site", link: "http://art-of-software.blogspot.com/"}
     - {name: "twitter", link: "https://twitter.com/bottega_it"}
--
-  id: 6
+
+- id: 6
   name: "Mariusz"
   surname: "Gil"
   company: "Bottega IT Minds"
@@ -44,8 +42,8 @@
     - {abbr: "Source Ministry", title: "Source Ministry", url: "https://sourceministry.com/"}
   social:
     - {name: "twitter", link: "https://twitter.com/mariuszgil"}
--
-  id: 9
+
+- id: 9
   name: "Daniel"
   surname: "Pokusa"
   company: "Onwelo"
@@ -57,8 +55,7 @@
   social:
     - {name: "twitter", link: "https://twitter.com/dpokusa"}
 
--
-  id: 4
+- id: 4
   name: "Wiktor"
   surname: "Sztajerowski"
   company: "Symentis"
@@ -70,8 +67,7 @@
   social:
     - {name: "twitter", link: "https://twitter.com/wsztajerowski"}
 
--
-  id: 8
+- id: 8
   name: "Grzegorz"
   surname: "Dyrda"
   company: "Geeky Devs"
@@ -84,8 +80,7 @@
     - {name: "twitter", link: "https://twitter.com/grzegorzdyrda"}
     - {name: "site", link: "http://geekydevs.com/"}
 
--
-  id: 16
+- id: 16
   name: "Zbyszko"
   surname: "Papierski"
   company: "Dynatrace"
@@ -97,8 +92,7 @@
   social:
     - {name: "twitter", link: "https://twitter.com/zpapierski"}
 
--
-  id: 22
+- id: 22
   name: "Wiktor"
   surname: "Bachnik"
   company: "Dynatrace"
@@ -108,8 +102,7 @@
   ribbon:
     - {abbr: "Dynatrace", title: "Dynatrace", url: "https://www.dynatrace.com/"}
 
--
-  id: 23
+- id: 23
   name: "Jakub"
   surname: "Słota"
   company: "Dynatrace"
@@ -121,8 +114,7 @@
   ribbon:
     - {abbr: "Dynatrace", title: "Dynatrace", url: "https://www.dynatrace.com"}
 
--
-  id: 24
+- id: 24
   name: "Kasper"
   surname: "Kulikowski"
   company: "Dynatrace"
@@ -137,8 +129,7 @@
     - {name: "github", link: "https://github.com/Kulikowski"}
     - {name: "LinkedIn", link: "https://www.linkedin.com/in/kasper-kulikowski/"}
 
--
-  id: 25
+- id: 25
   name: "Przemysław"
   surname: "Delewski"
   company: "Dynatrace"
@@ -151,8 +142,7 @@
   social:
     - {name: "github", link: "https://github.com/PDelak"}
 
--
-  id: 26
+- id: 26
   name: "Dominika"
   surname: "Makuch"
   company: "Dynatrace"
@@ -165,8 +155,7 @@
   ribbon:
     - {abbr: "Dynatrace", title: "Dynatrace", url: "https://www.dynatrace.com/"}
 
--
-  id: 27
+- id: 27
   name: "Grzegorz"
   surname: "Witczak"
   company: "Dynatrace"
@@ -183,8 +172,7 @@
     - {name: "github", link: "https://github.com/greg-witczak"}
     - {name: "LinkedIn", link: "https://pl.linkedin.com/in/gwitczak"}
 
--
-  id: 29
+- id: 29
   name: "Marcin"
   surname: "Okraszewski"
   company: "Dynatrace"
@@ -197,8 +185,7 @@
     - {name: "linkedin", link: "https://www.linkedin.com/in/okrasz/"}
 
 
--
-  id: 28
+- id: 28
   name: "Michał"
   surname: "Weyer"
   company: "Dynatrace"
@@ -208,11 +195,10 @@
   ribbon:
     - {abbr: "Dynatrace", title: "Dynatrace", url: "https://www.dynatrace.com/"}
   social:
-    - {name: "site", link: "codeinanger.com"}
+    - {name: "site", link: "http://codeinanger.com"}
 
 
--
-  id: 7
+- id: 7
   name: "Michał"
   surname: "Michałuk"
   company: "Bottega IT Minds"
@@ -222,8 +208,7 @@
   ribbon:
     - {abbr: "Bottega", title: "Bottega IT Minds", url: "https://bottega.com.pl"}
 
--
-  id: 10
+- id: 10
   name: "Łukasz"
   surname: "Szydło"
   company: "Bottega"
@@ -237,8 +222,7 @@
   social:
     - {name: "twitter", link: "https://twitter.com/lszydlo"}
 
--
-  id: 11
+- id: 11
   name: "Wojciech"
   surname: "Oczkowski"
   company: "IT Kontekst"
@@ -248,8 +232,7 @@
     - {abbr: "IT Kontekst", title: "IT Kontekst", url: "http://itkontekst.pl/"}
   thumbnailUrl: wojtek_oczkowski.jpg
 
--
-  id: 12
+- id: 12
   name: "Łukasz"
   surname: "Łuczak"
   company: "Symentis"
@@ -264,8 +247,7 @@
   social:
     - {name: "twitter", link: "https://twitter.com/lukasz_luczak"}
 
--
-  id: 13
+- id: 13
   name: "Paweł"
   surname: "Kapała"
   company: "kapware.com"
@@ -278,8 +260,7 @@
     - {name: "twitter", link: "https://twitter.com/kapware"}
     - {name: "site", link: "http://kapware.com/"}
 
--
-  id: 15
+- id: 15
   name: "Paweł"
   surname: "Włodarski"
   company: "Idemia"
@@ -291,8 +272,7 @@
   social:
     - {name: "twitter", link: "https://twitter.com/PawelWlodarski"}
 
--
-  id: 17
+- id: 17
   name: "Bartłomiej"
   surname: "Witczak"
   company: "DayOne"
@@ -304,8 +284,7 @@
   social:
     - {name: "twitter", link: "https://twitter.com/bartekwitczak"}
 
--
-  id: 18
+- id: 18
   name: "Maciej"
   surname: "Krajewski"
   company: "Yameo"
@@ -317,8 +296,7 @@
     - {abbr: "iSA", title: "infoShare Academy", url: "http://infoshareacademy.com"}
   social:
     - {name: "Linkedin", link: "https://www.linkedin.com/in/maciejkrajewski/"}
--
-  id: 19
+- id: 19
   name: "Michał"
   surname: "Miszczyszyn"
   company: "Type of Web"
@@ -331,8 +309,7 @@
   social:
     - {name: "site", link: "https://typeofweb.com/"}
     - {name: "twitter", link: "https://twitter.com/mmiszy"}
--
-  id: 20
+- id: 20
   name: "Marcin"
   surname: "Stożek"
   company: "Collective Sense"
@@ -347,8 +324,7 @@
     - {name: "site", link: "https://perk.pl"}
     - {name: "twitter", link: "https://twitter.com/marcinstozek"}
 
--
-  id: 21
+- id: 21
   name: "Patryk"
   surname: "Omiotek"
   company: "intive"
@@ -362,8 +338,7 @@
     - {name: "site", link: "https://about.me/patrykomiotek"}
     - {name: "twitter", link: "https://twitter.com/PatrykOmiotek"}
 
--
-  id: 30
+- id: 30
   name: "Rafał"
   surname: "Borowiec"
   company: "Goyello"
@@ -375,8 +350,7 @@
     - {name: "site", link: "http://blog.codeleak.pl/"}
     - {name: "twitter", link: "https://twitter.com/kolorobot"}
 
--
-  id: 31
+- id: 31
   name: "Maciej"
   surname: "Koziara"
   company: "Goyello"
@@ -387,8 +361,7 @@
   social:
     - {name: "linkedin", link: "https://www.linkedin.com/in/maciej-koziara-40247211a/"}
 
--
-  id: 32
+- id: 32
   name: "Krzysztof"
   surname: "Mejka"
   company: "Travactory"
@@ -399,21 +372,55 @@
   social:
     - {name: "twitter", link: "https://twitter.com/krzysztofmejka"}
 
--
-  id: 33
+- id: 33
   name: "Andrzej"
   surname: "Janczak"
-  comapany: "Scalac"
+  company: "Scalac"
   bio: "Dreams about perfect and simple solutions with clean code. Love to struggle with complicated, nontrivial problems. Lately develops myself in functional programming, distributed architecture and big data."
   thumbnailUrl: "andrzej_janczak.jpg"
   social:
     - {name: "linkedin", link: "https://www.linkedin.com/in/andrzej-janczak/"}
 
--
-  id: 34
+- id: 34
   name: "Norbert"
   surname: "Wójtowicz"
   bio: "Norbert Wójtowicz is a recovering empty-stack developer, whose magic 8-ball predicts that Clojure and ClojureScript will be in your future toolbox. You can find his code and ramblings in various corners of the internet, under the felicitous handle @pithyless."
   thumbnailUrl: "norbert_wojtowicz.jpg"
   social:
     - {name: "twitter", link: "https://twitter.com/pithyless"}
+
+- id: 35
+  name: "Michał"
+  surname: "Gryko"
+  company: "Nordea"
+  ribbon:
+    - {abbr: "Nordea", title: "Nodea", url: "http://nordea.pl/it"}
+
+
+- id: 36
+  name: "Bartosz"
+  surname: "Nowakowski"
+  company: "Nordea"
+  ribbon:
+    - {abbr: "Nordea", title: "Nodea", url: "http://nordea.pl/it"}
+
+- id: 37
+  name: "Tomasz"
+  surname: "Mazur"
+  company: "Nordea"
+  ribbon:
+    - {abbr: "Nordea", title: "Nodea", url: "http://nordea.pl/it"}
+
+- id: 38
+  name: "Tomasz"
+  surname: "Wnorowski"
+  company: "Nordea"
+  ribbon:
+    - {abbr: "Nordea", title: "Nodea", url: "http://nordea.pl/it"}
+
+- id: 39
+  name: "Adam"
+  surname: "Marczyk"
+  company: "Nordea"
+  ribbon:
+    - {abbr: "Nordea", title: "Nodea", url: "http://nordea.pl/it"}

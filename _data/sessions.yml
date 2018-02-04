@@ -413,3 +413,50 @@ list:
     type: 1
     speakers: [34]
     complexity: 0
+
+  - id: 25
+    title: "Wykorzystanie dockera w celu poprawy efektywności CI/CD"
+    description: "Dzięki zastosowaniu dockera możemy zwiększyć efektywność naszego CI/CD. I nie mamy tu na myśli konteneryzacji aplikacji, a wykorzystanie dockera jako składnik środowiska budującego (development toolchain). Na warsztacie wspólnie przygotujemy build plan  w narzędziu CI z pojedynczym agentem, a następnie jak w prosty sposób skalować to rozwiązanie gdy przybywa nam obciążenia - zarówno w postaci wzrostu ilości: użytkowników, build planów oraz samych buildów. Każdy z uczestników będzie rozwijał swoje środowisko CI z wykorzystaniem platformy chmurowej. W wielu firmach dużym problemem jest utrzymywanie wydajnej infrastruktury CI/CD i chcemy zaprezentować jeden ze sposobów na rozwiązanie tego wyzwania.
+
+    Podczas warsztatu poruszymy następujące kwestie:
+
+      - Tworzenie kontenera budującego przykładową aplikację
+
+      - Uruchomienie kontenera budującego w lokalnym środowisku
+
+      - Symulacja wzrostu ilości równoległych buildów
+
+      - Skalowanie kontenerów budujących z wykorzystaniem chmury
+
+    <figure><figcaption>Środowisko do przygotowania przed warsztatami:</figcaption>
+    <ul>
+      <li>docker w wersji &gt;= 17.09
+      <li>docker-compose w wersji &gt;= 1.18
+    </ul></figure>"
+    type: 0
+    speakers: [35, 36]
+    complexity: 0
+    
+  - id: 26
+    title: "Service Discovery &amp; Failure Detection with Consul (101)"
+    description: "Do you want to know how you can ensure that your microservices are resilient to network problems? Or perhaps you need to know how to keep system running even after crash of the half of the servers? Join our workshop to learn more. The workshop provides intensive introduction into service discovery tool from Hashicorp -  Consul.
+
+    Our exercises ran for the two-and-half hour and at the end, you should have basic knowledge on how to do service discovery and failure detection in highly resilient environments. We will also cover some best practices for using Consul at scale."
+    type: 0
+    speakers: [37, 38]
+    complexity: 0
+
+  - id: 27
+    title: "React – co i jak?"
+    description: "Chcesz nauczyć się najpopularniejszej technologii do tworzenia aplikacji internetowych? Poprawić swoje umiejętności programowania w JavaScript? Skupiając się na prostocie przekazu ten kurs pokaże Ci:
+
+      - Jak zbudować dynamiczną aplikację internetową w krótkim czasie
+
+      - Jak wykorzystać create-react- app w swojej pracy
+
+      - Jak skorzystać z nowych funkcji ES6
+
+      W czasie warsztatu zbudujemy razem aplikację opartą o najnowocześniejsze technologie frontendowe, których używa m. in. Netflix, Facebook czy AirBnB."
+    type: 0
+    speakers: [39]
+    complexity: 0
