@@ -37,9 +37,21 @@
             <span class="theme-metadata"><span class="caption">Typ sesji: </span><strong>{{ site.data.sessions.meta.sessiontype[session.type].title }}</strong></span>
             {% endif %}
 						{% if session.complexity != null %}
-						<span class="theme-metadata"><span class="caption">Poziom: </span>{{ site.data.sessions.meta.complexity[session.complexity].title }}</span>
+						<span class="theme-metadata"><span class="caption">Poziom: </span><strong>{{ site.data.sessions.meta.complexity[session.complexity].title }}</strong></span>
 						{% endif %}
 						<p class="theme-description">{{ session.description | newline_to_br }}</p>
+            {% if session.prereq %}
+            <p class="theme-description">
+              <figure>
+                <figcaption>{{ session.prereq["title"] }}</figcaption>
+                <ul>
+                  {% for p in session.prereq["list"] %}
+                  <li>{{ p }}
+                  {% endfor %}
+                </ul>
+              </figure>
+            </p>
+            {% endif %}
 						<hr>
 						<div class="people-details">
 							{% for speaker in site.data.speakers %}

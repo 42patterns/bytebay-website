@@ -145,9 +145,12 @@ list:
     <li>Budowanie skalowalnej aplikacji
     </ul>
 
-    <b>Oczekiwany poziom:</b> Podstawowa wiedza z zakresu linuxa - poruszanie się po konsoli, instalowanie paczek itd. Doświadczenie z dockerem mile widziane, gwarantuje że poznasz go lepiej.
-
-    <b>Co trzeba mieć na kompie:</b> zainstalowaną najnowszą wersję <a href=\"https://docs.docker.com/engine/installation/\"dockera (Community Edition)</a> i <a href=\"https://docs.docker.com/compose/install/\">docker-compose’a</a> - zlecany linux lub os x"
+    <b>Oczekiwany poziom:</b> Podstawowa wiedza z zakresu linuxa - poruszanie się po konsoli, instalowanie paczek itd. Doświadczenie z dockerem mile widziane, gwarantuje że poznasz go lepiej."
+    prereq: {title: "Co trzeba mieć na kompie", list: [
+      "zainstalowaną najnowszą wersję <a href=\"https://docs.docker.com/engine/installation/\"dockera (Community Edition)</a>",
+      "<a href=\"https://docs.docker.com/compose/install/\">docker-compose</a>",
+      "zlecany linux lub os x"
+    ]}
     type: 0
     speakers: [18]
     complexity: 0
@@ -167,9 +170,8 @@ list:
 
     <b>REST assured</b>
 
-    Zbudujmy coś praktycznego! Krok po kroku, małymi zmianami zbudujemy razem prostą aplikację, która będzie odpowiadać na http. Taki typowy przypadek użycia. Pozwoli to przećwiczyć wiedzę nabytą w pierwszej części warsztatu.
-
-    Wymagania przed warsztatem: laptop z nowożytna przeglądarka internetową"
+    Zbudujmy coś praktycznego! Krok po kroku, małymi zmianami zbudujemy razem prostą aplikację, która będzie odpowiadać na http. Taki typowy przypadek użycia. Pozwoli to przećwiczyć wiedzę nabytą w pierwszej części warsztatu."
+    prereq: {title: "Wymagania przed warsztatem", list: ["Laptop z nowożytna przeglądarka internetową"]}
     type: 0
     speakers: [13]
     complexity: 0
@@ -205,9 +207,8 @@ list:
     title: "Zawładnij (hiper)tekstem, czyli jak zbudować wyszukiwarkę?"
     description: "Przeszukiwanie tekstu zagościło na dobre we współczesnych aplikacjach internetowych. Czy zastanawiałeś się, jak to właściwie działa? Może chciałbyś stworzyć własną wyszukiwarkę, obsługującą różnorodne formy danych wejściowych?
 
-    Poznaj Lucene - silnik wyszukiwania leżący u podstaw popularnych rozwiązań, takich jak Elasticsearch, Opengrok, czy Apache Solr. Dowiedz się, jak zbudowany jest indeks wyszukiwarki i jak sprawić, aby użytkownik szybko znalazł interesujące go dane. W ramach warsztatu zobaczysz, jak sprowadzić tekst do postaci, którą można efektywnie przeszukiwać. Nauczysz się także stosować Lucene w praktyce, krok po kroku budując własną, coraz bardziej wyrafinowaną wyszukiwarkę.
-
-    Wymagany laptop i podstawowa znajomość Javy."
+    Poznaj Lucene - silnik wyszukiwania leżący u podstaw popularnych rozwiązań, takich jak Elasticsearch, Opengrok, czy Apache Solr. Dowiedz się, jak zbudowany jest indeks wyszukiwarki i jak sprawić, aby użytkownik szybko znalazł interesujące go dane. W ramach warsztatu zobaczysz, jak sprowadzić tekst do postaci, którą można efektywnie przeszukiwać. Nauczysz się także stosować Lucene w praktyce, krok po kroku budując własną, coraz bardziej wyrafinowaną wyszukiwarkę."
+    prereq: {title: "Wymagania przed warsztatem", list: ["laptop i podstawowa znajomość Javy"]}
     type: 0
     speakers: [16, 23]
     complexity: 0
@@ -253,15 +254,12 @@ list:
 
     Zapraszam na piękną przygodę poznawania języka, który czerpie pełnymi garściami z doświadczeń swoich wielkich poprzedników - Java, C#, Groovy, JavaScript, Scala, Swift - biorąc z nich to, co najlepsze, a odrzucając to, co słabe.
 
-    Najpierw omówimy założenia języka i motywy jakie przyświecały jego twórcom (JetBrains). A potem włączymy IntelliJ i zaczniemy się bawić :) Serio - niektóre rozwiązania są tak genialne, że wywołują niekontrolowany uśmiech na twarzy :) Przećwiczymy najważniejsze elementy składni języka i jego najciekawsze funkcjonalności, rozwiązując przy tym sporo praktycznych zadań.
-
-    Wymagania względem uczestników:
-
-      - Żadna wiedza o Kotlinie nie jest wymagana (warsztaty będą od samych podstaw)
-
-      - Przyda się znajomość Javy (będzie sporo porównań Kotlin vs Java)
-
-      - Przynosimy laptopy z zainstalowanym IntelliJ IDEA (może być darmowa wersja Community)"
+    Najpierw omówimy założenia języka i motywy jakie przyświecały jego twórcom (JetBrains). A potem włączymy IntelliJ i zaczniemy się bawić :) Serio - niektóre rozwiązania są tak genialne, że wywołują niekontrolowany uśmiech na twarzy :) Przećwiczymy najważniejsze elementy składni języka i jego najciekawsze funkcjonalności, rozwiązując przy tym sporo praktycznych zadań."
+    prereq: {title: "Wymagania względem uczestników", list: [
+      "Żadna wiedza o Kotlinie nie jest wymagana (warsztaty będą od samych podstaw)",
+      "Przyda się znajomość Javy (będzie sporo porównań Kotlin vs Java)",
+      "Przynosimy laptopy z zainstalowanym IntelliJ IDEA (może być darmowa wersja Community)"
+    ]}
     type: 0
     speakers: [8]
     complexity: 1
@@ -301,14 +299,13 @@ list:
 
     Nie trzeba znać Scali, trzeba trochę znać Javę.
 
-    <figure><figcaption>Przed warsztatem warto przygotować środowisko:</figcaption>
-      <ol>
-      <li>Wyciągnijcie kod : https://github.com/PawelWlodarski/workshops
-      <li>Zainstalujcie https://www.jetbrains.com/idea/ community edition (bezpłatne) i później w opcjach zainstalujcie plugin do scali.
-      <li>Zaimportujcie projekt (ten z wyciągniętego kodu) do IDE.
-      <li>Otwórzcie klaskę \"TestingJavaClassAnswer\" (2 razy Shift otwiera okno wyszukiwania) i odpalcie (ctrl+Shift+F10). Powinien pojawić się zielony pasek.
-      </ol></figure>
-      Kto chętny może zapoznać się z teorią : https://pawelwlodarski.gitbooks.io/workshops/content/"
+    Kto chętny może zapoznać się z teorią : https://pawelwlodarski.gitbooks.io/workshops/content/"
+    prereq: {title: "Przed warsztatem warto przygotować środowisko", list: [
+      "Wyciągnijcie kod : https://github.com/PawelWlodarski/workshops",
+      "Zainstalujcie https://www.jetbrains.com/idea/ community edition (bezpłatne) i później w opcjach zainstalujcie plugin do scali.",
+      "Zaimportujcie projekt (ten z wyciągniętego kodu) do IDE.",
+      "Otwórzcie klaskę \"TestingJavaClassAnswer\" (2 razy Shift otwiera okno wyszukiwania) i odpalcie (ctrl+Shift+F10). Powinien pojawić się zielony pasek."
+    ]}
     type: 0
     speakers: [15]
     complexity: 0
@@ -336,16 +333,14 @@ list:
     <li>Zabezpieczysz hasła i klucze do baz danych
     </ul></figure>
 
-    Wszystko to pozwoli Ci swobodnie pracować i przygotowywać konfiguracje aplikacji za które administratorzy Cię pokochają :)
-
-    <figure><figcaption>Wymagania</figcaption>
-    <ul>
-    <li>Komputer z minimum 8GB pamięci (mocno zalecane 12GB) i procesor z minimum dwoma core'ami
-    <li>Skonfigurowany i zainstalowany docker
-    <li>Podstawowa znajomość komend dockera (pobieranie obrazów z dockerhub, budowanie obrazów). Znajomość przygotowywania plików dockera może pomóc, ale nie jest konieczna.
-    <li>Zainstalowany edytor tekstu
-    <li>Konsola użytkownika i podstawowa umiejętność jej obsługi w swoim systemie operacyjnym
-    </ul></figure>"
+    Wszystko to pozwoli Ci swobodnie pracować i przygotowywać konfiguracje aplikacji za które administratorzy Cię pokochają :)"
+    prereq: {title: "Wymagania", list: [
+      "Komputer z minimum 8GB pamięci (mocno zalecane 12GB) i procesor z minimum dwoma core'ami",
+      "Skonfigurowany i zainstalowany docker",
+      "Podstawowa znajomość komend dockera (pobieranie obrazów z dockerhub, budowanie obrazów). Znajomość przygotowywania plików dockera może pomóc, ale nie jest konieczna.",
+      "Zainstalowany edytor tekstu",
+      "Konsola użytkownika i podstawowa umiejętność jej obsługi w swoim systemie operacyjnym    "
+    ]}
     type: 0
     speakers: [9]
     complexity: 0
@@ -355,11 +350,8 @@ list:
     title: "Testowanie wydajności kodu Javy za pomocą narzędzia JMH."
     description: "Testowanie wydajności kodu. A co w tym trudnego? Wystarczy System.currentTimeMillis() przed i po wywołaniu metody i po kłopocie. Przecież sam Bruce Eckel tak robił. Okazuje że można przy okazji popełnić wiele typowych błędów, które mogą spowodować, że nasze szacowania będą bezużyteczne. W ramach sesji warsztatowej wykorzystamy narzędzie JMH do testowania naszych kawałków kodu i zobaczymy jak pomoże nam ono tych błędów uniknąć. Przy okazji poznamy też triki JIT-compilera, którymi sprawia, że java potrafi działać naprawdę szybko ale przy okazji czyni pisanie microbenchmarków zadaniem nie tak trywialnym jakby się mogło na pierwszy rzut oka wydawać.
 
-    Uczestnicy powinni umieć programować w Javie.
-
-    <figure><figcaption>Środowisko:</figcaption>
-    Dowolne IDE do Javy plus maven, GIT, podłączenie do internetu.
-    </figure>"
+    Uczestnicy powinni umieć programować w Javie."
+    prereq: {title: "Środowisko", list: ["Dowolne IDE do Javy plus maven", "GIT"]}
     type: 0
     speakers: [11]
     complexity: 1
@@ -368,11 +360,8 @@ list:
     title: "Implementacja OAuth 2.0 za pomocą Spring Boot"
     description: "W ramach warsztatu opiszę  na czym polega bardzo popularny framework OAuth 2.0  oraz pokażę jak wygląda jego implementacja w Spring Boot oraz jak  zabezpieczyć za jego pomocą system zbudowany w oparciu o mikroserwisy
 
-    Uczestnicy powinni umieć programować w Javie.
-
-    <figure><figcaption>Środowisko:</figcaption>
-    Laptop, z IDE (pref. Intellij), JDK 1.8
-    </figure>"
+    Uczestnicy powinni umieć programować w Javie."
+    prereq: {title: "Środowisko", list: ["Laptop, z IDE (pref. Intellij)", "JDK 1.8"]}
     type: 0
     speakers: [32]
     complexity: 1
@@ -401,16 +390,14 @@ list:
 
     Nie rozkładamy samochodu na części pierwsze. Tak jak w życiu, najpierw tylko jeździmy samochodem i ewentualnie sami wymieniamy olej, abstrahując od wewnętrznego skomplikowania mechanizmów.
 
-    Warsztaty będą bardzo praktyczne. Najpierw przedstawię wam zasadę działania elementu poprzez przykłady lub live-coding, a następnie będziecie sami implementować konkretne zadanie na przygotowanej domenie i templacie.
-
-    <figure><figcaption>Wymagania</figcaption>
-    <ul>
-      <li>Java 1.8
-      <li>Sbt >= 1.0
-      <li>Scala >= 2.12
-      <li>ulubiony edytor / IDE, zalecam Intellij (prowadzący będzie korzystał z Intellij z wtyczką do scali)
-      <li>pobrany kod źródłowy do workshopu (link będzie dostępny później)
-      </figure>"
+    Warsztaty będą bardzo praktyczne. Najpierw przedstawię wam zasadę działania elementu poprzez przykłady lub live-coding, a następnie będziecie sami implementować konkretne zadanie na przygotowanej domenie i templacie."
+    prereq: {title: "Wymagania", list: [
+      "Java 1.8",
+      "Sbt >= 1.0",
+      "Scala >= 2.12",
+      "ulubiony edytor / IDE, zalecam Intellij (prowadzący będzie korzystał z Intellij z wtyczką do scali)",
+      "pobrany kod źródłowy do workshopu (link będzie dostępny później)"
+    ]}
     type: 0
     speakers: [33]
     complexity: 0
@@ -434,13 +421,11 @@ list:
 
       - Symulacja wzrostu ilości równoległych buildów
 
-      - Skalowanie kontenerów budujących z wykorzystaniem chmury
-
-    <figure><figcaption>Środowisko do przygotowania przed warsztatami:</figcaption>
-    <ul>
-      <li>docker w wersji &gt;= 17.09
-      <li>docker-compose w wersji &gt;= 1.18
-    </ul></figure>"
+      - Skalowanie kontenerów budujących z wykorzystaniem chmury"
+    prereq: {title: "Środowisko do przygotowania przed warsztatami", list: [
+      "docker w wersji &gt;= 17.09",
+      "docker-compose w wersji &gt;= 1.18"
+    ]}
     type: 0
     speakers: [35, 36]
     complexity: 0
@@ -477,9 +462,26 @@ list:
 
       - przykłady bibliotek wbudowanych
 
-      - automatyzacja testów integracyjnych procesu  ETL
-
-      Wymagania dla komputera zainstalowany Virtualbox, Windows/Linux, 4GB RAM"
+      - automatyzacja testów integracyjnych procesu  ETL"
+    prereq: {title: "Wymagania przed warsztatem", list: [
+      "zainstalowany Virtualbox, Windows/Linux, 4GB RAM"
+    ]}
     type: 0
     speakers: [40]
+    complexity: 0
+  - id: 29
+    title: "NginX + Lua = OpenResty"
+    description: "Czy wiesz co potrafi zrobić twój serwer reverse-proxy? Wydaje Ci się, że żeby zrobić sprytny routing / uwierzytelnianie / autoryzację (niepotrzebne skreślić) między serwisami musisz go napisać w Javie lub jako moduł w C? A co jeżeli odpalanie JVM tylko po to, żeby do każdego żądania http dokleić jeden nagłówek to armata na wróbla? Zwłaszcza, że prawie na pewno gdzieś tam po drodze mijasz nginx...
+    Zapraszam Cię do świata idealnej symbiozy nginx i Lua.
+
+    Założenia co do uczestników:
+
+    Mogliby znać Dockera, bo wszystko będziemy na kontenerach odpalać. Przy czym widziałem, że są też warsztaty z niego, więc składa się idealnie...
+
+    Ani Lua ani NginX nie trzeba znać - będziemy robić warsztaty od \"zera do bohatera\" :)"
+    prereq: {title: "Jak przygotować sprzęt", list: [
+      "Linux + Docker, może być wirtualka Linuksa na Windowsie. Ulubiony edytor tekstu."
+    ]}
+    type: 0
+    speakers: [20]
     complexity: 0
