@@ -436,7 +436,7 @@ list:
     type: 0
     speakers: [35, 36]
     complexity: 0
-    
+
   - id: 26
     title: "Service Discovery &amp; Failure Detection with Consul (101)"
     description: "Do you want to know how you can ensure that your microservices are resilient to network problems? Or perhaps you need to know how to keep system running even after crash of the half of the servers? Join our workshop to learn more. The workshop provides intensive introduction into service discovery tool from Hashicorp -  Consul.
@@ -459,4 +459,19 @@ list:
       W czasie warsztatu zbudujemy razem aplikację opartą o najnowocześniejsze technologie frontendowe, których używa m. in. Netflix, Facebook czy AirBnB."
     type: 0
     speakers: [39]
+    complexity: 0
+
+  - id: 28
+    title: "Testy integracyjne przetwarzania danych z uzyciem RobotFramework"
+    description: "Agenda
+
+      - wprowadzenie do RobotFramework
+
+      - przykłady bibliotek wbudowanych
+
+      - automatyzacja testów integracyjnych procesu  ETL
+
+      Wymagania dla komputera zainstalowany Virtualbox, Windows/Linux, 4GB RAM"
+    type: 0
+    speakers: [40]
     complexity: 0

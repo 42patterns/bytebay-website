@@ -410,12 +410,13 @@
   ribbon:
     - {abbr: "Nordea", title: "Nodea", url: "http://nordea.pl/it"}
   social:
-    - {name: "site", link: "http://bnowakowski.pl/"}    
+    - {name: "site", link: "http://bnowakowski.pl/"}
 
 - id: 37
   name: "Tomasz"
   surname: "Mazur"
   company: "Nordea"
+  bio: "<br /><br /><br />"
   thumbnailUrl: "tomasz_mazur.jpg"
   ribbon:
     - {abbr: "Nordea", title: "Nodea", url: "http://nordea.pl/it"}
@@ -424,6 +425,7 @@
   name: "Tomasz"
   surname: "Wnorowski"
   company: "Nordea"
+  bio: "<br /><br /><br />"
   thumbnailUrl: "tomasz_wnorowski.jpg"
   ribbon:
     - {abbr: "Nordea", title: "Nodea", url: "http://nordea.pl/it"}
@@ -431,6 +433,14 @@
 - id: 39
   name: "Adam"
   surname: "Marczyk"
+  company: "Nordea"
+  ribbon:
+    - {abbr: "Nordea", title: "Nodea", url: "http://nordea.pl/it"}
+
+
+- id: 40
+  name: "Łukasz"
+  surname: "Szweda"
   company: "Nordea"
   ribbon:
     - {abbr: "Nordea", title: "Nodea", url: "http://nordea.pl/it"}
