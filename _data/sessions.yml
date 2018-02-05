@@ -385,24 +385,32 @@ list:
     complexity: 1
 
   - id: 23
-    title: "How I Learned to Stop Worrying and Love the Functional Programming with Scala."
-    description: "1. ”You must unlearn what you have learned” - probably you heard something about Functional Programming (FP). Maybe you being told that programming in Scala is something complicated, counterproductive and unintuitive. Don’t listen to them, it’s all bullshit!
+    title: "Efektywne programowanie funkcyjne w Scali"
+    description: "Odnośnie programowanie funkcyjnego oraz Scali narosło wiele mitów takich jak: \"Programowanie funkcyjne jest trudne i to sama matma\", \"Scala jest nieproduktywna, niezrozumiała i ogólnie ciężka\".
 
-    2. “Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering” - Doing something new is not easy. You will probably fail few times during this journey, something will be challenging, but stay calm, will get through this. Functional programming is a really funny thing to do. You don’t need to read ten books about monads before going to this workshop. We will be solving some everyday programmer’s problems with easy, rational methods.
+    Podczas moich warsztatów, dowiesz się że to wszystko nieprawda. Pokażę Ci, że programowanie funkcyjne w Scali jest logiczne, zrozumiałe i proste.
 
-    3. “DO or do not! There is no try” - If fear is released, we can proceed. On this workshop, you will DO most of the coding. I will be guiding and mentoring. I will let you explore the force of FP on your own. You gonna see why FP is useful while having some fun.
+    Lecz uważaj, smakując raz potęgi ciemnej (tak na prawdę jasnej) strony mocy, być może już nigdy nie będziesz chciał wrócić do starych praktyk.
 
-    Agenda (after each point, we make some exercise):
+    Uczymy się poprzez praktykę, więc jak najwięcej kodu będziecie pisać samodzielnie. Nie będziemy się rozwodzić nad słowami zaczynającymi się na M, F oraz A. Będą natomiast zadania w przygotowanej domenie, z problemami, z którymi spotykacie się na codzień.
 
-    - We will start from concepts like Option, that you probably already know (type class)
+    Znajomość Scali nie jest konieczna, ale nie będę opisywał i zagłębiał się w podstawy samego języka. Skupimy się na zaletach i bezpieczeństwie jakie daje podejście funkcyjne.
 
-    - I will explain some concepts behind scala std lib like List (immutability)
 
-    - I will introduce Try / Future (useful scala-tools)
+    Założenia i metodologia: Stosujemy metodę fake it till you make it , czyli udajemy, że doskonale znamy teorię programowania funkcyjnego i pomijamy jej wewnętrzne skomplikowanie.
 
-    - We gonna mix some really useful FP stuff like Either concept
+    Nie rozkładamy samochodu na części pierwsze. Tak jak w życiu, najpierw tylko jeździmy samochodem i ewentualnie sami wymieniamy olej, abstrahując od wewnętrznego skomplikowania mechanizmów.
 
-    - We gonna to know how to mix and cooperate with all above concepts"
+    Warsztaty będą bardzo praktyczne. Najpierw przedstawię wam zasadę działania elementu poprzez przykłady lub live-coding, a następnie będziecie sami implementować konkretne zadanie na przygotowanej domenie i templacie.
+
+    <figure><figcaption>Wymagania</figcaption>
+    <ul>
+      <li>Java 1.8
+      <li>Sbt >= 1.0
+      <li>Scala >= 2.12
+      <li>ulubiony edytor / IDE, zalecam Intellij (prowadzący będzie korzystał z Intellij z wtyczką do scali)
+      <li>pobrany kod źródłowy do workshopu (link będzie dostępny później)
+      </figure>"
     type: 0
     speakers: [33]
     complexity: 0

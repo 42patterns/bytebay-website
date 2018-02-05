@@ -376,7 +376,7 @@
   name: "Andrzej"
   surname: "Janczak"
   company: "Scalac"
-  bio: "Dreams about perfect and simple solutions with clean code. Love to struggle with complicated, nontrivial problems. Lately develops myself in functional programming, distributed architecture and big data."
+  bio: "Programista Scali z 3 letnim doświadczeniem produkcyjnym. Miłośnik podejścia funkcyjnego. Lubię czysty kod, catsy, proste rozwiązania skomplikowanych problemów i dobrą kawę. Specjalista Scali, Akki oraz innych narzędzi ze stacku Scali. Na chwilę obecną rozwijam się w programowaniu funkcyjnym (tak, cały czas) oraz rozproszonym. Interesuje mnie także architektura systemów oraz tematy Big/Fast data."
   thumbnailUrl: "andrzej_janczak.jpg"
   social:
     - {name: "linkedin", link: "https://www.linkedin.com/in/andrzej-janczak/"}
