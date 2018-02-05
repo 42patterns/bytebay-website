@@ -223,7 +223,7 @@ list:
     id: 13
     title: "ElasticSearch: wydajnościowe pułapki?"
     type: 1
-    speakers: [26]
+    speakers: [26, 42]
     complexity: 2
 
   -
@@ -469,6 +469,7 @@ list:
     type: 0
     speakers: [40]
     complexity: 0
+    
   - id: 29
     title: "NginX + Lua = OpenResty"
     description: "Czy wiesz co potrafi zrobić twój serwer reverse-proxy? Wydaje Ci się, że żeby zrobić sprytny routing / uwierzytelnianie / autoryzację (niepotrzebne skreślić) między serwisami musisz go napisać w Javie lub jako moduł w C? A co jeżeli odpalanie JVM tylko po to, żeby do każdego żądania http dokleić jeden nagłówek to armata na wróbla? Zwłaszcza, że prawie na pewno gdzieś tam po drodze mijasz nginx...
@@ -485,6 +486,7 @@ list:
     type: 0
     speakers: [20]
     complexity: 0
+
   - id: 30
     title: "Spring Boot - szybki start"
     description: "Spring Boot - szybki start to warsztat dla osób chcących szybko zbudować aplikacje internetową napisaną w języku Java. Minimum konfiguracji, sprawny development."

@@ -449,7 +449,19 @@
 - id: 41
   name: "Przemysław"
   surname: "Bykowski"
+  company: "senteli.pl"
   bio: "Programista z zawodu i pasji. CEO w senteli.pl oraz nauczyciel akademicki w Akademii Marynarki Wojennej. W wolnym czasie prowadzi bloga oraz pomaga początkującym programistom wejść na rynek IT."
   thumbnailUrl: "przemyslaw_bykowski.jpg"
   social:
     - {name: "site", link: "http://senteli.pl/"}
+
+- id: 42
+  name: "Patryk"
+  surname: "Makuch"
+  company: "EPAM"
+  bio: "Współautor serwera wyszukiwawczego obsługującego miliony zarówno userów jak i requestów dziennie w WP.PL, gdzie zdobywał doświadczenie programistyczne przez wiele lat. Tworzył różnorodne aplikacje od wspomagania dla tłumaczy do aplikacji low latency dla banku i zajmował standardowe stanowiska takie jak programista, team leader czy architekt. Aktualnie w EPAM Systems członek Search Competency Center - zespołu pomagającego projektować, implementować i optymalizować wyszukiwanie w projektach tworzonych we wszystkich oddziałach firmy.
+
+  Zwolennik głębokiej wiedzy w czasach ślizgania się stackoverflowem po API-powierzchniach. Uczestnik dziesiątków konferencji. Prelegent i prowadzący warsztaty m.in. w ramach TJUG.
+
+  Wielbiciel porządnej, jasno-palonej arabiki z Kenii. Wyznawca prawdy, że \"życie jest zbyt krótkie, żeby pić złą kawę\", szczególnie jeśli pijesz jej tyle co programista."
+  thumbnailUrl: "patryk_makuch.jpg"
