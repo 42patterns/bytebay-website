@@ -19,7 +19,7 @@
       startTime: "10:30",
       endTime: "13:00",
       sessionIds: [9991],
-      workshopsIds: [11, 15, 6, 5, 16]
+      workshopsIds: [11, 15, 6, 5, 16, 30]
     }
     - {
     	startTime: "13:00",
@@ -48,7 +48,7 @@
     	startTime: "9:00",
     	endTime: "11:30",
       sessionIds: [7],
-      workshopsIds: [12, 26, 25, 2, 22]
+      workshopsIds: [12, 26, 25, 29, 2, 22]
 
     }
     - {

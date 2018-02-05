@@ -485,3 +485,9 @@ list:
     type: 0
     speakers: [20]
     complexity: 0
+  - id: 30
+    title: "Spring Boot - szybki start"
+    description: "Spring Boot - szybki start to warsztat dla osób chcących szybko zbudować aplikacje internetową napisaną w języku Java. Minimum konfiguracji, sprawny development."
+    type: 0
+    speakers: [41]
+    complexity: 0

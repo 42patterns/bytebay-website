@@ -445,3 +445,11 @@
   company: "Nordea"
   ribbon:
     - {abbr: "Nordea", title: "Nodea", url: "http://nordea.pl/it"}
+
+- id: 41
+  name: "Przemysław"
+  surname: "Bykowski"
+  bio: "Programista z zawodu i pasji. CEO w senteli.pl oraz nauczyciel akademicki w Akademii Marynarki Wojennej. W wolnym czasie prowadzi bloga oraz pomaga początkującym programistom wejść na rynek IT."
+  thumbnailUrl: "przemyslaw_bykowski.jpg"
+  social:
+    - {name: "site", link: "http://senteli.pl/"}
