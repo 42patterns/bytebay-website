@@ -393,21 +393,30 @@
   name: "Michał"
   surname: "Gryko"
   company: "Nordea"
+  thumbnailUrl: "michal_gryko.jpg"
+  bio: "Od dziecka zainteresowany elektroniką. Często rozkładałem rzeczy na części aby sprawdzić jak działają. Absolwent Elektroniki na Politechnice Gdańskiej, od 12 lat pracuję jako ... (tu wstaw aktualny buzzword określający sysadmina). Obecnie zatrudniony jako senior Site Reliability Engineer w Nordea Trading Technology. "
   ribbon:
     - {abbr: "Nordea", title: "Nodea", url: "http://nordea.pl/it"}
+  social:
+    - {name: "site", link: "https://justdoit.tech"}
 
 
 - id: 36
-  name: "Bartosz"
+  name: "Bartek"
   surname: "Nowakowski"
   company: "Nordea"
+  thumbnailUrl: "bartek_nowakowski.jpg"
+  bio: "Absolwent informatyki i MBA, od 5 lat pełni role managerskie w sektorze IT. Pracował w firmach o różnej wielkości: od małych startupów po korporacje, które zajmowały się różnymi dziedzinami IT (firmware, sterowniki sprzętu, mobile, eCommerce, social media, big data, rynki finansowe). Aktualnie Java developer w Nordea Capital Markets dostarczającym narzędzia dla rynków finansowych. Zaangażowany w organizację Trójmiejskiego Java User Group. Interesuje się ekonomią behawioralną i psychologią."
   ribbon:
     - {abbr: "Nordea", title: "Nodea", url: "http://nordea.pl/it"}
+  social:
+    - {name: "site", link: "http://bnowakowski.pl/"}    
 
 - id: 37
   name: "Tomasz"
   surname: "Mazur"
   company: "Nordea"
+  thumbnailUrl: "tomasz_mazur.jpg"
   ribbon:
     - {abbr: "Nordea", title: "Nodea", url: "http://nordea.pl/it"}
 
@@ -415,6 +424,7 @@
   name: "Tomasz"
   surname: "Wnorowski"
   company: "Nordea"
+  thumbnailUrl: "tomasz_wnorowski.jpg"
   ribbon:
     - {abbr: "Nordea", title: "Nodea", url: "http://nordea.pl/it"}
 
