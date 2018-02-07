@@ -215,6 +215,7 @@ list:
   -
     id: 12
     title: "Speed-up code evaluation by JIT compilation"
+    description: "Podczas prezentacji chcialbym odpowiedziec na pytanie, dlaczego generowanie kodu ma sens, gdzie mozna je zastosowac i w jaki sposob zwieksza wydajnosc. Postaram sie takze omowic obecne trendy w tej dziedzinie. Zmierzajac do celu przedstawie budowe kompilatorow oraz opisze kolejne fazy kompilacji skupiajac sie na generowaniu kodu, poczynajac od frontentu, konczac na generowaniu kodu maszynowego."
     type: 0
     speakers: [24, 25]
     complexity: 3
@@ -222,6 +223,13 @@ list:
   -
     id: 13
     title: "ElasticSearch: wydajnościowe pułapki?"
+    description: "Z ElasticSearchem łatwo zacząć - ściągasz JARa, uruchamiasz, budujesz swój pierwszy indeks i bawisz się RESTowym API. Kilka sprintów dalej wdrażasz rozwiązanie na produkcję, puszczasz na nie produkcyjny ruch... i jesteś nieco zmartwiony wydajnością.
+
+    Domyślna konfiguracja indeksów ElasticSearcha nie pasuje do wszystkich przypadków użycia i w produkcyjnych warunkach prawie zawsze musimy coś zmienić. A żeby nie uciekać się do, niekiedy kosztownych, metod typu “kręcę gałami i patrzę co się dzieje” potrzebna jest odrobina wiedzy o tym, co się kryje pod maską.
+
+    W trakcie sesji postaramy się tę wiedzę dostarczyć. Na początek powiemy kilka słów o samym sercu ElasticSearcha, którym jest indeks Lucene, a następnie zrobimy przegląd parametrów konfiguracyjnych, które wpływają na wydajność, za każdym razem demonstrując co się dzieje z indeksem kiedy je zmieniamy i jak to wpływa na czas indeksowania, czas odpowiedzi na zapytanie, wielkość indeksu, czy pamięć zużytą do obsługi zapytania. Zilustrujemy te przykłady opowieściami z życia wziętymi.
+
+    Sesja jest przeznaczona dla tych, którzy zaczynają przygodę z optymalizacją ElasticSearcha i zamiast polegać na metodzie na chybił-trafił, woleliby zanurkować głębiej, zrozumieć mechanikę działania i na tej podstawie wykonać kilka bardziej precyzyjnych ruchów."
     type: 1
     speakers: [26, 42]
     complexity: 2
@@ -243,6 +251,9 @@ list:
   -
     id: 15
     title: "Java Mission Control + Flight Recorder — diagnozowanie problemów wydajnościowych na produkcji"
+    description: "Narzędzia JDK pozwalają na szczegółową analizę wydajności. Możemy liczyć że będą dostępne na (pre-)produkcji. Co daje nam duże możliwości diagnozowania problemów. Nawet jeśli podchodzimy do problemu ad hoc — nie planowaliśmy takiej możliwości przy wdrożeniu i instalacji.
+
+    Na warsztacie zobaczymy jak za pomocą narzędzi JDK wykryć przykładowe problemy: wyciek pamięci, nadmierna alokacja obiektów, źle skonfigurowany GC. Porównamy informacje dostępne w maszynie wirtualnej, z tym co oferuje system operacyjny. Przyjrzymy się możliwościom wizualizacji i automatyzacji."
     type: 0
     speakers: [28, 29]
     complexity: 1
@@ -496,7 +507,7 @@ list:
 
   - id: 31
     title: "Consumer-Driven Contracts w praktyce"
-    description: "Jeśli robisz mikroserwisy, udostępniasz publiczną usługę albo po prostu korzystasz z jakiegoś API to na pewno masz do czynienia z kontraktami. Kontrakt pomiędzy klientem a serwerem ma niestety to do siebie, że bardzo łatwo go złamać (co zapewne każdy z nas nie raz doświadczył). Mała poprawka na API, szybkie wdrożenie i ... BOOM! Dlaczego? Bo okazało się, że \"jeszcze któryś klient korzysta z tego co zmieniliśmy?\" Co wtedy robić? Oczywiście próbować nie dopuszczać do takiej sytuacji, jednak jak? Tą bolączkę rozwiązuje Consumer-Driven Contracts. W ramach warsztatu omówimy idee wzorca oraz co najważniejsze - narzędzie Spring Cloud Contract. Nauczymy się je konfigurować w środowisku Java + SpringBoot oraz pisać \"żywe\" kontrakty pomiędzy serwisami RESTowymi tak, aby nie dopuszcać do wprowadzania niekompatybilnych zmian pomiędzy klientem a producentem."
+    description: "Jeśli robisz mikroserwisy, udostępniasz publiczną usługę albo po prostu korzystasz z jakiegoś API to na pewno masz do czynienia z kontraktami. Kontrakt pomiędzy klientem a serwerem ma niestety to do siebie, że bardzo łatwo go złamać (co zapewne każdy z nas nie raz doświadczył). Mała poprawka na API, szybkie wdrożenie i ... BOOM! Dlaczego? Bo okazało się, że \"jeszcze któryś klient korzysta z tego co zmieniliśmy?\" Co wtedy robić? Oczywiście próbować nie dopuszczać do takiej sytuacji, jednak jak? Tą bolączkę rozwiązuje Consumer-Driven Contracts. W ramach warsztatu omówimy idee wzorca oraz co najważniejsze - narzędzie Spring Cloud Contract. Nauczymy się je konfigurować w środowisku Java + SpringBoot oraz pisać \"żywe\" kontrakty pomiędzy serwisami RESTowymi tak, aby nie dopuszczać do wprowadzania niekompatybilnych zmian pomiędzy klientem a producentem."
     prereq: {title: "Jak przygotować sprzęt", list: [
       "Ulubione IDE i zainstalowane JDK Javy, jednak jeśli programujesz w czymś innym to też damy jakoś radę :)"
     ]}
