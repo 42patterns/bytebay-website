@@ -54,7 +54,7 @@ rightNavigationButtons:
  - {link: "/#tickets", text: "Kup bilet"}
 
 # Hero Block
-heroImage: "gdansk-cropped.jpg"
+heroImage: "gdansk4-cropped.jpg"
 heroTitle: "ByteBay 2018 - <typeout>"
 eventDate: "15-16 marca 2018 - Stadion Energa Gdańsk"
 typeoutTextValues: '"", "Warsztaty", "Networking", "Programowanie", "Agile"'
