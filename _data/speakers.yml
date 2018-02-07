@@ -465,3 +465,11 @@
 
   Wielbiciel porządnej, jasno-palonej arabiki z Kenii. Wyznawca prawdy, że \"życie jest zbyt krótkie, żeby pić złą kawę\", szczególnie jeśli pijesz jej tyle co programista."
   thumbnailUrl: "patryk_makuch.jpg"
+
+- id: 43
+  name: "Jędrzej"
+  surname: "Andrykowski"
+  title: "Senior Software Developer & Team Leader"
+  company: "cinkciarz.pl"
+  bio: "Na co dzień Software Developer oraz Team Leader w firmie Cinkciarz.pl. Związany głównie ze środowiskiem Java. Pasjonat szeroko pojętej automatyzacji testów oraz narzędzi z nią związanych. Entuzjasta Domain-Driven Design. Poza IT - gitarzysta i wielbiciel muzyki ekstremalnej."
+  thumbnailUrl: "jedrzej_andrykowski.jpg"

@@ -469,7 +469,7 @@ list:
     type: 0
     speakers: [40]
     complexity: 0
-    
+
   - id: 29
     title: "NginX + Lua = OpenResty"
     description: "Czy wiesz co potrafi zrobić twój serwer reverse-proxy? Wydaje Ci się, że żeby zrobić sprytny routing / uwierzytelnianie / autoryzację (niepotrzebne skreślić) między serwisami musisz go napisać w Javie lub jako moduł w C? A co jeżeli odpalanie JVM tylko po to, żeby do każdego żądania http dokleić jeden nagłówek to armata na wróbla? Zwłaszcza, że prawie na pewno gdzieś tam po drodze mijasz nginx...
@@ -492,4 +492,14 @@ list:
     description: "Spring Boot - szybki start to warsztat dla osób chcących szybko zbudować aplikacje internetową napisaną w języku Java. Minimum konfiguracji, sprawny development."
     type: 0
     speakers: [41]
+    complexity: 0
+
+  - id: 31
+    title: "Consumer-Driven Contracts w praktyce"
+    description: "Jeśli robisz mikroserwisy, udostępniasz publiczną usługę albo po prostu korzystasz z jakiegoś API to na pewno masz do czynienia z kontraktami. Kontrakt pomiędzy klientem a serwerem ma niestety to do siebie, że bardzo łatwo go złamać (co zapewne każdy z nas nie raz doświadczył). Mała poprawka na API, szybkie wdrożenie i ... BOOM! Dlaczego? Bo okazało się, że \"jeszcze któryś klient korzysta z tego co zmieniliśmy?\" Co wtedy robić? Oczywiście próbować nie dopuszczać do takiej sytuacji, jednak jak? Tą bolączkę rozwiązuje Consumer-Driven Contracts. W ramach warsztatu omówimy idee wzorca oraz co najważniejsze - narzędzie Spring Cloud Contract. Nauczymy się je konfigurować w środowisku Java + SpringBoot oraz pisać \"żywe\" kontrakty pomiędzy serwisami RESTowymi tak, aby nie dopuszcać do wprowadzania niekompatybilnych zmian pomiędzy klientem a producentem."
+    prereq: {title: "Jak przygotować sprzęt", list: [
+      "Ulubione IDE i zainstalowane JDK Javy, jednak jeśli programujesz w czymś innym to też damy jakoś radę :)"
+    ]}
+    type: 0
+    speakers: [43]
     complexity: 0
