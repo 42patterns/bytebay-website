@@ -518,3 +518,11 @@ list:
     type: 0
     speakers: [43]
     complexity: 0
+  - id: 32
+    title: "Jak podzielić system na moduły"
+    description: "Nie ważne w jakim stylu architektonicznym tworzymy nasze aplikacje, (monolitycznym, mikroserwisy, serverless) warunkiem koniecznym niewystarczającym, do uzyskania takich właściwości jak: łatwość utrzymania, testowalność, reużywalność czy skalowalność, jest odpowiedni podział na moduły. Odpowiedni czyli jaki? I tu się zaczynają schody, bo przecież nigdzie nie ma do tego instrukcji. To co jest to ogólnikowe rady w stylu \"musisz znaleść bounded context\". Jak to zrobić?
+
+    Skąd będę wiedział, że zrobiłem to dobrze? Jak to odzwierciedlić w strukturze paczek? Nie mam jedynych słusznych odpowiedzi, ale podzielę się z wami tym jak ja to robię."
+    type: 0
+    speakers: [10]
+    complexity: 1
