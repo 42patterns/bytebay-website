@@ -1,0 +1,31 @@
+---
+---
+
+<table>
+{% for session in site.data.sessions.list %}
+  {% if session.service != true %}
+  {% for speaker in site.data.speakers %}
+    {% for session_speaker in session.speakers %}
+      {% if session_speaker == speaker.id %}
+<tr><td>Kto: </td><td>{{ speaker.name }} {{ speaker.surname }}</td></tr>
+<tr><td>Skąd: </td><td>{{ speaker.title }}, {{ speaker.company }}</td></tr>
+<tr>
+<td>Zdjęcie: </td><td>
+  <a href="{{ "http://bytebay.pl" | append: '/img/people/' | append: speaker.thumbnailUrl }}">{{ "http://bytebay.pl" | append: '/img/people/' | append: speaker.thumbnailUrl }}</a>
+</td>
+</tr>
+<tr><td>Bio: </td><td>{{ speaker.bio | newline_to_br }}</td></tr>
+
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+<tr><td>Tytuł:</td><td> {{ session.title }}</td></tr>
+<tr><td>Typ: </td><td>{{site.data.sessions.meta.sessiontype[session.type].title}}</td></tr>
+<tr><td>Poziom: </td><td> {{site.data.sessions.meta.complexity[session.complexity].title}}</td></tr>
+
+<tr><td>Opis: </td><td>{{session.description | newline_to_br}}</td></tr>
+
+<tr><td colspan=2 style="background-color: red;">&nbsp;</td></tr>
+
+  {% endif %}
+{% endfor %}
