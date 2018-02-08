@@ -198,6 +198,10 @@ list:
   -
     id: 10
     title: "JMX w praktyce"
+    description: "Podczas warsztatu zapoznamy się z Java Management Extensions (JMX). Zaczniemy od wprowadzenia do tematu i poznania możliwości technologii. Sprawdzimy narzędzia, które pozwalają korzystać z JMX, zobaczymy także co mają do zaoferowania popularne frameworki i biblioteki, których większość z Was już używa. Zakończymy implementacją własnych pomysłów oraz omówieniem najlepszych praktyk."
+    prereq: {title: "Wymagania do przygotowania przed warsztatem", list: [
+      "JDK Java 8", "dowolne IDE", "maven, gradle", "git"
+    ]}
     type: 0
     speakers: [22]
     complexity: 1
