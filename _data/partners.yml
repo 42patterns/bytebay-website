@@ -13,7 +13,8 @@
   group: "Partner srebrny"
   elements:
     - {name: "Radmor", description: "Travactory", link: "http://www.radmor.com.pl/pol/Praca", imageUrl: "WB_Radmor_logoRGB.jpg"}
-
+    - {name: "Alior Bank", description: "Alior Bank", link: "https://www.aliorbank.pl/dodatkowe-informacje/kariera/aktualne-oferty-pracy.html", imageUrl: "alior.png"}
+    - {name: "Software Development Academy", description: "Software Development Academy", link: "http://sdacademy.pl/zostan-trenerem-sda/", imageUrl: "sda.png"}
 -
   group: "Patroni medialni"
   elements:
