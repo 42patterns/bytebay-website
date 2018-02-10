@@ -525,3 +525,29 @@
   surname: "Pasich"
   bio: "Senior software developer, specjalizuje się w tworzeniu aplikacji klasy enterprise opartych o frameworki Symfony 2, Zend i Laravel. Ekspert w optymalizacji kodu oraz baz danych. Aktywny członek społeczności PHP, szkoleniowiec, prelegent i bloger. Zend Certified Engineer i SensioLabs Certified Symfony Developer."
   thumbnailUrl: piotr_pasich.jpg
+
+- id: 49
+  name: "Marcin"
+  surname: "Dymek"
+  company: "Radmor"
+  bio: "Marcin jest projektantem i programistą aplikacji natywnych oraz wbudowanych, używanych zarówno na rynku cywilnym jak i zbrojeniowym. Od 8 lat pracuje w Biurze Rozwoju RADMOR S.A. należącym do grupy firm WB Group - największej prywatnej grupy przemysłowej pracującej na rzecz obronności państwa."
+  thumbnailUrl: marcin_dymek.jpg
+  ribbon:
+    - {abbr: "Radmor", title: "Radmor", url: "http://www.radmor.com.pl/pol/Praca"}
+
+- id: 50
+  name: "Mateusz"
+  surname: "Ostaszewski"
+  company: "Radmor"
+  bio: "Mateusz jest programistą w Biurze Rozwoju w firmie RADMOR S.A. Lubi uczyć się nowych rzeczy a także dzielić się swoją wiedzą z innymi. Prywatnie lubi podróżować oraz odwiedzać zapomniane miejsca historyczne."
+  ribbon:
+    - {abbr: "Radmor", title: "Radmor", url: "http://www.radmor.com.pl/pol/Praca"}
+
+- id: 51
+  name: "Wojciech"
+  surname: "Kozłowski"
+  company: "Radmor"
+  thumbnailUrl: "wojciech_kozlowski.jpg"
+  bio: "Wojciech Kozłowski jest kierownikiem pracowni Testowania oprogramowania w Biurze Rozwoju  RADMOR. Mówi o sobie krótko: \"Elastyczność, optymalizacja i niezawodność to cele, do których dążę w pracy nad rozwojem oprogramowania\". Głównym obszarem moich doświadczeń i zainteresowań jest szeroko pojęte \"Quality Assurance\" i \"Continuous integration\". Prywatnie jestem pasjonatem sportu i górskich wędrówek."
+  ribbon:
+    - {abbr: "Radmor", title: "Radmor", url: "http://www.radmor.com.pl/pol/Praca"}

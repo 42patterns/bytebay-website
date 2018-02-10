@@ -577,3 +577,26 @@ list:
     type: 0
     speakers: [48]
     complexity: 0
+
+# Radmor 1
+  - id: 37
+    title: "Zastosowanie NetBeansPlatform do tworzenia wieloplatformowych aplikacji natywnych"
+    description: "Środowisko Net Beans Platform Framework pozwala zespołom na szybkie i wygodne tworzenie aplikacji natywnych implementowanych w Java, działających w systemach Windows, Linux oraz OS X. Podczas warsztatu użytkownicy zapoznają się architekturą stosowaną w aplikacjach tworzonych na bazie NetBeans Platform Framework, dowiedzą się co daje modułowość i dlaczego tak ułatwia nam pracę podczas rozwoju różnych funkcjonalności. Moduły muszą ze sobą rozmawiać, dlatego wprowadzimy użytkowników do pracy z mechanizmem Lookup, który ułatwi nam komunikację pomiędzy poszczególnymi komponentami aplikacji. Na koniec przejdziemy do pracy z GUI, a więc zapoznamy uczestników z systemem akcji oraz integracją z systemem okien Systemu Operacyjnego. Więcej informacji na temat tworzenia aplikacji bazujących na tej platformie oraz przykłady są dostepne tutaj: https://platform.netbeans.org/screenshots.html"
+    prereq: {title: "Przygotowanie przed warsztatem", list: [
+      "Komputer z systemem Windows w wersji co najmniej 7", "Zainstalowane środowisko Oracle JDK", "NetBeans IDE (co najmniej Java SE)"
+    ]}
+    type: 0
+    speakers: [49, 50]
+    complexity: 1
+
+# Radmor 2
+  - id: 38
+    title: "Warsztat testowania modułów radia definiowanego programowo [SDR]"
+    description: "Aktualnie na świecie koncepcja radia definiowanego programowo (ang. Software Defined Radio [SDR]) jest implementowana w sprzęcie radiokomunikacyjnym i wdrażana w armiach wchodzących w skład NATO. Technologia ta pozwala na szybsze uzyskanie interoperacyjności, zwiększenie elastyczności oraz wzbogacenie zakresu funkcjonalności dla łączności radiowej w misjach wojskowych. Firma RADMOR jest polskim liderem w dziedzinie SDR, którą zajmuje się już blisko 20 lat.Warsztat dotyczy testowania modułów oprogramowania w środowisku OSSIE bazującym na standardzie JTRS SCA 2.2.2 (opracowanym pierwotnie na potrzeby armii USA) i przedstawia praktyczny przykład prostej implementacji architektury SDR bazującej na modelu zdefiniowanym w w/w standardzie. Poszczególne komponenty architektury komunikują się za pomocą warstwy middleware'u opartego standard OMG CORBA. W ramach warsztatu przewidziane jest wprowadzenie merytoryczne w architekturę, po czym nastąpi uruchomienie domeny SCA wewnątrz środowiska wirtualnego dostarczonego przez prowadzącego warsztat. Następnie omówione zostaną propozycje możliwych modyfikacji w implementacji i zaistnieje możliwość samodzielnego rozszerzenia kodu źródłowego w języku C++ przez uczestników warsztatu."
+    prereq: {title: "Przed warsztatem", list: [
+      "Komputer z zainstalowanym narzędziem VirtualBox (w najnowszej dostępnej wersji na dowolnym systemie operacyjnym).",
+      "Umiejętność pracy w powłoce (shell) systemu Linux i znajomość programowania w języku C++ oraz notacji UML. Mile widziana podstawowa znajomość standardu CORBA i SCA."
+    ]}
+    type: 0
+    speakers: [51]
+    complexity: 2
