@@ -41,8 +41,8 @@
   date: "2014-03-16"
   dateReadable: "16 marca"
   tracks:
-    - {title: "Deep dive", color: "#03a9f4"}
     - {title: "Warsztaty", color: "#e91e63"}
+    - {title: "Deep dive", color: "#03a9f4"}
   timeslots:
     - {
     	startTime: "9:00",
