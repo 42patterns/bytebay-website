@@ -474,3 +474,54 @@
   company: "cinkciarz.pl"
   bio: "Na co dzień Software Developer oraz Team Leader w firmie Cinkciarz.pl. Związany głównie ze środowiskiem Java. Pasjonat szeroko pojętej automatyzacji testów oraz narzędzi z nią związanych. Entuzjasta Domain-Driven Design. Poza IT - gitarzysta i wielbiciel muzyki ekstremalnej."
   thumbnailUrl: "jedrzej_andrykowski.jpg"
+
+- id: 44
+  name: "Karol"
+  surname: "Lotkowski"
+  company: "Travactory"
+  thumbnailUrl: "karol_lotkowski.jpg"
+  bio: "Karol to programista z 10-letnim doświadczeniem. Dostarczał rozwiązania dla branż takich jak: e-commerce, turystyka online, ubezpieczeniowa, telekomunikacyjna, bankowa, informacyjna oraz media społecznościowe. Związany z techniczną oraz biznesową stroną realizowanych projektów. Pełnił wiele ról od software developera, team leadera, scrum mastera, trenera po architekta i ewangelistę nowych technologii. Entuzjasta metodyk Agile (certyfikowany Scrum Master) oraz zwolennik firm o płaskiej strukturze.
+
+  Pasjonat edukacji online, rekrutacji w IT oraz technik zarządzania czasem. Uzależniony od słuchania podcastów oraz audiobooków.
+
+  Obecnie rozwija oprogramowanie realizujące rezerwację oraz sprzedaż biletów lotniczych w Travactory N.V.. Jako trener infoShare Academy przekazuje zdobyte doświadczenie osobom rozpoczynającym swoją przygodę z programowaniem."
+  ribbon:
+    - {abbr: "Travactory", title: "Travactory", url: "http://travactory.com/"}
+  social:
+    - {name: "site", link: "https://www.linkedin.com/in/karollotkowski/"}
+
+- id: 45
+  name: "Jarek"
+  surname: "Bela"
+  company: "Travactory"
+  thumbnailUrl: "jarek_bela.jpg"
+  bio: "<br /><br /><br />"
+  ribbon:
+    - {abbr: "Travactory", title: "Travactory", url: "http://travactory.com/"}
+
+- id: 46
+  name: "Bartosz"
+  surname: "Markowski"
+  company: "Travactory"
+  thumbnailUrl: "bartosz_markowski.png"
+  bio: "Programista od 5 lat, od 3,5 związany z travactory. Na co dzień programista Javascriptu/RoR, okazjonalnie Javy. Po godzinach fan Elixira, komiksów i planszówek."
+  ribbon:
+    - {abbr: "Travactory", title: "Travactory", url: "http://travactory.com/"}
+
+- id: 47
+  name: "Marek"
+  surname: "Piechut"
+  company: "DayOne"
+  title: "Unicorn"
+  bio: "Programista od zawsze. Zawodowo od ponad 10 lat związany z Javą, Groovym, Javascriptem i wszystkim wokół. W małych i dużych firmach tworzyłem systemy, od których zależało bardzo wiele i takie od których prawie nic. Ciągle w poszukiwaniu nowej wiedzy i technologii a także wygrzebywania diamentów z tego wszystkiego, co już było. Uwielbiam kasowanie setek linii kodu i zastępowanie go 1 regexpem. Od kilku lat zakochany w programowaniu funkcyjnym i nowoczesnym Javascripcie."
+  thumbnailUrl: marek_piechut.jpg
+  ribbon:
+    - {abbr: "DayOne", title: "DayOne", url: "https://dayone.pl/"}
+  social:
+    - {name: "twitter", link: "https://twitter.com/bartekwitczak"}
+
+- id: 48
+  name: "Piotr"
+  surname: "Pasich"
+  bio: "Senior software developer, specjalizuje się w tworzeniu aplikacji klasy enterprise opartych o frameworki Symfony 2, Zend i Laravel. Ekspert w optymalizacji kodu oraz baz danych. Aktywny członek społeczności PHP, szkoleniowiec, prelegent i bloger. Zend Certified Engineer i SensioLabs Certified Symfony Developer."
+  thumbnailUrl: piotr_pasich.jpg

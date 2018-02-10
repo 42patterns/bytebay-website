@@ -526,3 +526,54 @@ list:
     type: 0
     speakers: [10]
     complexity: 1
+  - id: 33
+    title: "Micro Services using Spring Boot 2.0 with Kotlin - krok po kroku"
+    description: "<figure><figcaption>... micro apps</figcaption>
+    <ul>
+    <li>eureka / consul / ...
+    <li>hysrtrix / round rubin LB
+    <li>config server
+    <li>spring boot admin
+    <li>mongo / redis / ...
+    <li>docker / aws
+    <li>gateway
+    <li>monitoring / metryki -> prometheus + grafana
+    </ul></figure>"
+    type: 0
+    speakers: [44, 45]
+    complexity: 1
+
+  - id: 34
+    title: "Rozwój Reactowej aplikacji w firmie"
+    description: "<figure><figcaption>Poruszenie tematów</figcaption>
+    <ul>
+    <li>Testowanie aplikacji (komponentów(shallow, mount, snapshoty, mockowanie), jest, reducery, akcje, testowanie kodu asynchronicznego)
+    <li>Storybook jako ułatwienie przy tworzeniu aplikacji, filozofia zamkniętych komponentów
+    <li>HOC(High order component) i kontekst jako sposób na DRY
+    <li>Różne sposoby dzielenia aplikacji(budowanie wielu plików przy pomocy webpacka, wspólne elemty jako odzielnie repozytorium)
+    <li>React Native jako początek aplikacji mobilnej
+    </ul></figure>"
+    prereq: {title: "Co warto zrobić przed warsztatem", list: [
+      "zainstalować środowisko programistyczne pod javascript", "wiedzieć co to react i co to komponent"
+    ]}
+    type: 0
+    speakers: [46]
+    complexity: 2
+
+  - id: 35
+    title: "Asynchroniczny Javascript - od callbacków przez promisy do async/await"
+    description: "To, że Javascript jest jednowątkowy, nie oznacza, że wszystko musi dziać się po kolei.
+
+    Na tych warsztatach zgłębimy dostępne techniki pisania asynchronicznego kodu w Javascript dla przeglądarek i Node.js. Zaczniemy od znanych od lat callback-ów. Zobaczymy też \"streetfighter code\" (https://pbs.twimg.com/media/Bp1IyS7CYAATIEB.jpg) do którego prowadzi ich nadużywanie. Później przejdziemy do Promise-ów i sprawimy, że nasz kod będzie znów piękny i czytelny. Zobaczymy też dostępne w nich “super moce” i jak obchodzić ich ograniczenia. Na koniec jeszcze raz przeorganizujemy nasz kod tak, żeby wykorzystywał generatory i async/await, które pojawiły się w standardzie ES2017.
+
+    o tych warsztatach powinieneś wiedzieć już który styl programowania asynchronicznego wybrać. Tak, żeby najlepiej pasował do rozwiązywanego problemu."
+    type: 0
+    speakers: [47]
+    complexity: 1
+
+  - id: 36
+    title: "Messaging Queues"
+    description: "Spadek wydajności aplikacji nie zawsze wymaga otworzenia nowych serwerów i skalowania. W większości przypadków wystarczy oddelegować czasochłonne lub zasobochłonne zadania na później lub do innych aplikacji. Systemy kolejkowania wspomagają ten proces dostarczając zaawansowane, skuteczne i stabilne rozwiązania, które pozbywają się najczęstrzych problemów. Podczas workshopu dowiesz się jakie systemy kolejkowania są dostępne i jak je skonfugurować. Jaka jest różnica między AMQP, a MQTT i kiedy z nich korzystać."
+    type: 0
+    speakers: [48]
+    complexity: 0
