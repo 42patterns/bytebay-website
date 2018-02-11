@@ -19,7 +19,7 @@
                 <div class="timeslot-elements flexbox-wrapper">
                     {% for track in day.tracks %}
                     {% assign trackColWidth = 12 | divided_by: forloop.length %}
-                    <div class="track-header-slot col-md-{{ trackColWidth }} flexbox-item-height hidden-xs">
+                    <div class="track-header-slot col-md-{{ trackColWidth }} hidden-xs">
                         <h5 class="track-header-title">{{ track.title }}</h5>
                     </div>
                     {% endfor %}
@@ -50,7 +50,9 @@
                         {% if slot != 404 %}
                             {% for session in site.data.sessions.list %}
                                 {% if slot == session.id and session.service == null %}
-                                <div id="session-{{ session.id }}" class="slot col-md-12 col-xs-12 flexbox-item-height" data-slot-detail="{{ site.data.sessions.meta.sessiontype[session.type].title }}" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">
+                                {% assign tags = session | map: "tags" %}
+                                <div id="session-{{ session.id }}" class="slot col-md-12 col-xs-12" data-slot-detail="{{ site.data.sessions.meta.sessiontype[session.type].title }}" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">
+                                  <div class="slot-content-wrapper {{ tags | join: "%%tags-" | prepend: "tags-" | replace: ' ', '-' | downcase | replace: '%%', ' '}}">
                                     <div class="color-line" style="background: {{ site.data.sessions.meta.sessiontype[session.type].color }}"></div>
                                     <div class="slot-content" style="border-right-color: {{ site.data.sessions.meta.sessiontype[session.type].color }}">
                                         <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
@@ -74,11 +76,12 @@
                                             {% endfor %}
                                         </ul>
                                     </div>
+                                  </div>
                                 </div>
                                 {% endif %}
                             {% endfor %}
                         {% else %}
-                        <div class="slot col-md-12 hidden-xs blank-col flexbox-item-height"></div>
+                        <div class="slot col-md-12 hidden-xs blank-col"></div>
                         {% endif %}
                     {% endfor %}
                   </div>
@@ -89,7 +92,9 @@
                         {% if slot != 404 %}
                             {% for session in site.data.sessions.list %}
                                 {% if slot == session.id and session.service == null %}
-                                <div id="session-{{ session.id }}" class="slot col-md-12 col-xs-12 flexbox-item-height" data-slot-detail="{{ site.data.sessions.meta.sessiontype[session.type].title }}" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">
+                                {% assign tags = session | map: "tags" %}
+                                <div id="session-{{ session.id }}" class="slot col-md-12 col-xs-12" data-slot-detail="{{ site.data.sessions.meta.sessiontype[session.type].title }}" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">
+                                  <div class="slot-content-wrapper {{ tags | join: "%%tags-" | prepend: "tags-" | replace: ' ', '-' | downcase | replace: '%%', ' '}}">
                                     <div class="color-line" style="background: {{ site.data.sessions.meta.sessiontype[session.type].color }}"></div>
                                     <div class="slot-content" style="border-right-color: {{ site.data.sessions.meta.sessiontype[session.type].color }}">
                                         <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
@@ -111,11 +116,12 @@
                                             {% endfor %}
                                         </ul>
                                     </div>
+                                  </div>
                                 </div>
                                 {% endif %}
                             {% endfor %}
                         {% else %}
-                        <div class="slot col-md-12 hidden-xs blank-col flexbox-item-height"></div>
+                        <div class="slot col-md-12 hidden-xs blank-col"></div>
                         {% endif %}
                     {% endfor %}
                   </div>
@@ -127,9 +133,9 @@
                       {% assign slotColWidth = 12 | divided_by: forloop.length %}
                       {% for session in site.data.sessions.list %}
                       {% if slot == session.id %}
-                        <div id="session-{{ session.id }}" class="slot col-md-{{ slotColWidth }} col-xs-12 flexbox-item-height" data-slot-detail="{{ data.sessions.meta.sessiontype[session.type].title }}" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">
-                            <div class="color-line" style="background: {{ data.sessions.meta.sessiontype[session.type].color }}"></div>
-                            <div class="slot-content" style="border-right-color: {{ data.sessions.meta.sessiontype[session.type].color }}">
+                        <div id="session-{{ session.id }}" class="slot col-md-{{ slotColWidth }} col-xs-12" data-slot-detail="{{ data.sessions.meta.sessiontype[session.type].title }}" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">
+                            <div class="color-line" style="background: {{ site.data.sessions.meta.sessiontype[session.type].color }}"></div>
+                            <div class="slot-content" style="border-right-color: {{ site.data.sessions.meta.sessiontype[session.type].color }}">
                                 <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
                                 <span class="slot-language">{{session.language | upcase}}</span>
                                 <ul class="slot-speakers">
@@ -148,7 +154,7 @@
                             </div>
                         </div>
                         {% elsif slot == session.id and session.service != null %}
-                        <div class="slot col-md-{{ slotColWidth }} col-xs-12 service-slot flexbox-item-height" data-slot-detail="{{ session.place }}">
+                        <div class="slot col-md-{{ slotColWidth }} col-xs-12 service-slot" data-slot-detail="{{ session.place }}">
                             <div class="color-line"></div>
                             <div class="slot-content">
                                 <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
@@ -166,6 +172,11 @@
             {% endfor %}
         </div>
         {% endfor %}
+
+        <div class="col-lg-10 col-lg-offset-1">
+          {% include sessions-filters.html onlytags="true" %}
+        </div>
+
         <div class="col-lg-12 col-md-12">
           {% for button in site.heroButtons %}
           <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>

@@ -19,7 +19,7 @@
       startTime: "10:30",
       endTime: "13:00",
       sessionIds: [9991],
-      workshopsIds: [11, 15, 6, 5, 16, 30]
+      workshopsIds: [11, 15, 16, 5, 6, 35, 30]
     }
     - {
     	startTime: "13:00",
@@ -30,7 +30,7 @@
     	startTime: "14:00",
     	endTime: "16:30",
     	sessionIds: [1, 13],
-      workshopsIds: [27, 19, 18, 31, 8, 20]
+      workshopsIds: [27, 26, 18, 31, 36, 19]
     }
     - {
     	startTime: "16:30",
@@ -48,7 +48,7 @@
     	startTime: "9:00",
     	endTime: "11:30",
       sessionIds: [7,12],
-      workshopsIds: [26, 25, 29, 32, 2, 22]
+      workshopsIds: [33, 21, 25, 8, 32, 22, 2, 29, 20]
 
     }
     - {
@@ -60,7 +60,7 @@
       startTime: "12:30",
       endTime: "15:00",
       sessionIds: [4, 24],
-      workshopsIds: [14, 10, 21, 23 ]
+      workshopsIds: [34, 14, 10, 23, 17]
     }
     - {
     	startTime: "15:00",
@@ -70,5 +70,5 @@
     - {
     	startTime: "15:30",
     	endTime: "16:30",
-    	singles: [9990]
+    	singles: [3]
     }

@@ -15,40 +15,47 @@ list:
     place: "Atom Club"
     service: true
     description: "Kawa, napoje oraz przekąski bądą także dostępne podczas przerw w sesjach (w połowie czasu trwania sesji)"
+    tags: []
   -
     id: 1002
     title: "Przerwa lunchowa"
     place: "Atom Club"
     service: true
+    tags: []
   -
     id: 1003
     title: "Meet & Greet"
     place: "T29"
     service: true
+    tags: []
     description: "To ten moment gdy łapiesz piwo i rozmawiasz z uczestnikami, trenerami."
   -
     id: 9990
     title: "Keynote"
     place: "Atom Club"
     type: 2
+    tags: []
     service: true
   -
     id: 9991
     title: "Sesja Deep Dive #1"
     place: ""
     type: 1
+    tags: []
     service: true
   -
     id: 9992
     title: "Sesja Deep Dive #2"
     place: ""
     type: 1
+    tags: []
     service: true
   -
     id: 9993
     title: "Sesja warsztatowa"
     place: "Skybox - loże biznesowe"
     type: 0
+    tags: []
     service: true
 
   -
@@ -69,8 +76,9 @@ list:
       - jak być partnerem a nie podwykonawcą?
 
       Tak na prawdę pytania te są ogólne a metodyki (jak np. DDD) jedynie szybciej do nich doprowadza. Podczas prezentacji przyjrzymy się tym typowym pytaniom na poziomie modelu, architektury i organizacji - spróbuję odpowiedzieć na nie w postaci konkretnych technik i rozwiązań."
-    speakers: [5]
     type: 2
+    speakers: [5]
+    tags: [Architektura, DDD]
 
   -
     id: 1
@@ -80,6 +88,7 @@ list:
     Podczas tej sesji postaram się pokazać dostępne narzędzia, magiczne przełączniki i dostępne rozwiązania potrzebne w pracy każdego \"kryminologa\" JVM. Sesja będzie przeznaczona dla osób, które zaczynają przygodę z optymalizacją JVM. Porozmawiamy o zapisywaniu zdarzeń z JVM, narzędziach ukrytych w JDK,w tym także Java Mission Control i Flight Recorder i zobaczymy jak Java płonie :). Nie zapomnimy też o narzędziach dostępnych w systemie operacyjnym Linux."
     type: 1
     speakers: [3]
+    tags: [Java, JVM, "Wydajność aplikacji"]
     complexity: 2
 
   -
@@ -94,6 +103,7 @@ list:
     Oprócz tego zobaczymy kilka trików z klastrami (replica set) oraz na co zwrócić uwagę przy używaniu shardingu."
     type: 0
     speakers: [4]
+    tags: [NoSQL, "Bazy danych", "Wydajność aplikacji"]
     complexity: 2
 
   -
@@ -118,6 +128,7 @@ list:
     </ul>"
     type: 1
     speakers: [7]
+    tags: [Architektura, DDD]
     complexity: 1
   -
     id: 5
@@ -127,6 +138,7 @@ list:
     Zastosujemy Event Storming Big Picture, Design Level oraz przyjrzymy się relacji modelu ES z kodem źródłowym."
     type: 0
     speakers: [7]
+    tags: [Architektura, DDD]
     complexity: 1
   -
     id: 6
@@ -153,6 +165,7 @@ list:
     ]}
     type: 0
     speakers: [18]
+    tags: [Docker, DevOps]
     complexity: 0
   -
     id: 7
@@ -160,6 +173,7 @@ list:
     description: "W trakcie warsztatu pokażę dlaczego analiza sentymentu jest istotna nie tylko w biznesie, ale również wykorzystywana m.in. przez służby bezpieczeństwa. Zaprezentuję jak przygotować architekturę pod własny system i wykorzystamy algorytmy uczenia maszynowego."
     type: 1
     speakers: [21]
+    tags: ["Machine Learning"]
     complexity: 1
   -
     id: 8
@@ -174,6 +188,7 @@ list:
     prereq: {title: "Wymagania przed warsztatem", list: ["Laptop z nowożytna przeglądarka internetową"]}
     type: 0
     speakers: [13]
+    tags: [JVM, Clojure, "Języki programowania", "Programowanie funkcyjne"]
     complexity: 0
 
   -
@@ -194,6 +209,7 @@ list:
     - kilka wzorców tworzenia prezentacji: ADEPT, Context-problem-questions-solutions, triada, łuk narracyjny, metaprogramy"
     type: 0
     speakers: [5]
+    tags: ["Train the trainer"]
     complexity: 0
   -
     id: 10
@@ -204,6 +220,7 @@ list:
     ]}
     type: 0
     speakers: [22]
+    tags: ["Wydajność aplikacji", "Application performance by Dynatrace"]
     complexity: 1
 
   -
@@ -215,13 +232,15 @@ list:
     prereq: {title: "Wymagania przed warsztatem", list: ["laptop i podstawowa znajomość Javy"]}
     type: 0
     speakers: [16, 23]
+    tags: ["NoSQL", "Bazy danych", "Application performance by Dynatrace"]
     complexity: 0
   -
     id: 12
     title: "Speed-up code evaluation by JIT compilation"
     description: "Podczas prezentacji chcialbym odpowiedziec na pytanie, dlaczego generowanie kodu ma sens, gdzie mozna je zastosowac i w jaki sposob zwieksza wydajnosc. Postaram sie takze omowic obecne trendy w tej dziedzinie. Zmierzajac do celu przedstawie budowe kompilatorow oraz opisze kolejne fazy kompilacji skupiajac sie na generowaniu kodu, poczynajac od frontentu, konczac na generowaniu kodu maszynowego."
-    type: 0
+    type: 1
     speakers: [24, 25]
+    tags: ["Java", "JVM", "Wydajność aplikacji", "Application performance by Dynatrace"]
     complexity: 3
 
   -
@@ -236,6 +255,7 @@ list:
     Sesja jest przeznaczona dla tych, którzy zaczynają przygodę z optymalizacją ElasticSearcha i zamiast polegać na metodzie na chybił-trafił, woleliby zanurkować głębiej, zrozumieć mechanikę działania i na tej podstawie wykonać kilka bardziej precyzyjnych ruchów."
     type: 1
     speakers: [26, 42]
+    tags: ["NoSQL", "Bazy danych", "Wydajność aplikacji", "Application performance by Dynatrace"]
     complexity: 2
 
   -
@@ -250,6 +270,7 @@ list:
     wymagania przed warsztatem: laptop min 8 GB RAM (najlepiej 16GB), dowolny OS, zainstalowany VirtualBox, Java JDK8 albo Java JDK9"
     type: 0
     speakers: [27]
+    tags: ["Bazy danych", "Wydajność aplikacji", "Application performance by Dynatrace"]
     complexity: 2
 
   -
@@ -260,6 +281,7 @@ list:
     Na warsztacie zobaczymy jak za pomocą narzędzi JDK wykryć przykładowe problemy: wyciek pamięci, nadmierna alokacja obiektów, źle skonfigurowany GC. Porównamy informacje dostępne w maszynie wirtualnej, z tym co oferuje system operacyjny. Przyjrzymy się możliwościom wizualizacji i automatyzacji."
     type: 0
     speakers: [28, 29]
+    tags: ["Java", "Wydajność aplikacji", "Application performance by Dynatrace"]
     complexity: 1
 
   -
@@ -277,6 +299,7 @@ list:
     ]}
     type: 0
     speakers: [8]
+    tags: [JVM, Kotlin, "Języki programowania"]
     complexity: 1
 
   -
@@ -301,6 +324,7 @@ list:
       </ul></figure>"
     type: 0
     speakers: [30, 31]
+    tags: [Java, Testowanie]
     complexity: 0
 
   -
@@ -323,6 +347,7 @@ list:
     ]}
     type: 0
     speakers: [15]
+    tags: [JVM, Scala, "Języki programowania", "Programowanie funkcyjne"]
     complexity: 0
 
   -
@@ -357,6 +382,7 @@ list:
       "Konsola użytkownika i podstawowa umiejętność jej obsługi w swoim systemie operacyjnym    "
     ]}
     type: 0
+    tags: [Docker, DevOps, Microservices]
     speakers: [9]
     complexity: 0
 
@@ -369,6 +395,7 @@ list:
     prereq: {title: "Środowisko", list: ["Dowolne IDE do Javy plus maven", "GIT"]}
     type: 0
     speakers: [11]
+    tags: [Java, JVM, "Wydajność aplikacji", Testowanie]
     complexity: 1
   -
     id: 21
@@ -379,6 +406,7 @@ list:
     prereq: {title: "Środowisko", list: ["Laptop, z IDE (pref. Intellij)", "JDK 1.8"]}
     type: 0
     speakers: [32]
+    tags: [Java, Microservices, Architektura, Security]
     complexity: 1
 
   - id: 22
@@ -386,6 +414,7 @@ list:
     description: "Niektóre elementy programowania funkcyjne przydadzą się każdemu. Nie będziemy omawiać monad, funktorow i innych ciekawych matematycznych terminów. Zobaczymy w jaki sposób programowanie funkcyjne pomoże nam udoskonalić nasz kod, uczyni go bardziej czytelnym. Będziemy eksperymentowali z kilkoma funkcyjnymi operacjami i typami danych. Prześledzimy konstrukcje, które wykorzystujemy na co dzień i przeniesiemy je do świata programowania funkcyjnego. "
     type: 0
     speakers: [17]
+    tags: [JavaScript, "Języki programowania", "Programowanie funkcyjne"]
     complexity: 1
 
   - id: 23
@@ -415,6 +444,7 @@ list:
     ]}
     type: 0
     speakers: [33]
+    tags: [JVM, Scala, "Języki programowania", "Programowanie funkcyjne"]
     complexity: 0
 
   - id: 24
@@ -422,6 +452,7 @@ list:
     description: "\"Databases, databases everywhere! Which one do I need?\" -- You need all of them; you need none of them; you're asking all the wrong questions! This workshop is dedicated to solving the data vs code impedance mismatch with a 1970's technology (chevron mustache is optional). This workshop assumes no previous knowledge of Datalog and applies to both client and server applications. If you are interested in data pipelines, GraphQL, event-sourcing, or building maintainable data systems, you will leave a better person* (some restrictions apply, promises are not legally binding)."
     type: 1
     speakers: [34]
+    tags: [NoSQL, "Bazy danych", "Wydajność aplikacji"]
     complexity: 0
 
   - id: 25
@@ -443,6 +474,7 @@ list:
     ]}
     type: 0
     speakers: [35, 36]
+    tags: [Docker, DevOps]
     complexity: 0
 
   - id: 26
@@ -452,6 +484,7 @@ list:
     Our exercises ran for the two-and-half hour and at the end, you should have basic knowledge on how to do service discovery and failure detection in highly resilient environments. We will also cover some best practices for using Consul at scale."
     type: 0
     speakers: [37, 38]
+    tags: [Architektura, Microservices]
     complexity: 0
 
   - id: 27
@@ -467,6 +500,7 @@ list:
       W czasie warsztatu zbudujemy razem aplikację opartą o najnowocześniejsze technologie frontendowe, których używa m. in. Netflix, Facebook czy AirBnB."
     type: 0
     speakers: [39]
+    tags: [JavaScript, Frontend]
     complexity: 0
 
   - id: 28
@@ -483,6 +517,7 @@ list:
     ]}
     type: 0
     speakers: [40]
+    tags: [Testowanie]
     complexity: 0
 
   - id: 29
@@ -500,6 +535,7 @@ list:
     ]}
     type: 0
     speakers: [20]
+    tags: [Architektura, Microservices]
     complexity: 0
 
   - id: 30
@@ -507,6 +543,7 @@ list:
     description: "Spring Boot - szybki start to warsztat dla osób chcących szybko zbudować aplikacje internetową napisaną w języku Java. Minimum konfiguracji, sprawny development."
     type: 0
     speakers: [41]
+    tags: [Java]
     complexity: 0
 
   - id: 31
@@ -517,7 +554,9 @@ list:
     ]}
     type: 0
     speakers: [43]
+    tags: [Architektura, Microservices, Testowanie]
     complexity: 0
+
   - id: 32
     title: "Jak podzielić system na moduły"
     description: "Nie ważne w jakim stylu architektonicznym tworzymy nasze aplikacje, (monolitycznym, mikroserwisy, serverless) warunkiem koniecznym niewystarczającym, do uzyskania takich właściwości jak: łatwość utrzymania, testowalność, reużywalność czy skalowalność, jest odpowiedni podział na moduły. Odpowiedni czyli jaki? I tu się zaczynają schody, bo przecież nigdzie nie ma do tego instrukcji. To co jest to ogólnikowe rady w stylu \"musisz znaleść bounded context\". Jak to zrobić?
@@ -525,7 +564,9 @@ list:
     Skąd będę wiedział, że zrobiłem to dobrze? Jak to odzwierciedlić w strukturze paczek? Nie mam jedynych słusznych odpowiedzi, ale podzielę się z wami tym jak ja to robię."
     type: 0
     speakers: [10]
+    tags: [Architektura, DDD]
     complexity: 1
+
   - id: 33
     title: "Micro Services using Spring Boot 2.0 with Kotlin - krok po kroku"
     description: "<figure><figcaption>... micro apps</figcaption>
@@ -541,6 +582,7 @@ list:
     </ul></figure>"
     type: 0
     speakers: [44, 45]
+    tags: [Architektura, Microservices, Kotlin]
     complexity: 1
 
   - id: 34
@@ -558,6 +600,7 @@ list:
     ]}
     type: 0
     speakers: [46]
+    tags: [JavaScript, Frontend]
     complexity: 2
 
   - id: 35
@@ -569,6 +612,7 @@ list:
     o tych warsztatach powinieneś wiedzieć już który styl programowania asynchronicznego wybrać. Tak, żeby najlepiej pasował do rozwiązywanego problemu."
     type: 0
     speakers: [47]
+    tags: [JavaScript, "Języki programowania"]
     complexity: 1
 
   - id: 36
@@ -576,6 +620,7 @@ list:
     description: "Spadek wydajności aplikacji nie zawsze wymaga otworzenia nowych serwerów i skalowania. W większości przypadków wystarczy oddelegować czasochłonne lub zasobochłonne zadania na później lub do innych aplikacji. Systemy kolejkowania wspomagają ten proces dostarczając zaawansowane, skuteczne i stabilne rozwiązania, które pozbywają się najczęstrzych problemów. Podczas workshopu dowiesz się jakie systemy kolejkowania są dostępne i jak je skonfugurować. Jaka jest różnica między AMQP, a MQTT i kiedy z nich korzystać."
     type: 0
     speakers: [48]
+    tags: [Architektura, Microservices]
     complexity: 0
 
 # Radmor 1
@@ -587,6 +632,7 @@ list:
     ]}
     type: 0
     speakers: [49, 50]
+    tags: [Java]
     complexity: 1
 
 # Radmor 2
@@ -599,4 +645,5 @@ list:
     ]}
     type: 0
     speakers: [51]
+    tags: [Testowanie]
     complexity: 2
