@@ -1,11 +1,11 @@
 <!-- Begin Schedule Section -->
 <section id="schedule" class="schedule">
     <div class="content-wrapper">
-        {%  if page.subtitle != null %}
-          <div>
-            <p>{{ page.subtitle }}</p>
-          </div>
-        {% endif %}
+      {%  if page.subtitle != null %}
+        <div>
+          <p>{{ page.subtitle }}</p>
+        </div>
+      {% endif %}
 
         <div class="col-lg-10 col-lg-offset-1">
           {% include sessions-filters.html onlytags="true" %}
