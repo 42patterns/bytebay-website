@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="col-md-1 col-sm-1 col-xs-12 text-left text-nowrap">
+    Filtruj sesje:
+  </div>
+  <div class="col-md-11 col-sm-11 col-xs-12">
+    <div class="filters">
+      <div class="item text-nowrap">
+          <a href="javascript:void(0)" onclick="showFilteredSessions('all')">Pokaż wszystkie</a>
+      </div>
+      {% if include.onlytags != "true" %}
+        {% for type in site.data.sessions.meta.sessiontype %}
+          <div class="item text-nowrap">
+            <a href="javascript:void(0)" onclick="showFilteredSessions('{{ type.title | replace: ' ', '-' | downcase }}')">{{ type.title }}</a>
+          </div>
+        {% endfor %}
+        <div class="break"></div>
+      {% endif %}
+      <!-- TODO: add tags -->
+    </div>
+  </div>
+</div>

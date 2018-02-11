@@ -58,7 +58,7 @@
     bottom: 0;
     left: 0;
 	&.solid-overlay {
-		background: rgba(37, 32, 31, .8);	
+		background: rgba(37, 32, 31, .8);
 	}
     &.white-solid {
         background: rgba(255, 255, 255, .9);
@@ -128,4 +128,30 @@
 }
 .reset-padding {
     padding: 0;
+}
+
+.filters {
+  @include flexbox();
+  flex-wrap: wrap;
+
+  .item {
+    padding: 0 1em;
+
+    &:first-child {
+      padding-left: 0;
+      padding-right: 1em;
+    }
+  }
+
+  .break{
+    flex-basis: 100%;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+
+    + div {
+      padding-left: 0;
+      padding-right: 1em;
+    }
+  }
 }

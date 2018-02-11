@@ -127,7 +127,7 @@
     - {abbr: "Dynatrace", title: "Dynatrace", url: "https://www.dynatrace.com"}
   social:
     - {name: "github", link: "https://github.com/Kulikowski"}
-    - {name: "LinkedIn", link: "https://www.linkedin.com/in/kasper-kulikowski/"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/kasper-kulikowski/"}
 
 - id: 25
   name: "Przemysław"
@@ -138,7 +138,6 @@
   thumbnailUrl: "Przemyslaw_Delewski.jpg"
   ribbon:
     - {abbr: "Dynatrace", title: "Dynatrace", url: "https://www.dynatrace.com"}
-
   social:
     - {name: "github", link: "https://github.com/PDelak"}
 
@@ -152,6 +151,8 @@
   Poza pracą dzieli się wiedzą w ramach trójmiejskiego JUGa i w InfoShare Academy a jej prezentacja nt. machine learningu była top3 speakerów konferencji JDD2016."
   thumbnailUrl: "Dominka_Makuch.jpg"
   rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/dominika-makuch-703b0a57/"}
   ribbon:
     - {abbr: "Dynatrace", title: "Dynatrace", url: "https://www.dynatrace.com/"}
 
@@ -168,9 +169,9 @@
     - {abbr: "Dynatrace", title: "Dynatrace", url: "https://www.dynatrace.com/"}
 
   social:
-    - {name: "StackOverflow", link: "https://stackoverflow.com/users/1061543/greg-witczak"}
+    - {name: "stack-overflow", link: "https://stackoverflow.com/users/1061543/greg-witczak"}
     - {name: "github", link: "https://github.com/greg-witczak"}
-    - {name: "LinkedIn", link: "https://pl.linkedin.com/in/gwitczak"}
+    - {name: "linkedin", link: "https://pl.linkedin.com/in/gwitczak"}
 
 - id: 29
   name: "Marcin"
@@ -466,6 +467,8 @@
 
   Wielbiciel porządnej, jasno-palonej arabiki z Kenii. Wyznawca prawdy, że \"życie jest zbyt krótkie, żeby pić złą kawę\", szczególnie jeśli pijesz jej tyle co programista."
   thumbnailUrl: "patryk_makuch.jpg"
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/patryk-makuch-7318772b/"}
 
 - id: 43
   name: "Jędrzej"

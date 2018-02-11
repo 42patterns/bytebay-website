@@ -1,31 +1,14 @@
 <section id="sessions" class="sessions">
     <div class="content-wrapper">
-    {%  if page.subtitle != null %}
-      {% include sessions-intro.html %}
-    {% endif %}
-
-    <!-- TODO: dodać filtrowanie CSSowe sesji po type i pozimie -->
-
-    <div class="filters col-lg-10 col-lg-offset-1">
-      {%  if page.subtitle != null %}
-      <div class="text-left">
-        <h4>Sesje techniczne</h4>
-      </div>
-      {% endif %}
-      <div class="row">
-        <div class="col-md-2 col-sm-2">
-          Filtruj sesje:
-        </div>
-        <div class="col-md-2 col-sm-2">
-            <a href="javascript:void(0)" onclick="showFilteredSessions('all')">Pokaż wszystkie</a>
-        </div>
-        {% for type in site.data.sessions.meta.sessiontype %}
-          <div class="col-md-2 col-sm-2">
-            <a href="javascript:void(0)" onclick="showFilteredSessions('{{ type.title | replace: ' ', '-' | downcase }}')">{{ type.title }}</a>
+      <div class="col-lg-10 col-lg-offset-1">
+        {%  if page.subtitle  %}
+          <div class="text-left">
+            <h4>{{ page.subtitle }}</h4>
           </div>
-        {% endfor %}
+        {% endif %}
+
+        {% include sessions-filters.html %}
       </div>
-    </div>
 
 		{% for session in site.data.sessions.list %}
 			{% if session.service != true %}
