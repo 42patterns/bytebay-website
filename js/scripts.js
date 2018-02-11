@@ -586,12 +586,14 @@
 
 //Sessions filters
 function showFilteredSessions(type) {
-  console.log(type)
   if (type === 'all') {
       $('#sessions .sessionDetails').show()
+      $('#schedule .slot-content-wrapper').show() //css('visibility', 'visible')
   } else {
     $('#sessions .sessionDetails').hide()
     $('#sessions .' + type).show()
+    $('#schedule .slot-content-wrapper').hide() //css('visibility', 'hidden')
+    $('#schedule .' + type).show() //css('visibility', 'visible')
   }
 
 }
