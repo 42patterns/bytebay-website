@@ -9,57 +9,49 @@ meta:
       - {title: "Deep dive", color: "#03a9f4"}
       - {title: "Keynote", color: "#e91e63"}
 list:
-  -
-    id: 1001
+  - id: 1001
     title: "Przerwa kawowa"
     place: "Atom Club"
     service: true
     description: "Kawa, napoje oraz przekąski bądą także dostępne podczas przerw w sesjach (w połowie czasu trwania sesji)"
     tags: []
-  -
-    id: 1002
+  - id: 1002
     title: "Przerwa lunchowa"
     place: "Atom Club"
     service: true
     tags: []
-  -
-    id: 1003
+  - id: 1003
     title: "Meet & Greet"
     place: "T29"
     service: true
     tags: []
     description: "To ten moment gdy łapiesz piwo i rozmawiasz z uczestnikami, trenerami."
-  -
-    id: 9990
+  - id: 9990
     title: "Keynote"
     place: "Atom Club"
     type: 2
     tags: []
     service: true
-  -
-    id: 9991
+  - id: 9991
     title: "Sesja Deep Dive #1"
     place: ""
     type: 1
     tags: []
     service: true
-  -
-    id: 9992
+  - id: 9992
     title: "Sesja Deep Dive #2"
     place: ""
     type: 1
     tags: []
     service: true
-  -
-    id: 9993
+  - id: 9993
     title: "Sesja warsztatowa"
     place: "Skybox - loże biznesowe"
     type: 0
     tags: []
     service: true
 
-  -
-    id: 3
+  - id: 3
     title: "Co gryzie świadomego programistę DDD?"
     description: "W swojej pracy spotykając dziesiątki zespołów zauważam wzorce pytań/dylematów/rozterek jakie pojawiają wraz ze wzrostem doświadczenia i świadomości zespołu. Na pewnym poziomie zaawansowania wszyscy zadają te same pytania:
 
@@ -80,8 +72,7 @@ list:
     speakers: [5]
     tags: [Architektura, DDD]
 
-  -
-    id: 1
+  - id: 1
     title: "JVM: przez dziurkę od klucza"
     description: "JVM to złożona maszyna, która napędza nasze systemy. Codziennie w pocie czoła przerzuca terabajty obiektów pomiędzy kolejnymi generacjami w GC, generuje strumienie optymalnego kodu skompilowanego przez jeden z kompilatorów JIT, w międzyczasie próbując dogadać się z systemem operacyjnym. Jednak nie zawsze w naszej maszynowni wszystko przebiega zgodnie z planem. Gdzie szukać informacji? Jak odczytywać i interpretować wartości metryk? Kiedy winny jest JVM, nasza aplikacja, a w jakim przypadku system operacyjny?
 
@@ -89,10 +80,9 @@ list:
     type: 1
     speakers: [3]
     tags: [Java, JVM, "Wydajność aplikacji"]
-    complexity: 2
+    complexity: 3
 
-  -
-    id: 2
+  - id: 2
     title: "O optymalizacji MongoDB przykładów kilka"
     description: "MongoDB to w ostatnich latach jedna z najpopularniejszych NoSQL'owych baz danych. Jak każda baza obiecuje być szybka, niezawodnia i skalowalna. Jednak jak pokazuje Problem Wyciekającej Abstrakcji (https://en.wikipedia.org/wiki/Leaky_abstraction) nie da się tego osiągnąć bez znajomości niuansów i wewnętrznej implementacji (a przynajmniej wiedzy o tym, jak działa dane narzędzie poniżej publicznego api).
 
@@ -106,8 +96,7 @@ list:
     tags: [NoSQL, "Bazy danych", "Wydajność aplikacji"]
     complexity: 2
 
-  -
-    id: 4
+  - id: 4
     title: "Wprowadzenie do Domain-Drived Design na przykładach"
     description: "Przejdziemy przez przykład aplikacji DDD na podstawie, której wytłumaczę najważniejsze koncepty Domain-Drived Design oraz popularne techniki towarzyszące jak:
     <ul>
@@ -130,8 +119,8 @@ list:
     speakers: [7]
     tags: [Architektura, DDD]
     complexity: 1
-  -
-    id: 5
+
+  - id: 5
     title: "Sesja Event Storming-u"
     description: "Na sesji zapoznam was z notacją Event Storming-u, rolą warsztatów ES w procesie zwinnego wytwarzania oprogramowania oraz możliwymi zastosowaniami w waszej codziennej pracy.
 
@@ -140,8 +129,8 @@ list:
     speakers: [7]
     tags: [Architektura, DDD]
     complexity: 1
-  -
-    id: 6
+
+  - id: 6
     title: "Docker - wstępniaczek"
     description: "Dzięki zastosowaniu dockera możemy w prosty sposób zapewnić izolację serwisów, zwiększając tym samym bezpieczeństwo i stabilność aplikacji. Podejście kontenerowe umożliwia nam sprawne i pełne odtworzenie środowisk produkcyjnych w każdym miejscu (nawet na swoim laptopie). Poznasz technologię, która rozwiąże większość problemów, jakie masz dzisiaj ze środowiskami dev/test i prod. W prosty i łatwy sposób będziesz w stanie dostarczać kolejne \"paczki\" z softem do klienta oraz co najważniejsze, będziesz miał pewność, że jak \"działa lokalnie to zadziała też na produkcji\" :)
 
@@ -167,16 +156,16 @@ list:
     speakers: [18]
     tags: [Docker, DevOps]
     complexity: 0
-  -
-    id: 7
+
+  - id: 7
     title: "Uczenie maszynowe i jak budować systemy analizy sentymentu?"
     description: "W trakcie warsztatu pokażę dlaczego analiza sentymentu jest istotna nie tylko w biznesie, ale również wykorzystywana m.in. przez służby bezpieczeństwa. Zaprezentuję jak przygotować architekturę pod własny system i wykorzystamy algorytmy uczenia maszynowego."
     type: 1
     speakers: [21]
     tags: ["Machine Learning"]
     complexity: 1
-  -
-    id: 8
+
+  - id: 8
     title: "Clojure Koans & REST assured"
     description: "<b>Clojure Koans</b>
 
@@ -189,10 +178,9 @@ list:
     type: 0
     speakers: [13]
     tags: [JVM, Clojure, "Języki programowania", "Programowanie funkcyjne"]
-    complexity: 0
+    complexity: 1
 
-  -
-    id: 9
+  - id: 9
     title: "Jak przygotować swoją pierwszą prezentację (lub ulepszyć istniejące)?"
     description: "Jeżeli nosisz w sobie kawałek wartościowej wiedzy ale zastanawiasz się jak ją \"sformatować\" w formę ciekawej prezentacji to zapraszam na mój warsztat.
 
@@ -211,8 +199,8 @@ list:
     speakers: [5]
     tags: ["Train the trainer"]
     complexity: 0
-  -
-    id: 10
+
+  - id: 10
     title: "JMX w praktyce"
     description: "Podczas warsztatu zapoznamy się z Java Management Extensions (JMX). Zaczniemy od wprowadzenia do tematu i poznania możliwości technologii. Sprawdzimy narzędzia, które pozwalają korzystać z JMX, zobaczymy także co mają do zaoferowania popularne frameworki i biblioteki, których większość z Was już używa. Zakończymy implementacją własnych pomysłów oraz omówieniem najlepszych praktyk."
     prereq: {title: "Wymagania do przygotowania przed warsztatem", list: [
@@ -223,8 +211,7 @@ list:
     tags: ["Wydajność aplikacji", "Application performance by Dynatrace"]
     complexity: 1
 
-  -
-    id: 11
+  - id: 11
     title: "Zawładnij (hiper)tekstem, czyli jak zbudować wyszukiwarkę?"
     description: "Przeszukiwanie tekstu zagościło na dobre we współczesnych aplikacjach internetowych. Czy zastanawiałeś się, jak to właściwie działa? Może chciałbyś stworzyć własną wyszukiwarkę, obsługującą różnorodne formy danych wejściowych?
 
@@ -233,9 +220,9 @@ list:
     type: 0
     speakers: [16, 23]
     tags: ["NoSQL", "Bazy danych", "Application performance by Dynatrace"]
-    complexity: 0
-  -
-    id: 12
+    complexity: 1
+
+  - id: 12
     title: "Speed-up code evaluation by JIT compilation"
     description: "Podczas prezentacji chcialbym odpowiedziec na pytanie, dlaczego generowanie kodu ma sens, gdzie mozna je zastosowac i w jaki sposob zwieksza wydajnosc. Postaram sie takze omowic obecne trendy w tej dziedzinie. Zmierzajac do celu przedstawie budowe kompilatorow oraz opisze kolejne fazy kompilacji skupiajac sie na generowaniu kodu, poczynajac od frontentu, konczac na generowaniu kodu maszynowego."
     type: 1
@@ -243,8 +230,7 @@ list:
     tags: ["Java", "JVM", "Wydajność aplikacji", "Application performance by Dynatrace"]
     complexity: 3
 
-  -
-    id: 13
+  - id: 13
     title: "ElasticSearch: wydajnościowe pułapki?"
     description: "Z ElasticSearchem łatwo zacząć - ściągasz JARa, uruchamiasz, budujesz swój pierwszy indeks i bawisz się RESTowym API. Kilka sprintów dalej wdrażasz rozwiązanie na produkcję, puszczasz na nie produkcyjny ruch... i jesteś nieco zmartwiony wydajnością.
 
@@ -258,8 +244,7 @@ list:
     tags: ["NoSQL", "Bazy danych", "Wydajność aplikacji", "Application performance by Dynatrace"]
     complexity: 2
 
-  -
-    id: 14
+  - id: 14
     title: "Wydajność bazy danych z perspektywy programisty"
     description: "Na warsztacie pokażemy, co dzieje się \"na zapleczu\" relacyjnej bazy danych, kiedy wykonujemy codzienne czynności i odpowiemy na odwieczne pytanie \"dlaczego tak wolno?\".
 
@@ -273,8 +258,7 @@ list:
     tags: ["Bazy danych", "Wydajność aplikacji", "Application performance by Dynatrace"]
     complexity: 2
 
-  -
-    id: 15
+  - id: 15
     title: "Java Mission Control + Flight Recorder — diagnozowanie problemów wydajnościowych na produkcji"
     description: "Narzędzia JDK pozwalają na szczegółową analizę wydajności. Możemy liczyć że będą dostępne na (pre-)produkcji. Co daje nam duże możliwości diagnozowania problemów. Nawet jeśli podchodzimy do problemu ad hoc — nie planowaliśmy takiej możliwości przy wdrożeniu i instalacji.
 
@@ -284,8 +268,7 @@ list:
     tags: ["Java", "Wydajność aplikacji", "Application performance by Dynatrace"]
     complexity: 1
 
-  -
-    id: 16
+  - id: 16
     title: "Introduction to Kotlin"
     description: "Jeśli coraz częściej słyszysz o Kotlinie, ale dotąd nie miałeś(-aś) czasu bliżej się z nim zapoznać, to te warsztaty są właśnie dla Ciebie :)
 
@@ -302,8 +285,7 @@ list:
     tags: [JVM, Kotlin, "Języki programowania"]
     complexity: 1
 
-  -
-    id: 17
+  - id: 17
     title: "JUnit5"
     description: "To praktyczny warsztat adresowane jest  do programistów Java, chcących poznać najnowszą wersję frameworka do tworzenia testów jednostkowych - Junit 5.
     JUnit 5 to całkowicie nowy projekt, oferujący wiele ciekawych funkcjonalności takich jak m.in. całkowite wsparcie dla Javy w wersji 8, wstrzykiwanie parametrów, testy parametryzowane czy w końcu nowe i API umożliwiające łatwiejsze niż kiedykolwiek rozszerzanie możliwości frameworka i dostosowanie go do potrzeb projektowych .
@@ -327,8 +309,7 @@ list:
     tags: [Java, Testowanie]
     complexity: 0
 
-  -
-    id: 18
+  - id: 18
     title: "Wprowadzenie do Scali"
     description: "Java 10 tuż tuż i już nikogo nie będzie dziwić zapis var s=”hello”. Alternatywne języki JVM wpływają na to jak rozwija się sama Java i chciałbym was zachęcić do poznania mechanizmów w tychże językach zanim wszystko trafi do mainstreamu.
 
@@ -348,10 +329,9 @@ list:
     type: 0
     speakers: [15]
     tags: [JVM, Scala, "Języki programowania", "Programowanie funkcyjne"]
-    complexity: 0
+    complexity: 1
 
-  -
-    id: 19
+  - id: 19
     title: "Kubernetes od podstaw"
     description: "W świecie systemów rozproszonych, mikrousług, zdarzeń programiście nie wystarczy już tylko wiedzieć jak napisać i zbudować kod źródłowy. W świecie, w którym system podzielony jest na kilka, kilkanaście, kilkadziesiąt lub kilkaset modułów przychodzi taki moment w którym potrzebujemy skomunikować się z innymi komponentami.
 
@@ -384,10 +364,9 @@ list:
     type: 0
     tags: [Docker, DevOps, Microservices]
     speakers: [9]
-    complexity: 0
+    complexity: 1
 
-  -
-    id: 20
+  - id: 20
     title: "Testowanie wydajności kodu Javy za pomocą narzędzia JMH."
     description: "Testowanie wydajności kodu. A co w tym trudnego? Wystarczy System.currentTimeMillis() przed i po wywołaniu metody i po kłopocie. Przecież sam Bruce Eckel tak robił. Okazuje że można przy okazji popełnić wiele typowych błędów, które mogą spowodować, że nasze szacowania będą bezużyteczne. W ramach sesji warsztatowej wykorzystamy narzędzie JMH do testowania naszych kawałków kodu i zobaczymy jak pomoże nam ono tych błędów uniknąć. Przy okazji poznamy też triki JIT-compilera, którymi sprawia, że java potrafi działać naprawdę szybko ale przy okazji czyni pisanie microbenchmarków zadaniem nie tak trywialnym jakby się mogło na pierwszy rzut oka wydawać.
 
@@ -397,8 +376,8 @@ list:
     speakers: [11]
     tags: [Java, JVM, "Wydajność aplikacji", Testowanie]
     complexity: 1
-  -
-    id: 21
+
+  - id: 21
     title: "Implementacja OAuth 2.0 za pomocą Spring Boot"
     description: "W ramach warsztatu opiszę  na czym polega bardzo popularny framework OAuth 2.0  oraz pokażę jak wygląda jego implementacja w Spring Boot oraz jak  zabezpieczyć za jego pomocą system zbudowany w oparciu o mikroserwisy
 
@@ -445,7 +424,7 @@ list:
     type: 0
     speakers: [33]
     tags: [JVM, Scala, "Języki programowania", "Programowanie funkcyjne"]
-    complexity: 0
+    complexity: 1
 
   - id: 24
     title: "Datalog: Biting the Silver Bullet"
@@ -453,7 +432,7 @@ list:
     type: 1
     speakers: [34]
     tags: [NoSQL, "Bazy danych", "Wydajność aplikacji"]
-    complexity: 0
+    complexity: 1
 
   - id: 25
     title: "Wykorzystanie dockera w celu poprawy efektywności CI/CD"
@@ -475,7 +454,7 @@ list:
     type: 0
     speakers: [35, 36]
     tags: [Docker, DevOps]
-    complexity: 0
+    complexity: 1
 
   - id: 26
     title: "Service Discovery &amp; Failure Detection with Consul (101)"
@@ -485,7 +464,7 @@ list:
     type: 0
     speakers: [37, 38]
     tags: [Architektura, Microservices]
-    complexity: 0
+    complexity: 1
 
   - id: 27
     title: "React – co i jak?"
@@ -536,7 +515,7 @@ list:
     type: 0
     speakers: [20]
     tags: [Architektura, Microservices]
-    complexity: 0
+    complexity: 1
 
   - id: 30
     title: "Spring Boot - szybki start"
@@ -555,7 +534,7 @@ list:
     type: 0
     speakers: [43]
     tags: [Architektura, Microservices, Testowanie]
-    complexity: 0
+    complexity: 1
 
   - id: 32
     title: "Jak podzielić system na moduły"
