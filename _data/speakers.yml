@@ -326,20 +326,6 @@
     - {name: "site", link: "https://perk.pl"}
     - {name: "twitter", link: "https://twitter.com/marcinstozek"}
 
-- id: 21
-  name: "Patryk"
-  surname: "Omiotek"
-  company: "intive"
-  title: "Software Engineer, Trener IT"
-  bio: "Jestem programistą rozwijającym swoje kompetencje w obszarze Artificial Intelligence, Data Science i Machine Learning.
-  Projektuję i wdrażam rozwiązania dla globalnych marek oraz startupów z Silicon Valley. Lubię dzielić się wiedzą - jestem trenerem w infoShare Academy oraz organizuję lokalne wydarzenia takie jak Lublin IT."
-  thumbnailUrl: "patryk_omiotek.jpg"
-  ribbon:
-    - {abbr: "intive", title: "intive", url: "https://www.intive.com"}
-  social:
-    - {name: "site", link: "https://about.me/patrykomiotek"}
-    - {name: "twitter", link: "https://twitter.com/PatrykOmiotek"}
-
 - id: 30
   name: "Rafał"
   surname: "Borowiec"

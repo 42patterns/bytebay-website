@@ -157,14 +157,6 @@ list:
     tags: [Docker, DevOps]
     complexity: 0
 
-  - id: 7
-    title: "Uczenie maszynowe i jak budować systemy analizy sentymentu?"
-    description: "W trakcie warsztatu pokażę dlaczego analiza sentymentu jest istotna nie tylko w biznesie, ale również wykorzystywana m.in. przez służby bezpieczeństwa. Zaprezentuję jak przygotować architekturę pod własny system i wykorzystamy algorytmy uczenia maszynowego."
-    type: 1
-    speakers: [21]
-    tags: ["Machine Learning"]
-    complexity: 1
-
   - id: 8
     title: "Clojure Koans & REST assured"
     description: "<b>Clojure Koans</b>
