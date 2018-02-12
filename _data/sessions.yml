@@ -618,3 +618,22 @@ list:
     speakers: [51]
     tags: [Testowanie]
     complexity: 2
+
+  - id: 39
+    title: "Reactive APIs behind the scenes"
+    description: "W ramach sesji hands-on zobaczymy jakie problemy (i w jaki sposób) adresują reaktywne implementacje.
+
+    Przykłady oprzemy na stosie Springa (m.in.: Spring 5.0 i WebFlux, Project Reactor, Spring Boot 2.0) choć tematy będą raczej uniwersalne.
+
+    Nie będziemy się zbytnio skupiać na API (omówimy jedynie podstawowe operatory), zamiast tego skupimy się na tym jak działają reaktywne implementacje.
+
+    Poruszymy m.in. tematykę:
+      <ul>
+        <li> wykorzystania dostępnych zasobów
+        <li> strumieni
+        <li> backpressure (po stronie klienta, producenta oraz sam protokół)
+      </ul>"
+    type: 1
+    speakers: [52]
+    tags: [Java, Microservices, Architektura]
+    complexity: 1

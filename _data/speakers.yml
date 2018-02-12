@@ -540,3 +540,10 @@
   bio: "Wojciech Kozłowski jest kierownikiem pracowni Testowania oprogramowania w Biurze Rozwoju  RADMOR. Mówi o sobie krótko: \"Elastyczność, optymalizacja i niezawodność to cele, do których dążę w pracy nad rozwojem oprogramowania\". Głównym obszarem moich doświadczeń i zainteresowań jest szeroko pojęte \"Quality Assurance\" i \"Continuous integration\". Prywatnie jestem pasjonatem sportu i górskich wędrówek."
   ribbon:
     - {abbr: "Radmor", title: "Radmor", url: "http://www.radmor.com.pl/pol/Praca"}
+
+- id: 52
+  name: "Kamil"
+  surname: "Szymański"
+  company: "Pragmatic Coders"
+  thumbnailUrl: "kamil_szymanski.png"
+  bio: "Software developer, entuzjasta JVM i open-source, rozwija platformę inwestycyjną D2C @ Pragmatic Coders"
