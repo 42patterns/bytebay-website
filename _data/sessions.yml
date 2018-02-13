@@ -444,7 +444,7 @@ list:
       "docker-compose w wersji &gt;= 1.18"
     ]}
     type: 0
-    speakers: [35, 36]
+    speakers: [36, 35]
     tags: [Docker, DevOps]
     complexity: 1
 
