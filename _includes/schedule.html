@@ -101,7 +101,9 @@
                                     <div class="color-line" style="background: {{ site.data.sessions.meta.sessiontype[session.type].color }}"></div>
                                     <div class="slot-content" style="border-right-color: {{ site.data.sessions.meta.sessiontype[session.type].color }}">
                                         <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
-                                        <span class="slot-language">{{session.language | upcase}}</span>
+                                        <div>
+                                            <strong>Ścieżka</strong>: {{ tags | join: "%%#" | prepend: "#" | downcase | replace: ' ', '-' | downcase | replace: '%%', ' ' }}
+                                        </div>
                                         <ul class="slot-speakers">
                                             {% for speaker in site.data.speakers %}
                                                 {% for session_speaker in session.speakers %}

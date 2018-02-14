@@ -23,6 +23,9 @@
 						{% if session.complexity != null %}
 						<span class="theme-metadata"><span class="caption">Poziom: </span><strong>{{ site.data.sessions.meta.complexity[session.complexity].title }}</strong></span>
 						{% endif %}
+            <span class="theme-metadata">
+                {{ tags | join: "%%#" | prepend: "#" | downcase | replace: ' ', '-' | downcase | replace: '%%', ' ' }}
+            </span>
 						<p class="theme-description">{{ session.description | newline_to_br }}</p>
             {% if session.prereq %}
             <p class="theme-description">

@@ -540,17 +540,29 @@ list:
 
   - id: 33
     title: "Micro Services using Spring Boot 2.0 with Kotlin - krok po kroku"
-    description: "<figure><figcaption>... micro apps</figcaption>
-    <ul>
-    <li>eureka / consul / ...
-    <li>hysrtrix / round rubin LB
-    <li>config server
-    <li>spring boot admin
-    <li>mongo / redis / ...
-    <li>docker / aws
-    <li>gateway
-    <li>monitoring / metryki -> prometheus + grafana
-    </ul></figure>"
+    description: "Podczas warsztatu zaprezentujemy nasze podejście do architektury mikro serwisowej wytwarzanej w oparciu o Spring Cloud oraz rozwiązania firmy Netflix.
+
+    Dowiesz się krok po kroku w jaki sposób:
+      <ol>
+        <li> Umożliwić komunikację pomiędzy mikro serwisami za pomocą service discovery (Eureka).
+        <li> Zapobiegać propagacji błędów pomiędzy mikro serwisami z wykorzystaniem wzorca circuit breaker (Hystrix + Ribbon).
+        <li> Zarządzać konfiguracją aplikacji dla wielu środowisk w architekturze rozproszonej stosując Spring Cloud Config Server.
+        <li> Śledzić komunikację pomiędzy mikro serwisami wykorzystując biblioteki Sleuth i Zipkin.
+        <li> Dowiedzieć się czy aplikacja działa prawidłowo bazując na metrykach zebranych przez Prometheus i zaprezentowanych w Grafana.
+        <li> Prawidłowo udostępnić usługę zewnętrznym klientom poprzez Spring Cloud Gateway.
+        <li> Uruchomić produkcyjnie system rozproszony opierając się na konteneryzacji (Docker).
+      </ol>
+
+    Dodatkowo będziesz miał okazję zapoznać się z reaktywnym oraz funkcyjnym podejściem do wytwarzania oprogramowania z wykorzystaniem języka Kotlin.
+
+    Warto wiedzieć przed: podstawowa znajomość koncepcji architektury mikro serwisowej oraz umiejętność programowania w dowolnym języku."
+    prereq: {title: "Przygotowanie do warsztatu to laptop z zainstalowanym", list: [
+        "JDK 1.8",
+        "Ulubionym środowiskiem programistycznym z wtyczką do Kotlina np. IntelliJ IDEA",
+        "Git",
+        "Docker >=17.12",
+        "Docker Compose >= 1.18"
+      ]}
     type: 0
     speakers: [44, 45]
     tags: [Architektura, Microservices, Kotlin]
