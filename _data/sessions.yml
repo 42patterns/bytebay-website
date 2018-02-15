@@ -56,7 +56,7 @@ list:
     description: "Masz 168 godzin w tygodniu. Co z nimi robisz? Czy wiesz jak spędzasz czas? A może masz tylko iluzję i wrażenie, że czas ucieka. Pora coś z tym zrobić. NIE uczyć się zarządzania czasem, ale uczyć się świadomego, uważnego, rozważnego korzystania z czasu. Z każdej chwili. Tak, by doprowadzić do sytuacji, gdy każda minuta będzie twoim świadomym wyborem. Nie nauczę cię sztuczek, bo w nie nie wierzę. Wierzę w naukę i naukowe sposoby szlifowania rzeczywistości. Nie dowiesz się więc niczego o wielozadaniowości i wyskrobywaniu minut w ciągu dnia. Dowiesz się wiele o tym, co jest ważne dla ciebie. I jak na to znaleźć świadomie czas. Poznasz mechanizmy pro-krastynacji, dowiesz się dlaczego sama motywacja to zdecydowanie za mało i dlaczego wizualizowanie sukcesu, to najgłupsza technika, którą propagują bieda-coachowie."
     type: 2
     speakers: [53]
-    complexity: 1
+    complexity: 0
     tags: []
 
   - id: 3
@@ -693,5 +693,12 @@ list:
     description: "Chcesz dowiedzieć się jak rozwinąć się programistycznie i spełnić dodatkowo jako człowiek? Naucz się przekazywać wiedzę innym i pomóż wejść im do magicznej krainy IT. Uczenie przyszłych programistów, ludzi, którzy naprawdę chcą zmienić swoje życia, daje ogromną radość oraz poczucie, że czynimy świat lepszym miejscem. Bądź jak Elon Musk – realizując się zawodowo (każde zajęcia to gruntowanie wiedzy, ale też spojrzenie na kodowanie z perspektywy „świeżych” w branży osób), pomożesz ambitnym osobom zrealizować ich marzenia o przygodzie w magicznym świecie programingu. Opowiem o tym, jak wyglądają spotkania z kursantami, jak z nimi rozmawiać, jak uczyć, jak słuchać i być słuchanym i wiele, wiele więcej. Jeśli lubisz pracę z ludźmi (w dosłownym rozumieniu) i chcesz nauczać zapraszam – warto."
     type: 0
     speakers: [55]
+    tags: ["Train the trainer"]
+    complexity: 0
+
+  - id: 44
+    title: "tba"
+    type: 0
+    speakers: [53]
     tags: ["Train the trainer"]
     complexity: 0
