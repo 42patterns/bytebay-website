@@ -51,6 +51,14 @@ list:
     tags: []
     service: true
 
+  - id: 41
+    title: "Masz 168 godzin, co z nimi zrobisz?"
+    description: "Masz 168 godzin w tygodniu. Co z nimi robisz? Czy wiesz jak spędzasz czas? A może masz tylko iluzję i wrażenie, że czas ucieka. Pora coś z tym zrobić. NIE uczyć się zarządzania czasem, ale uczyć się świadomego, uważnego, rozważnego korzystania z czasu. Z każdej chwili. Tak, by doprowadzić do sytuacji, gdy każda minuta będzie twoim świadomym wyborem. Nie nauczę cię sztuczek, bo w nie nie wierzę. Wierzę w naukę i naukowe sposoby szlifowania rzeczywistości. Nie dowiesz się więc niczego o wielozadaniowości i wyskrobywaniu minut w ciągu dnia. Dowiesz się wiele o tym, co jest ważne dla ciebie. I jak na to znaleźć świadomie czas. Poznasz mechanizmy pro-krastynacji, dowiesz się dlaczego sama motywacja to zdecydowanie za mało i dlaczego wizualizowanie sukcesu, to najgłupsza technika, którą propagują bieda-coachowie."
+    type: 2
+    speakers: [53]
+    complexity: 1
+    tags: []
+
   - id: 3
     title: "Co gryzie świadomego programistę DDD?"
     description: "W swojej pracy spotykając dziesiątki zespołów zauważam wzorce pytań/dylematów/rozterek jakie pojawiają wraz ze wzrostem doświadczenia i świadomości zespołu. Na pewnym poziomie zaawansowania wszyscy zadają te same pytania:
@@ -70,7 +78,7 @@ list:
       Tak na prawdę pytania te są ogólne a metodyki (jak np. DDD) jedynie szybciej do nich doprowadza. Podczas prezentacji przyjrzymy się tym typowym pytaniom na poziomie modelu, architektury i organizacji - spróbuję odpowiedzieć na nie w postaci konkretnych technik i rozwiązań."
     type: 2
     speakers: [5]
-    tags: [Architektura, DDD]
+    tags: []
 
   - id: 1
     title: "JVM: przez dziurkę od klucza"

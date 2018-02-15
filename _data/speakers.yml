@@ -553,3 +553,11 @@
   company: "Pragmatic Coders"
   thumbnailUrl: "kamil_szymanski.png"
   bio: "Software developer, entuzjasta JVM i open-source, rozwija platformę inwestycyjną D2C @ Pragmatic Coders"
+
+- id: 53
+  name: "Piotr"
+  surname: "Bucki"
+  thumbnailUrl: "piotr_bucki.png"
+  bio: "Od 17 lat pomaga ludziom szlifować komunikację w różnych obszarach. Zawsze bazuje przy tym na psychologii poznawczej, neuro-naukach i psycholingwistyce. Sprawdza teorię w praktyce współpracując z firmami w Chile, Słowenii, Mołdawii, Azerbejdżanie, Austrii, Australii i Polsce. Współautor i redaktor merytoryczny Startup Manual (Wolves Summit 2015), autor i opiekun serii BuckiAcademi wydanej z wydawnictwem 4 Głowy (2016). Publikuje regularnie na InnPoland oraz stronie www.bucki.pro. Pisze dla Malemana, Dolce Vita, Madame, Marketing w Praktyce i wielu innych. Autor książek „Porozmawiajmy o komunikacji”, „Life's a pitch and then you die” oraz „Złap równowagę”. Przetłumaczył 12 książek z zakresu psychologii i poradnictwa. Współpracuje z najlepszymi ośrodkami startupowymi w Polsce – m.in. LPNT, Inkubator Starter, GPNT i PPNT, a także z największym rządowym programem na świecie Startup Chile i Inkubatorami w Słowenii i Austrii. Występował m.in. na Wolves Summit, Davos Communication Forum, PODIM Słowenia, Internet Beta, Social Media Convent, Inspiration Day w Szczecinie, PMI Congress w Antwerpii i wielu wielu innych konferencjach w kraju i na świecie."
+  social:
+    - {name: "site", link: "http://bucki.pro"}
