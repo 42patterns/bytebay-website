@@ -102,9 +102,14 @@
         $(function() {
             if(window.location.hash &&
               (window.location.href.indexOf("schedule") > -1
+               || window.location.href.indexOf("sessions") > -1
                || window.location.href.indexOf("speaker") > -1)) {
                 var hash = window.location.hash;
                 $(hash).click();
+
+                if (window.location.href.indexOf("sessions") > -1) {
+                  showFilteredSessions(hash.slice(1));  
+                }
             }
         });
 
@@ -594,6 +599,7 @@ function showFilteredSessions(type) {
     $('#sessions .' + type).show()
     $('#schedule .slot-content-wrapper').hide() //css('visibility', 'hidden')
     $('#schedule .' + type).show() //css('visibility', 'visible')
+    location.hash = type;
   }
 
 }
