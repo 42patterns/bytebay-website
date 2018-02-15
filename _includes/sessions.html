@@ -24,7 +24,7 @@
 						<span class="theme-metadata"><span class="caption">Poziom: </span><strong>{{ site.data.sessions.meta.complexity[session.complexity].title }}</strong></span>
 						{% endif %}
             <span class="theme-metadata">
-                {{ tags | join: "%%#" | prepend: "#" | downcase | replace: ' ', '-' | downcase | replace: '%%', ' ' }}
+                {% include tags.html tags=session.tags %}
             </span>
 						<div class="theme-description">
               {{ session.description | newline_to_br }}

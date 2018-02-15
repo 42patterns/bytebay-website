@@ -18,7 +18,7 @@
       {% assign all_tags = site.data.sessions.list | map: "tags" | uniq | sort  %}
       {% for t in all_tags %}
       <div class="item text-nowrap">
-        <a href="javascript:void(0)", onclick="showFilteredSessions('{{ t | replace: ' ', '-' | downcase | prepend: "tags-" }}')">{{ t }}</a>
+        <a href="javascript:void(0)" onclick="showFilteredSessions('{{ t | replace: ' ', '-' | downcase | prepend: "tags-" }}')">{{ t }}</a>
       </div>
       {% endfor %}
     </div>
