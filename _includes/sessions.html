@@ -26,9 +26,11 @@
             <span class="theme-metadata">
                 {{ tags | join: "%%#" | prepend: "#" | downcase | replace: ' ', '-' | downcase | replace: '%%', ' ' }}
             </span>
-						<p class="theme-description">{{ session.description | newline_to_br }}</p>
+						<div class="theme-description">
+              {{ session.description | newline_to_br }}
+            </div>
             {% if session.prereq %}
-            <p class="theme-description">
+            <div>
               <figure>
                 <figcaption>{{ session.prereq["title"] }}</figcaption>
                 <ul>
@@ -37,7 +39,7 @@
                   {% endfor %}
                 </ul>
               </figure>
-            </p>
+            </div>
             {% endif %}
 						<hr>
 						<div class="people-details">

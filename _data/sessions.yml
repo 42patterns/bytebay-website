@@ -649,3 +649,25 @@ list:
     speakers: [52]
     tags: [Java, Microservices, Architektura]
     complexity: 1
+
+  - id: 40
+    title: "Z Typescriptem Ci do twarzy"
+    description: "Zapraszam Cię na niesamowitą podróż podczas której:
+
+      <ul>
+      <li> dowiesz się czym jest Typescript, skąd pochodzi i dokąd zmierza,
+      <li> poznasz jego najważniejsze cechy, w czym jest podobny, w czym lepszy a w czym gorszy od innych rozwiązań
+      <li> rozpoczniesz z nim pracę, w sposób praktyczny poprzez wykonywanie ćwiczeń zobaczysz dlaczego warto go używać
+      <li> zaspokoisz swój głód wiedzy co dalej poprzez wskazanie drogi jak dalej się rozwijać.
+      </ul>
+
+      A po tym wszystkim będziesz mógł odpowiedzieć na pytanie - dlaczego to właśnie Typescript jest Twoją ulubioną technologią do tworzenia rozwiązań webowych i nie tylko.
+
+      Dla kogo jest ten warsztat? Dla tych którzy znają już programowanie a chcieliby poznać TypeScript, praktycznie wykorzystać oraz dowiedzieć się co dalej.
+
+      Co dostaniesz - dużą dawkę wiedzy, masę pytań i wątpliwości a także materiały by móc dalej samodzielnie rozwijać się w tym kierunku."
+    prereq: {title: "Co potrzebujesz", list: ["komputer z przygotowanym środowiskiem (opis przygotowania środowiska dostaniesz przed warsztatem)"]}
+    type: 0
+    speakers: [12]
+    tags: [JavaScript, Frontend, "Języki programowania"]
+    complexity: 1
