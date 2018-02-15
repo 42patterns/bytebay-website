@@ -36,7 +36,6 @@
   title: "Architect"
   bio: "Software architect i trener, z branżą IT związany od ponad 16 lat. Pasjonuje się projektowaniem i implementacją systemów o złożonych wymaganiach biznesowych, machine-learningiem i dostarczaniem wartości biznesowej klientom. Speaker i organizator eventów dla developerów, chcących rozwijać swoje umiejętności zawodowe."
   thumbnailUrl: mariusz_gil.jpg
-  rockstar: true
   ribbon:
     - {abbr: "Bottega", title: "Bottega IT Minds", url: "https://bottega.com.pl"}
     - {abbr: "Source Ministry", title: "Source Ministry", url: "https://sourceministry.com/"}
@@ -54,6 +53,16 @@
     - {abbr: "Onwelo", title: "Onwelo", url: "https://onwelo.pl/"}
   social:
     - {name: "twitter", link: "https://twitter.com/dpokusa"}
+
+- id: 53
+  name: "Piotr"
+  surname: "Bucki"
+  thumbnailUrl: "piotr_bucki.png"
+  rockstar: true
+  bio: "Od 17 lat pomaga ludziom szlifować komunikację w różnych obszarach. Zawsze bazuje przy tym na psychologii poznawczej, neuro-naukach i psycholingwistyce. Sprawdza teorię w praktyce współpracując z firmami w Chile, Słowenii, Mołdawii, Azerbejdżanie, Austrii, Australii i Polsce. Współautor i redaktor merytoryczny Startup Manual (Wolves Summit 2015), autor i opiekun serii BuckiAcademi wydanej z wydawnictwem 4 Głowy (2016). Publikuje regularnie na InnPoland oraz stronie www.bucki.pro. Pisze dla Malemana, Dolce Vita, Madame, Marketing w Praktyce i wielu innych. Autor książek „Porozmawiajmy o komunikacji”, „Life's a pitch and then you die” oraz „Złap równowagę”. Przetłumaczył 12 książek z zakresu psychologii i poradnictwa. Współpracuje z najlepszymi ośrodkami startupowymi w Polsce – m.in. LPNT, Inkubator Starter, GPNT i PPNT, a także z największym rządowym programem na świecie Startup Chile i Inkubatorami w Słowenii i Austrii. Występował m.in. na Wolves Summit, Davos Communication Forum, PODIM Słowenia, Internet Beta, Social Media Convent, Inspiration Day w Szczecinie, PMI Congress w Antwerpii i wielu wielu innych konferencjach w kraju i na świecie."
+  social:
+    - {name: "site", link: "http://bucki.pro"}
+
 
 - id: 4
   name: "Wiktor"
@@ -311,6 +320,28 @@
     - {name: "site", link: "https://typeofweb.com/"}
     - {name: "twitter", link: "https://twitter.com/mmiszy"}
 
+- id: 54
+  name: "Aleksander"
+  surname: "Gozdek"
+  company: "Software Development Academy"
+  bio: "Starszy programista od ponad 5 lat pracujący z technologiami .NET, Scrum Master i trener w Software Development Academy w jednej osobie. Uwielbia dzielić się wiedzą i usprawniać komunikację w zespołach. Dba o wysoką jakość szkoleń nie tylko pod względem merytorycznym, ale także warsztatu trenerskiego. W ramach warsztatów opowie o tym jak profesjonalnie przygotować szkolenie i sprawić by nudne tematy stały się dla uczestników interesującym doświadczeniem."
+  thumbnailUrl: aleksander_gozdek.jpg
+  ribbon:
+    - {abbr: "SDA", title: "Software Development Academy", url: "http://sdacademy.pl"}
+
+- id: 55
+  name: "Piotr"
+  surname: "Mariański"
+  company: "Software Development Academy"
+  bio: "Programista z 8 letnim doświadczeniem, samouk – życiowo programista od zawsze. Na co dzień zajmuję się kodowaniem w PHPie oraz technologiach frontendowych, a także przekazywaniem wiedzy przyszłym programistom prowadząc zajęcia w ramach kursów programowania Software Development Academy – to nie praca to pasja. Zawodowo pracuje z kontrahentami pochodzącymi z zupełnie różnych od siebie branż, łącząc kropki w każdym ze światów, dla których trzeba stworzyć właściwe oprogramowanie, które ułatwia życie i prace ludziom. Prywatnie interesuję się wszystkim – od mechaniki kwantowej, przez sprawy codzienne związane z polityką i sportem (szczególnie piłką nożną), po szeroko pojętą kulturę masową."
+  thumbnailUrl: piotr_marianski.jpg
+  ribbon:
+    - {abbr: "SDA", title: "Software Development Academy", url: "http://sdacademy.pl"}
+  social:
+    - {name: "site", link: "http://webpros.pl/"}
+
+
+
 - id: 20
   name: "Marcin"
   surname: "Stożek"
@@ -553,11 +584,3 @@
   company: "Pragmatic Coders"
   thumbnailUrl: "kamil_szymanski.png"
   bio: "Software developer, entuzjasta JVM i open-source, rozwija platformę inwestycyjną D2C @ Pragmatic Coders"
-
-- id: 53
-  name: "Piotr"
-  surname: "Bucki"
-  thumbnailUrl: "piotr_bucki.png"
-  bio: "Od 17 lat pomaga ludziom szlifować komunikację w różnych obszarach. Zawsze bazuje przy tym na psychologii poznawczej, neuro-naukach i psycholingwistyce. Sprawdza teorię w praktyce współpracując z firmami w Chile, Słowenii, Mołdawii, Azerbejdżanie, Austrii, Australii i Polsce. Współautor i redaktor merytoryczny Startup Manual (Wolves Summit 2015), autor i opiekun serii BuckiAcademi wydanej z wydawnictwem 4 Głowy (2016). Publikuje regularnie na InnPoland oraz stronie www.bucki.pro. Pisze dla Malemana, Dolce Vita, Madame, Marketing w Praktyce i wielu innych. Autor książek „Porozmawiajmy o komunikacji”, „Life's a pitch and then you die” oraz „Złap równowagę”. Przetłumaczył 12 książek z zakresu psychologii i poradnictwa. Współpracuje z najlepszymi ośrodkami startupowymi w Polsce – m.in. LPNT, Inkubator Starter, GPNT i PPNT, a także z największym rządowym programem na świecie Startup Chile i Inkubatorami w Słowenii i Austrii. Występował m.in. na Wolves Summit, Davos Communication Forum, PODIM Słowenia, Internet Beta, Social Media Convent, Inspiration Day w Szczecinie, PMI Congress w Antwerpii i wielu wielu innych konferencjach w kraju i na świecie."
-  social:
-    - {name: "site", link: "http://bucki.pro"}

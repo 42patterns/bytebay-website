@@ -679,3 +679,19 @@ list:
     speakers: [12]
     tags: [JavaScript, Frontend, "Języki programowania"]
     complexity: 1
+
+  - id: 42
+    title: "Storytelling"
+    description: "Niezależnie od tego, o czym mówisz, możesz to opowiedzieć ciekawie. Dane dotyczące sprzedaży, statystyki, podsumowanie sytuacji w projekcie to tematy, które najczęściej nudzą podczas firmowych prezentacji. Co zrobić, aby zainteresować ludzi i nudne spotkanie przekształcić w interesujące doświadczenie, dowiesz się na warsztatach podczas, których Aleks zaprezentuje jak się wyróżnić i zaangażować publiczność."
+    type: 0
+    speakers: [54]
+    tags: ["Train the trainer"]
+    complexity: 0
+
+  - id: 43
+    title: "\"Przeszczepianie wiedzy\" - czyli jak fachowo uczyć programowania?"
+    description: "Chcesz dowiedzieć się jak rozwinąć się programistycznie i spełnić dodatkowo jako człowiek? Naucz się przekazywać wiedzę innym i pomóż wejść im do magicznej krainy IT. Uczenie przyszłych programistów, ludzi, którzy naprawdę chcą zmienić swoje życia, daje ogromną radość oraz poczucie, że czynimy świat lepszym miejscem. Bądź jak Elon Musk – realizując się zawodowo (każde zajęcia to gruntowanie wiedzy, ale też spojrzenie na kodowanie z perspektywy „świeżych” w branży osób), pomożesz ambitnym osobom zrealizować ich marzenia o przygodzie w magicznym świecie programingu. Opowiem o tym, jak wyglądają spotkania z kursantami, jak z nimi rozmawiać, jak uczyć, jak słuchać i być słuchanym i wiele, wiele więcej. Jeśli lubisz pracę z ludźmi (w dosłownym rozumieniu) i chcesz nauczać zapraszam – warto."
+    type: 0
+    speakers: [55]
+    tags: ["Train the trainer"]
+    complexity: 0

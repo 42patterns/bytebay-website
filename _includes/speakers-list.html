@@ -11,7 +11,7 @@
                                 <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})">
                                     <div class="overlay solid-overlay"></div>
                                     {% if speaker.ribbon != null and
-                                      (speaker.company == "Dynatrace" or speaker.company == "Nordea" or speaker.company == "Travactory" or speaker.company == "Radmor") %}
+                                      (speaker.company == "Dynatrace" or speaker.company == "Nordea" or speaker.company == "Travactory" or speaker.company == "Radmor" or speaker.company == "Software Development Academy") %}
                                     <ul class="ribbon-wrapper">
                                         {% for ribbon in speaker.ribbon %}
                                         <li class="{{ ribbon["abbr"] | downcase }}">

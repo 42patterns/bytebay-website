@@ -1,3 +1,7 @@
 {% for tag in include.tags | map: "tags"  %}
-  #<a href="javascript:void(0)" onclick="showFilteredSessions('{{ tag | replace: ' ', '-' | downcase | prepend: "tags-" }}')">{{ tag  }}</a>
+  {% if include.nolinks == true %}
+    <span>#{{ tag  }}</span>
+  {% else %}
+    #<a href="javascript:void(0)" onclick="showFilteredSessions('{{ tag | replace: ' ', '-' | downcase | prepend: "tags-" }}')">{{ tag  }}</a>
+  {% endif %}
 {% endfor %}

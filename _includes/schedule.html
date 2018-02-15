@@ -68,7 +68,7 @@
                                                     <p class="speaker-name">{{ speaker.name }} {{ speaker.surname }}
 
                                                       {% if speaker.ribbon != null and
-                                                        (speaker.company == "Dynatrace" or speaker.company == "Nordea" or speaker.company == "Travactory" or speaker.company == "Radmor") %}
+                                                        (speaker.company == "Dynatrace" or speaker.company == "Nordea" or speaker.company == "Travactory" or speaker.company == "Radmor" or speaker.company == "Software Development Academy") %}
                                                       <span class="speaker-position">{{ speaker.company }}</span>
                                                     {% endif %}
                                                   </p>
@@ -111,8 +111,8 @@
                                                     {% if session_speaker == speaker.id %}
                                                     <li itemprop="performer"><div class="speaker-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})"></div>
                                                     <p class="speaker-name">{{ speaker.name }} {{ speaker.surname }}
-                                                      {% if speaker.company != null and
-                                                        (speaker.company == "Dynatrace" or speaker.company == "Nordea" or speaker.company == "Travactory") %}
+                                                      {% if speaker.ribbon != null and
+                                                        (speaker.company == "Dynatrace" or speaker.company == "Nordea" or speaker.company == "Travactory" or speaker.company == "Radmor" or speaker.company == "Software Development Academy") %}
                                                         <span class="speaker-position">{{ speaker.company }}</span>
                                                       {% endif %}
                                                     </p>

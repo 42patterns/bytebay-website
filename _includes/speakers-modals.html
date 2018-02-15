@@ -23,6 +23,9 @@
 										{% if session.complexity != null %}
 										<span class="theme-metadata"><span class="caption">Zaawansowanie: </span>{{ site.data.sessions.meta.complexity[session.complexity].title }}</span>
 										{% endif %}
+										<div>
+											{% include tags.html tags=session.tags nolinks=true %}
+										</div>
 										{% if session.video %}
 										<div class="theme-video embed-responsive embed-responsive-16by9">
 										    <iframe class="embed-responsive-item" src="{{ session.video }}"></iframe>
