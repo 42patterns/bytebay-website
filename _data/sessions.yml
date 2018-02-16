@@ -87,7 +87,7 @@ list:
     Podczas tej sesji postaram się pokazać dostępne narzędzia, magiczne przełączniki i dostępne rozwiązania potrzebne w pracy każdego \"kryminologa\" JVM. Sesja będzie przeznaczona dla osób, które zaczynają przygodę z optymalizacją JVM. Porozmawiamy o zapisywaniu zdarzeń z JVM, narzędziach ukrytych w JDK,w tym także Java Mission Control i Flight Recorder i zobaczymy jak Java płonie :). Nie zapomnimy też o narzędziach dostępnych w systemie operacyjnym Linux."
     type: 1
     speakers: [3]
-    tags: [Java, JVM, "Wydajność aplikacji"]
+    tags: [Java, JVM, "Machine code", "Assembly", "Wydajność aplikacji"]
     complexity: 3
 
   - id: 2
@@ -227,7 +227,7 @@ list:
     description: "Podczas prezentacji chcialbym odpowiedziec na pytanie, dlaczego generowanie kodu ma sens, gdzie mozna je zastosowac i w jaki sposob zwieksza wydajnosc. Postaram sie takze omowic obecne trendy w tej dziedzinie. Zmierzajac do celu przedstawie budowe kompilatorow oraz opisze kolejne fazy kompilacji skupiajac sie na generowaniu kodu, poczynajac od frontentu, konczac na generowaniu kodu maszynowego."
     type: 1
     speakers: [24, 25]
-    tags: ["Java", "JVM", "Wydajność aplikacji", "Application performance by Dynatrace"]
+    tags: ["Java", "JVM", "C", "Machine code", "Assembly", "Wydajność aplikacji", "Application performance by Dynatrace"]
     complexity: 3
 
   - id: 13
@@ -636,7 +636,7 @@ list:
     ]}
     type: 0
     speakers: [51]
-    tags: [Testowanie]
+    tags: ["C", Testowanie]
     complexity: 2
 
   - id: 39
