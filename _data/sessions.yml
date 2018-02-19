@@ -714,3 +714,16 @@ list:
     speakers: [53]
     tags: ["Train the trainer"]
     complexity: 0
+
+  - id: 45
+    title: "Implementacja modeli Machine Learningowych"
+    description: "Machine Learning na dobre zagościł w developerskim świecie. Dziś do naszej dyspozycji są nie tylko dziesiątki ciekawych bibliotek, ale także dedykowane usługi online, także w formie komponentów oferowanych w ramach popularnych platform cloud. Dodając do tego różne mechaniki tworzenia rozwiązań ML czy setki gotowych algorytmów, poruszanie się w świecie uczenia maszynowego potrafi przysporzyć bólu głowy...
+
+    Podczas naszego warsztatu na przykładzie otwartych data-setów zbudujemy kilka modeli, w tym klasyfikacyjnych i regresyjnych, poznając przy tym podstawowe koncepty Machine Learningu. Zastanowimy się również nad wykorzystaniem technik ML jako warstwy Decision Support w modelach wielkoskalowych."
+    prereq: {title: "Co będzie potrzebne podczas warsztatu?",list: [
+      "Pracować będziemy w oparciu o notebooki Jupyter, laptop i przeglądarka będzie więc wszystkim, czego będziemy potrzebować"
+    ]}
+    type: 0
+    speakers: [6]
+    tags: [Architecture, "Machine Learning"]
+    complexity: 0
