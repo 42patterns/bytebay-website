@@ -566,6 +566,7 @@
   surname: "Ostaszewski"
   company: "Radmor"
   bio: "Mateusz jest programistą w Biurze Rozwoju w firmie RADMOR S.A. Lubi uczyć się nowych rzeczy a także dzielić się swoją wiedzą z innymi. Prywatnie lubi podróżować oraz odwiedzać zapomniane miejsca historyczne."
+  thumbnailUrl: mateusz_ostaszewski.jpg
   ribbon:
     - {abbr: "Radmor", title: "Radmor", url: "http://www.radmor.com.pl/pol/Praca"}
 
