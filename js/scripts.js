@@ -103,12 +103,12 @@
             if(window.location.hash &&
               (window.location.href.indexOf("schedule") > -1
                || window.location.href.indexOf("sessions") > -1
-               || window.location.href.indexOf("speaker") > -1)) {
+               || window.location.href.indexOf("speakers") > -1)) {
                 var hash = window.location.hash;
                 $(hash).click();
 
                 if (window.location.href.indexOf("sessions") > -1) {
-                  showFilteredSessions(hash.slice(1));  
+                  showFilteredSessions(hash.slice(1));
                 }
             }
         });
@@ -232,7 +232,7 @@
             var iframe = $(this).find('iframe');
             iframe.attr('src', iframe.attr('src'));
         });
-        $('.slot, .speaker').click(function() {
+        $('.speaker').click(function() {
             location.hash = $(this).attr('id');
         });
 
@@ -594,7 +594,7 @@ function showFilteredSessions(type) {
   if (type === 'all') {
       $('#sessions .sessionDetails').show()
       $('#schedule .slot-content-wrapper').show() //css('visibility', 'visible')
-  } else {
+  } else if (type.startsWith("tags") || type.startsWith("type")) {
     $('#sessions .sessionDetails').hide()
     $('#sessions .' + type).show()
     $('#schedule .slot-content-wrapper').hide() //css('visibility', 'hidden')
