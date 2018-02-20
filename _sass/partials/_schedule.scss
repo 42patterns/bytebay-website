@@ -141,7 +141,6 @@ $small-label-width: 80px;
 .slot {
     @extend .track-header-slot;
     padding: 0;
-    cursor: pointer;
     @media (max-width: 767px) {
         border-top: $schedule-border;
     }
@@ -178,6 +177,10 @@ $small-label-width: 80px;
     }
     &:hover {
         transform: translateY(5px);
+    }
+
+    .slot-title {
+      cursor: pointer;
     }
 
     ul.slot-speakers {

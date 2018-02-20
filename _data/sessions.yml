@@ -254,7 +254,7 @@ list:
 
     wymagania przed warsztatem: laptop min 8 GB RAM (najlepiej 16GB), dowolny OS, zainstalowany VirtualBox, Java JDK8 albo Java JDK9"
     type: 0
-    speakers: [27]
+    speakers: [27, 28]
     tags: ["Bazy danych", "Wydajność aplikacji", "Application performance by Dynatrace"]
     complexity: 2
 
@@ -304,7 +304,7 @@ list:
       <li>REST Assured
       <li>Extension API
       </ul></figure>"
-    type: 0
+    type: 1
     speakers: [30, 31]
     tags: [Java, Testowanie]
     complexity: 0
@@ -640,15 +640,17 @@ list:
 
 # Radmor 2
   - id: 38
-    title: "Warsztat testowania modułów radia definiowanego programowo [SDR]"
-    description: "Aktualnie na świecie koncepcja radia definiowanego programowo (ang. Software Defined Radio [SDR]) jest implementowana w sprzęcie radiokomunikacyjnym i wdrażana w armiach wchodzących w skład NATO. Technologia ta pozwala na szybsze uzyskanie interoperacyjności, zwiększenie elastyczności oraz wzbogacenie zakresu funkcjonalności dla łączności radiowej w misjach wojskowych. Firma RADMOR jest polskim liderem w dziedzinie SDR, którą zajmuje się już blisko 20 lat.Warsztat dotyczy testowania modułów oprogramowania w środowisku OSSIE bazującym na standardzie JTRS SCA 2.2.2 (opracowanym pierwotnie na potrzeby armii USA) i przedstawia praktyczny przykład prostej implementacji architektury SDR bazującej na modelu zdefiniowanym w w/w standardzie. Poszczególne komponenty architektury komunikują się za pomocą warstwy middleware'u opartego standard OMG CORBA. W ramach warsztatu przewidziane jest wprowadzenie merytoryczne w architekturę, po czym nastąpi uruchomienie domeny SCA wewnątrz środowiska wirtualnego dostarczonego przez prowadzącego warsztat. Następnie omówione zostaną propozycje możliwych modyfikacji w implementacji i zaistnieje możliwość samodzielnego rozszerzenia kodu źródłowego w języku C++ przez uczestników warsztatu."
+    title: "SDR for Dummies (SOA inside a modern military radio)"
+    description: "Najnowszym trendem w sprzęcie radiokomunikacyjnym dla armii wchodzących w skład NATO jest koncepcja radia definiowanego programowo (ang. Software Defined Radio [SDR]). Technologia ta dzięki koncepcji zorientowanej na usługach (SOA) pozwala na szybsze uzyskanie interoperacyjności i uelastycznienie zakresu funkcjonalności. Warsztat prezentuje podejście do testowania modułów (usług) przy wykorzystaniu popularnego framework'u GoogleTest / GoogleMock. Warsztat zawiera praktyczny przykład prostej implementacji architektury SDR w środowisku OSSIE bazującym na standardzie JTRS SCA. Poszczególne komponenty architektury, realizujące wzajemnie usługi wewnątrz platformy SDR, komunikują się za pomocą warstwy middleware'u (standard OMG CORBA).
+
+    W ramach warsztatu przewidziane jest wprowadzenie merytoryczne w architekturę, uruchomienie domeny SCA na maszynie wirtualnej, implementacja modyfikacji (rozszerzenie przez uczestników warsztatu kodu źródłowego w języku C++)."
     prereq: {title: "Przed warsztatem", list: [
       "Komputer z zainstalowanym narzędziem VirtualBox (w najnowszej dostępnej wersji na dowolnym systemie operacyjnym).",
       "Umiejętność pracy w powłoce (shell) systemu Linux i znajomość programowania w języku C++ oraz notacji UML. Mile widziana podstawowa znajomość standardu CORBA i SCA."
     ]}
     type: 0
     speakers: [51]
-    tags: ["C", Testowanie]
+    tags: ["C", Testowanie, SOA, Architektura]
     complexity: 2
 
   - id: 39
@@ -726,4 +728,23 @@ list:
     type: 0
     speakers: [6]
     tags: [Architecture, "Machine Learning"]
+    complexity: 0
+
+  - id: 46
+    title: "AWS meets front-end"
+    description: "Is commit the last thing that you care about in your Front-end app ? Do you ever wondered what should happen to deliver your code to client machine, how to speed-up page loading with just few clicks or restrict access ?  In this session I'll cover all this things and show how to deploy your front-end code with A/B tests using Amazon AWS from scratch."
+    prereq: {title: "Co będzie potrzebne podczas warsztatu?",list: [
+      "Podstawowa wiedza z zakresu aplikacji WEB i zagadnien sieciowych",
+      "Dostęp do Amazon AWS (zarejestrować konto)"
+    ]}
+    type: 0
+    speakers: [56]
+    tags: [Architecture, Cloud, Frontend]
+    complexity: 0
+
+  - id: 47
+    title: "tba"
+    type: 1
+    speakers: [19]
+    tags: [Frontend, JavaScript]
     complexity: 0

@@ -585,3 +585,15 @@
   company: "Pragmatic Coders"
   thumbnailUrl: "kamil_szymanski.png"
   bio: "Software developer, entuzjasta JVM i open-source, rozwija platformę inwestycyjną D2C @ Pragmatic Coders"
+
+- id: 56
+  name: "Paweł"
+  surname: "Szczerbicki"
+  company: "Arc Software"
+  title: "Software Architect"
+  bio: "Programista skupiający się głównie na technologiach WEB opartych na chmurze, zarówno od strony front-endowej jak i back-endowej. Prywatnie zajmuje się prowadzeniem szkoleń oraz tworzeniem aplikacji webowych zarówno dla klientów zewnętrznych jak i realizację własnych pomysłów, w takich obszarach jak: Java, Spring, Angular, NodeJs, Microservices, Serverless oraz Cloud, a także Software architecture czy NoSQL Databases, W wolnych chwilach uczy się latać"
+  thumbnailUrl: pawel_szczerbicki.jpg
+  social:
+    - {name: "twitter", link: "https://twitter.com/SzczerbickiP"}
+    - {name: "github", link: "https://github.com/pawelszczerbicki"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/szczerbicki-pawel/"}

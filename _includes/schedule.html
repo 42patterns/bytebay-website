@@ -51,11 +51,11 @@
                             {% for session in site.data.sessions.list %}
                                 {% if slot == session.id and session.service == null %}
                                 {% assign tags = session | map: "tags" %}
-                                <div id="session-{{ session.id }}" class="slot col-md-12 col-xs-12" data-slot-detail="{{ site.data.sessions.meta.sessiontype[session.type].title }}" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">
+                                <div id="session-{{ session.id }}" class="slot col-md-12 col-xs-12" data-slot-detail="{{ site.data.sessions.meta.sessiontype[session.type].title }}" >
                                   <div class="slot-content-wrapper {{ tags | join: "%%tags-" | prepend: "tags-" | replace: ' ', '-' | downcase | replace: '%%', ' '}}">
                                     <div class="color-line" style="background: {{ site.data.sessions.meta.sessiontype[session.type].color }}"></div>
                                     <div class="slot-content" style="border-right-color: {{ site.data.sessions.meta.sessiontype[session.type].color }}">
-                                        <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
+                                        <h5 class="slot-title" itemprop="name" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">{{ session.title }}</h5>
                                         <span class="slot-language">{{session.language | upcase}}</span>
                                         <div>
                                           {% include tags.html tags=session.tags %}
@@ -96,12 +96,11 @@
                             {% for session in site.data.sessions.list %}
                                 {% if slot == session.id and session.service == null %}
                                 {% assign tags = session | map: "tags" %}
-                                <div id="session-{{ session.id }}" class="slot col-md-12 col-xs-12">
+                                <div id="session-{{ session.id }}" class="slot col-md-12 col-xs-12" data-slot-detail="{{ site.data.sessions.meta.sessiontype[session.type].title }}" >
                                   <div class="slot-content-wrapper {{ tags | join: "%%tags-" | prepend: "tags-" | replace: ' ', '-' | downcase | replace: '%%', ' '}}">
                                     <div class="color-line" style="background: {{ site.data.sessions.meta.sessiontype[session.type].color }}"></div>
                                     <div class="slot-content" style="border-right-color: {{ site.data.sessions.meta.sessiontype[session.type].color }}">
-                                        <h5 class="slot-title" itemprop="name"
-                                        data-slot-detail="{{ site.data.sessions.meta.sessiontype[session.type].title }}" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}"a>{{ session.title }}</h5>
+                                        <h5 class="slot-title" itemprop="name" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">{{ session.title }}</h5>
                                         <div>
                                           {% include tags.html tags=session.tags %}
                                         </div>

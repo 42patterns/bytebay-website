@@ -2,6 +2,6 @@
   {% if include.nolinks == true %}
     <span>#{{ tag  }}</span>
   {% else %}
-    #<a href="javascript:void(0)" onclick="showFilteredSessions('{{ tag | replace: ' ', '-' | downcase | prepend: "tags-" }}')">{{ tag  }}</a>
+    #<a href="javascript:void(0); return false;" onclick="showFilteredSessions('{{ tag | replace: ' ', '-' | downcase | prepend: "tags-" }}'); return false;">{{ tag  }}</a>
   {% endif %}
 {% endfor %}

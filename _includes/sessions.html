@@ -13,10 +13,10 @@
 		{% for session in site.data.sessions.list %}
 			{% if session.service != true %}
         {% assign tags = session | map: "tags" %}
-				<div class="col-lg-10 col-lg-offset-1 sessionDetails {{ site.data.sessions.meta.sessiontype[session.type].title | replace: ' ', '-' | downcase }} {{ site.data.sessions.meta.complexity[session.complexity].title | replace: ' ', '-' | downcase }} {{ tags | join: "%%tags-" | prepend: "tags-" | replace: ' ', '-' | downcase | replace: '%%', ' '}}" id="sessionDetail-{{ session.id }}" tabindex="-1">
+				<div class="col-lg-10 col-lg-offset-1 sessionDetails {{ site.data.sessions.meta.sessiontype[session.type].title | replace: ' ', '-' | prepend: "type-" | downcase }} {{ site.data.sessions.meta.complexity[session.complexity].title | replace: ' ', '-' | downcase }} {{ tags | join: "%%tags-" | prepend: "tags-" | replace: ' ', '-' | downcase | replace: '%%', ' '}}" id="sessionDetails-{{ session.id }}" tabindex="-1">
           <div class="color-line" style="position: relative !important; margin-top: 20px; background: {{ site.data.sessions.meta.sessiontype[session.type].color }}"></div>
 					<div class="people-modal text-left">
-						<h5>{{ session.title }}</h5>
+						<h5><a href="javascript:void(0); return false;" onclick="window.location.hash = '#sessionDetails-{{session.id}}'; return false;">{{ session.title }}</a></h5>
             {% if session.type != null %}
             <span class="theme-metadata"><span class="caption">Typ sesji: </span><strong>{{ site.data.sessions.meta.sessiontype[session.type].title }}</strong></span>
             {% endif %}
