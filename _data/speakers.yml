@@ -461,6 +461,7 @@
   name: "Łukasz"
   surname: "Szweda"
   company: "Nordea"
+  thumbnailUrl: lukasz_szweda.jpg
   ribbon:
     - {abbr: "Nordea", title: "Nordea", url: "http://nordea.pl/it"}
 
