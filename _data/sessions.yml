@@ -641,9 +641,25 @@ list:
 # Radmor 2
   - id: 38
     title: "SDR for Dummies (SOA inside a modern military radio)"
-    description: "Najnowszym trendem w sprzęcie radiokomunikacyjnym dla armii wchodzących w skład NATO jest koncepcja radia definiowanego programowo (ang. Software Defined Radio [SDR]). Technologia ta dzięki koncepcji zorientowanej na usługach (SOA) pozwala na szybsze uzyskanie interoperacyjności i uelastycznienie zakresu funkcjonalności. Warsztat prezentuje podejście do testowania modułów (usług) przy wykorzystaniu popularnego framework'u GoogleTest / GoogleMock. Warsztat zawiera praktyczny przykład prostej implementacji architektury SDR w środowisku OSSIE bazującym na standardzie JTRS SCA. Poszczególne komponenty architektury, realizujące wzajemnie usługi wewnątrz platformy SDR, komunikują się za pomocą warstwy middleware'u (standard OMG CORBA).
+    description: "<b>Problem (odwieczna kwestia niekompatybilności w łączności)</b>:
+      <ul>
+        <li> Na misjach sojuszniczych NATO (np. w Afganistanie lub Iraku) wykorzystywane są różne sposoby radiokomunikacji (typowe dla różnych armii), co często jest rozwiązywane najprostszym, ale nieoptymalnym sposobem tj. żołnierze wymieniają pomiędzy sobą sprzęt, aby zapewnić sobie łączność podczas współpracy.
+        <li> Z reguły istnieją trudności (lub jest to całkowicie niemożliwe bez zmian sprzętowych) w zmianie wykorzystywanych protokołów łączności, gdyż dotychczas radiostacje były produkowane jako monolit sprzętowo-programowy (każdy producent stosował własną architekturą wewnętrzną). Szybka zmiana sposobu komunikacji wykorzystującej ten sam sprzęt (zmiana tylko za pomocą oprogramowania) jest szczególnie istotna, gdy wrogie jednostki przechwycą taki sprzęt. Wpływa to bezpośrednio na bezpieczeństwo żołnierzy i możliwość kontynuowania misji z rotacyjnym udziałem różnych armii.
+      </ul>
 
-    W ramach warsztatu przewidziane jest wprowadzenie merytoryczne w architekturę, uruchomienie domeny SCA na maszynie wirtualnej, implementacja modyfikacji (rozszerzenie przez uczestników warsztatu kodu źródłowego w języku C++)."
+      <b>Rozwiązanie (jak można do tego podejść)</b>:
+        <ul>
+          <li> Najnowszym trendem w sprzęcie radiokomunikacyjnym dla armii wchodzących w skład NATO jest koncepcja radia definiowanego programowo (ang. Software Defined Radio [SDR]). Technologia ta dzięki koncepcji zorientowanej na usługach (SOA) pozwala na szybsze uzyskanie interoperacyjności i uelastycznienie zakresu funkcjonalności.
+          <li> Zestandaryzowana architektura programowa definiuje wewnętrzny zestaw API, co pozwala na uruchamianie obsługi różnych protokołów komunikacyjnych na tej samej platformie sprzętowej. Oprogramowanie jest ładowane i zorganizowane wewnątrz radiostacji w standardowy sposób co umożliwia szybkie wdrażanie nowych sposobów komunikacji wymaganych podczas różnych misji wojskowych.
+          <li> Ponadto oprogramowanie komunikacyjne jest projektowane cross-platformowo, aby umożliwić portowanie modułów funkcjonalnych na platformy pochodzące od różnych producentów.
+        </ul>
+
+        <b>Warsztat (czego się nauczysz w praktyce)</b>:
+          <ul>
+            <li> Warsztat zawiera praktyczny przykład prostej implementacji architektury SDR. Poszczególne komponenty architektury, realizujące wzajemnie usługi wewnątrz platformy SDR, komunikują się za pomocą warstwy middleware'u (standard OMG CORBA).
+            <li> Warsztat prezentuje podejście do uruchamiania i testowania modułów (usług) przy wykorzystaniu popularnego framework'u GoogleTest / GoogleMock.
+            <li> W ramach warsztatu przewidziane jest wprowadzenie merytoryczne w architekturę, uruchomienie domeny SDR na maszynie wirtualnej, implementacja modyfikacji w komponencie komunikacyjnym i w komponentach usługowych (timing-, crypto-, log- service) (rozszerzenie przez uczestników warsztatu kodu źródłowego w języku C++).
+          </ul>"
     prereq: {title: "Przed warsztatem", list: [
       "Komputer z zainstalowanym narzędziem VirtualBox (w najnowszej dostępnej wersji na dowolnym systemie operacyjnym).",
       "Umiejętność pracy w powłoce (shell) systemu Linux i znajomość programowania w języku C++ oraz notacji UML. Mile widziana podstawowa znajomość standardu CORBA i SCA."
