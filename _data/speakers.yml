@@ -461,6 +461,7 @@
   name: "Łukasz"
   surname: "Szweda"
   company: "Nordea"
+  bio: "Software developer z 15-letnim stażem. Piastował stanowiska developerskie oraz managerskie zarówno w polskich jak i zagranicznych firmach. Pracował z róznymi technologiami (embedded, mobile, full stack). Entuzjasta Pythona. Obecnie Expert Developer w Nordea odpowiedzialny za rozwój i utrzymanie narzędzi do testowania platformy Big Data."
   thumbnailUrl: lukasz_szweda.jpg
   ribbon:
     - {abbr: "Nordea", title: "Nordea", url: "http://nordea.pl/it"}
