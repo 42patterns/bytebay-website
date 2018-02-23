@@ -47,6 +47,7 @@
   elements:
     - {name: "investGDA", description: "investGDA", link: "https://investgda.pl", imageUrl: invest_gda.png}
     - {name: "Live More", description: "Live more", link: "http://livemorepomerania.com/", imageUrl: live_more.png}
+    - {name: "JUG Toruń", description: "JUG Toruń", link: "https://www.meetup.com/pl-PL/Torun-JUG/", imageUrl: jug_torun.png}    
     - {name: "JUG Trójmiasto", description: "JUG Trójmiasto", link: "http://twitter.com/JUGTricity/", imageUrl: jug-trojmiasto.png}
     - {name: "Inkubator Starter", description: "Inkubator Starter", link: "http://www.inkubatorstarter.pl/", imageUrl: "starter.png"}
     - {name: "Magazyn Programista", description: "Magazyn Programista", link: "https://programistamag.pl/", imageUrl: "magazyn-programista.jpg"}
