@@ -14,6 +14,10 @@
                 <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"  href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}" {% if navigationLink.link != null %}target="_blank"{% endif %}>{{ navigationLink.text}}</a>
             </li>
             {% endfor %}
+            <li>
+              <!-- data-layout="button_count" -->
+              <div class="fb-like" data-href="https://web.facebook.com/ByteBayConferenceIT/" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+            </li>
         </ul>
         <ul id="bottom-navlinks" class="bottom-navlinks visible-xs">
             {% for bottomNavigationLink in site.bottomNavigationLinks %}

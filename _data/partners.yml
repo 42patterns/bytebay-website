@@ -1,7 +1,15 @@
 -
   group: "Partnerzy platynowi"
   elements:
-    - {name: "Dynatrace", description: "Dynatrace", link: "http://jobs.dynatrace.pl/", imageUrl: "dynatrace.png"}
+    - {
+        name: "Dynatrace",
+        description: "Dynatrace",
+        text: "Dynatrace Polska jest światowym liderem na rynku zarządzania wydajnością aplikacji (ang. Application Performance Management). Rozwiązuje problemy wtedy, kiedy ma to znaczenie – w czasie rzeczywistym, umożliwiając wgląd w wydajność aplikacji w sposób, który pozwoli osiągnąć cyfrowy sukces. Oprogramowanie Dynatrace wyznacza nowy standard w dziedzinie wydajności aplikacji komputerowych, dostarczając kompleksowe rozwiązanie wspierane przez sztuczną inteligencję.
+
+        Technologiczny oddział Dynatrace powstał w Gdańsku w 1997 roku i przez lata urósł do wielkości blisko 200 inżynierów. Obecnie stacjonuje w biurze Alchemia Platinum.",
+        link: "http://jobs.dynatrace.pl/",
+        imageUrl: "dynatrace.png"
+      }
     - {
         name: "Nordea",
         description: "Nordea Bank AB SA Oddział w Polsce",
@@ -47,7 +55,7 @@
   elements:
     - {name: "investGDA", description: "investGDA", link: "https://investgda.pl", imageUrl: invest_gda.png}
     - {name: "Live More", description: "Live more", link: "http://livemorepomerania.com/", imageUrl: live_more.png}
-    - {name: "JUG Toruń", description: "JUG Toruń", link: "https://www.meetup.com/pl-PL/Torun-JUG/", imageUrl: jug_torun.png}    
+    - {name: "JUG Toruń", description: "JUG Toruń", link: "https://www.meetup.com/pl-PL/Torun-JUG/", imageUrl: jug_torun.png}
     - {name: "JUG Trójmiasto", description: "JUG Trójmiasto", link: "http://twitter.com/JUGTricity/", imageUrl: jug-trojmiasto.png}
     - {name: "Inkubator Starter", description: "Inkubator Starter", link: "http://www.inkubatorstarter.pl/", imageUrl: "starter.png"}
     - {name: "Magazyn Programista", description: "Magazyn Programista", link: "https://programistamag.pl/", imageUrl: "magazyn-programista.jpg"}
