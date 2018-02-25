@@ -727,7 +727,8 @@ list:
     complexity: 0
 
   - id: 44
-    title: "tba"
+    title: "Projektowanie i szlifowanie komunikacji. Jak słowa działają na mózg i jak to dobrze wykorzystać."
+    description: "Komunikację można projektować – jak architekturę, kod, czy interfejs strony internetowej. Trzeba tylko wiedzieć, z grubsza jak działa mózg i jakie słowa smakują mu jak najlepsza włoska pizza, a które są tak mdłe jak szpitalny posiłek. Na warsztacie nauczymy się, jak dobrze i zwięźle sprzedawać idee. Dowiemy się, czy introwertycy robią lepsze prezentacje i sprawdzimy, czy zamek w Malborku jest lepszy niż \"stara budowla\"."
     type: 0
     speakers: [53]
     tags: ["Train the trainer"]
