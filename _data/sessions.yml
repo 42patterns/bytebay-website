@@ -760,7 +760,12 @@ list:
     complexity: 0
 
   - id: 47
-    title: "tba"
+    title: "Przeszłość i przyszłość tworzenia aplikacji Internetowych"
+    description: "Będzie to swoista podróż w czasie. Zaczniemy od przeglądu dawnych problemów i technik przy tworzeniu aplikacji internetowych. Zobaczymy co się sprawdziło, a co wymagało poprawki. Określimy nowe ambicje i cele webdevów godne 2018 roku, a następnie zaprojektujemy rozwiązania i je wdrożymy.
+
+    Sesja rozpocznie się od prezentacji i niejako rozmowy z publicznością. Później będzie bardziej technicznie. Jeśli hasła microservices, Server Side Rendering, Progressive Web Applications albo TypeScript coś Ci mówią — to właśnie sesja dla Ciebie :-)
+
+    Przykłady będą głównie oparte o Node.js, React.js i Next.js, ale przedstawianie idee będą możliwie najbardziej uniwersalne i łatwe do przeniesienie na dowolne technologie."
     type: 1
     speakers: [19]
     tags: [Frontend, JavaScript]
