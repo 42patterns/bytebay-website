@@ -63,6 +63,7 @@
     - {name: "Radio Gdańsk", description: "Radio Gdańsk", link: "https://radiogdansk.pl/", imageUrl: "radio_gdansk.png"}
     - {name: "Trójmiasto.pl", description: "Trójmiasto.pl", link: "https://trojmiasto.pl/", imageUrl: "trojmiasto_pl.png"}
     - {name: "Crossweb", description: "Crossweb", link: "https://crossweb.pl/", imageUrl: "crossweb.png"}
+    - {name: "Just Join IT", description: "Just Join IT", link: "https://justjoin.it/", imageUrl: "jjit.png"}    
     - {name: "itfind", description: "itfind", link: "https://itfind.pl/", imageUrl: "itfind.png"}
     - {name: "Gazeta Wyborcza", description: "Gazeta Wyborcza", link: "https://gazeta.pl/", imageUrl: "wyborcza.png"}
 
