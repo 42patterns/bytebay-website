@@ -47,7 +47,7 @@ list:
   - id: 9993
     title: "Sesja warsztatowa"
     place: "Skybox - loże biznesowe"
-    type: 0
+
     tags: []
     service: true
 
@@ -100,6 +100,7 @@ list:
 
     Oprócz tego zobaczymy kilka trików z klastrami (replica set) oraz na co zwrócić uwagę przy używaniu shardingu."
     type: 0
+    capacity: 20
     speakers: [4]
     tags: [NoSQL, "Bazy danych", "Wydajność aplikacji"]
     complexity: 2
@@ -134,6 +135,7 @@ list:
 
     Zastosujemy Event Storming Big Picture, Design Level oraz przyjrzymy się relacji modelu ES z kodem źródłowym."
     type: 0
+    capacity: 20
     speakers: [7]
     tags: [Architektura, DDD]
     complexity: 1
@@ -161,6 +163,7 @@ list:
       "zlecany linux lub os x"
     ]}
     type: 0
+    capacity: 20
     speakers: [18]
     tags: [Docker, DevOps]
     complexity: 0
@@ -176,6 +179,7 @@ list:
     Zbudujmy coś praktycznego! Krok po kroku, małymi zmianami zbudujemy razem prostą aplikację, która będzie odpowiadać na http. Taki typowy przypadek użycia. Pozwoli to przećwiczyć wiedzę nabytą w pierwszej części warsztatu."
     prereq: {title: "Wymagania przed warsztatem", list: ["Laptop z nowożytna przeglądarka internetową"]}
     type: 0
+    capacity: 20
     speakers: [13]
     tags: [JVM, Clojure, "Języki programowania", "Programowanie funkcyjne"]
     complexity: 1
@@ -196,6 +200,7 @@ list:
 
     - kilka wzorców tworzenia prezentacji: ADEPT, Context-problem-questions-solutions, triada, łuk narracyjny, metaprogramy"
     type: 0
+    capacity: 20
     speakers: [5]
     tags: ["Train the trainer"]
     complexity: 0
@@ -207,6 +212,7 @@ list:
       "JDK Java 8", "dowolne IDE", "maven, gradle", "git"
     ]}
     type: 0
+    capacity: 20
     speakers: [22]
     tags: ["Wydajność aplikacji", "Application performance by Dynatrace"]
     complexity: 1
@@ -218,6 +224,7 @@ list:
     Poznaj Lucene - silnik wyszukiwania leżący u podstaw popularnych rozwiązań, takich jak Elasticsearch, Opengrok, czy Apache Solr. Dowiedz się, jak zbudowany jest indeks wyszukiwarki i jak sprawić, aby użytkownik szybko znalazł interesujące go dane. W ramach warsztatu zobaczysz, jak sprowadzić tekst do postaci, którą można efektywnie przeszukiwać. Nauczysz się także stosować Lucene w praktyce, krok po kroku budując własną, coraz bardziej wyrafinowaną wyszukiwarkę."
     prereq: {title: "Wymagania przed warsztatem", list: ["laptop i podstawowa znajomość Javy"]}
     type: 0
+    capacity: 20
     speakers: [16, 23]
     tags: ["NoSQL", "Bazy danych", "Application performance by Dynatrace"]
     complexity: 1
@@ -254,6 +261,7 @@ list:
 
     wymagania przed warsztatem: laptop min 8 GB RAM (najlepiej 16GB), dowolny OS, zainstalowany VirtualBox, Java JDK8 albo Java JDK9"
     type: 0
+    capacity: 20
     speakers: [27, 28]
     tags: ["Bazy danych", "Wydajność aplikacji", "Application performance by Dynatrace"]
     complexity: 2
@@ -264,6 +272,7 @@ list:
 
     Na warsztacie zobaczymy jak za pomocą narzędzi JDK wykryć przykładowe problemy: wyciek pamięci, nadmierna alokacja obiektów, źle skonfigurowany GC. Porównamy informacje dostępne w maszynie wirtualnej, z tym co oferuje system operacyjny. Przyjrzymy się możliwościom wizualizacji i automatyzacji."
     type: 0
+    capacity: 20
     speakers: [28, 29]
     tags: ["Java", "Wydajność aplikacji", "Application performance by Dynatrace"]
     complexity: 1
@@ -281,6 +290,7 @@ list:
       "Przynosimy laptopy z zainstalowanym IntelliJ IDEA (może być darmowa wersja Community)"
     ]}
     type: 0
+    capacity: 20
     speakers: [8]
     tags: [JVM, Kotlin, "Języki programowania"]
     complexity: 1
@@ -327,6 +337,7 @@ list:
       "Otwórzcie klaskę \"TestingJavaClassAnswer\" (2 razy Shift otwiera okno wyszukiwania) i odpalcie (ctrl+Shift+F10). Powinien pojawić się zielony pasek."
     ]}
     type: 0
+    capacity: 20
     speakers: [15]
     tags: [JVM, Scala, "Języki programowania", "Programowanie funkcyjne"]
     complexity: 1
@@ -362,6 +373,7 @@ list:
       "Konsola użytkownika i podstawowa umiejętność jej obsługi w swoim systemie operacyjnym    "
     ]}
     type: 0
+    capacity: 20
     tags: [Docker, DevOps, Microservices]
     speakers: [9]
     complexity: 1
@@ -373,6 +385,7 @@ list:
     Uczestnicy powinni umieć programować w Javie."
     prereq: {title: "Środowisko", list: ["Dowolne IDE do Javy plus maven", "GIT"]}
     type: 0
+    capacity: 20
     speakers: [11]
     tags: [Java, JVM, "Wydajność aplikacji", Testowanie]
     complexity: 1
@@ -384,6 +397,7 @@ list:
     Uczestnicy powinni umieć programować w Javie."
     prereq: {title: "Środowisko", list: ["Laptop, z IDE (pref. Intellij)", "JDK 1.8"]}
     type: 0
+    capacity: 20
     speakers: [32]
     tags: [Java, Microservices, Architektura, Security]
     complexity: 1
@@ -392,6 +406,7 @@ list:
     title: "Functional concepts in JavaScript"
     description: "Niektóre elementy programowania funkcyjne przydadzą się każdemu. Nie będziemy omawiać monad, funktorow i innych ciekawych matematycznych terminów. Zobaczymy w jaki sposób programowanie funkcyjne pomoże nam udoskonalić nasz kod, uczyni go bardziej czytelnym. Będziemy eksperymentowali z kilkoma funkcyjnymi operacjami i typami danych. Prześledzimy konstrukcje, które wykorzystujemy na co dzień i przeniesiemy je do świata programowania funkcyjnego. "
     type: 0
+    capacity: 20
     speakers: [17]
     tags: [JavaScript, "Języki programowania", "Programowanie funkcyjne"]
     complexity: 1
@@ -422,6 +437,7 @@ list:
       "pobrany kod źródłowy do workshopu (link będzie dostępny później)"
     ]}
     type: 0
+    capacity: 20
     speakers: [33]
     tags: [JVM, Scala, "Języki programowania", "Programowanie funkcyjne"]
     complexity: 1
@@ -452,6 +468,7 @@ list:
       "docker-compose w wersji &gt;= 1.18"
     ]}
     type: 0
+    capacity: 20
     speakers: [36, 35]
     tags: [Docker, DevOps]
     complexity: 1
@@ -462,6 +479,7 @@ list:
 
     Our exercises ran for the two-and-half hour and at the end, you should have basic knowledge on how to do service discovery and failure detection in highly resilient environments. We will also cover some best practices for using Consul at scale."
     type: 0
+    capacity: 20
     speakers: [37, 38]
     tags: [Architektura, Microservices]
     complexity: 1
@@ -478,6 +496,7 @@ list:
 
       W czasie warsztatu zbudujemy razem aplikację opartą o najnowocześniejsze technologie frontendowe, których używa m. in. Netflix, Facebook czy AirBnB."
     type: 0
+    capacity: 20
     speakers: [39]
     tags: [JavaScript, Frontend]
     complexity: 0
@@ -495,6 +514,7 @@ list:
       "zainstalowany Virtualbox, Windows/Linux, 4GB RAM"
     ]}
     type: 0
+    capacity: 20
     speakers: [40]
     tags: [Testowanie]
     complexity: 0
@@ -513,6 +533,7 @@ list:
       "Linux + Docker, może być wirtualka Linuksa na Windowsie. Ulubiony edytor tekstu."
     ]}
     type: 0
+    capacity: 20
     speakers: [20]
     tags: [Architektura, Microservices]
     complexity: 1
@@ -521,6 +542,7 @@ list:
     title: "Spring Boot - szybki start"
     description: "Spring Boot - szybki start to warsztat dla osób chcących szybko zbudować aplikacje internetową napisaną w języku Java. Minimum konfiguracji, sprawny development."
     type: 0
+    capacity: 20
     speakers: [41]
     tags: [Java]
     complexity: 0
@@ -532,6 +554,7 @@ list:
       "Ulubione IDE i zainstalowane JDK Javy, jednak jeśli programujesz w czymś innym to też damy jakoś radę :)"
     ]}
     type: 0
+    capacity: 20
     speakers: [43]
     tags: [Architektura, Microservices, Testowanie]
     complexity: 1
@@ -542,6 +565,7 @@ list:
 
     Skąd będę wiedział, że zrobiłem to dobrze? Jak to odzwierciedlić w strukturze paczek? Nie mam jedynych słusznych odpowiedzi, ale podzielę się z wami tym jak ja to robię."
     type: 0
+    capacity: 20
     speakers: [10]
     tags: [Architektura, DDD]
     complexity: 1
@@ -572,6 +596,7 @@ list:
         "Docker Compose >= 1.18"
       ]}
     type: 0
+    capacity: 20
     speakers: [44, 45]
     tags: [Architektura, Microservices, Kotlin]
     complexity: 1
@@ -590,6 +615,7 @@ list:
       "zainstalować środowisko programistyczne pod javascript", "wiedzieć co to react i co to komponent"
     ]}
     type: 0
+    capacity: 20
     speakers: [46]
     tags: [JavaScript, Frontend]
     complexity: 2
@@ -602,6 +628,7 @@ list:
 
     o tych warsztatach powinieneś wiedzieć już który styl programowania asynchronicznego wybrać. Tak, żeby najlepiej pasował do rozwiązywanego problemu."
     type: 0
+    capacity: 20
     speakers: [47]
     tags: [JavaScript, "Języki programowania"]
     complexity: 1
@@ -610,6 +637,7 @@ list:
     title: "Messaging Queues"
     description: "Spadek wydajności aplikacji nie zawsze wymaga otworzenia nowych serwerów i skalowania. W większości przypadków wystarczy oddelegować czasochłonne lub zasobochłonne zadania na później lub do innych aplikacji. Systemy kolejkowania wspomagają ten proces dostarczając zaawansowane, skuteczne i stabilne rozwiązania, które pozbywają się najczęstrzych problemów. Podczas workshopu dowiesz się jakie systemy kolejkowania są dostępne i jak je skonfugurować. Jaka jest różnica między AMQP, a MQTT i kiedy z nich korzystać."
     type: 0
+    capacity: 20
     speakers: [48]
     tags: [Architektura, Microservices]
     complexity: 0
@@ -634,6 +662,7 @@ list:
       "Komputer z systemem Windows w wersji co najmniej 7", "Zainstalowane środowisko Oracle JDK", "NetBeans IDE (co najmniej Java SE)"
     ]}
     type: 0
+    capacity: 20
     speakers: [49, 50]
     tags: [Java]
     complexity: 1
@@ -665,6 +694,7 @@ list:
       "Umiejętność pracy w powłoce (shell) systemu Linux i znajomość programowania w języku C++ oraz notacji UML. Mile widziana podstawowa znajomość standardu CORBA i SCA."
     ]}
     type: 0
+    capacity: 20
     speakers: [51]
     tags: ["C", Testowanie, SOA, Architektura]
     complexity: 2
@@ -706,6 +736,7 @@ list:
       Co dostaniesz - dużą dawkę wiedzy, masę pytań i wątpliwości a także materiały by móc dalej samodzielnie rozwijać się w tym kierunku."
     prereq: {title: "Co potrzebujesz", list: ["komputer z przygotowanym środowiskiem (opis przygotowania środowiska dostaniesz przed warsztatem)"]}
     type: 0
+    capacity: 20
     speakers: [12]
     tags: [JavaScript, Frontend, "Języki programowania"]
     complexity: 1
@@ -714,6 +745,7 @@ list:
     title: "Storytelling"
     description: "Czy zastanawiałeś się jak prezentować, żeby ludzie słuchali Cię z uwagą? Nawet kiedy chcesz przedstawić dane liczbowe, statystyki, czy wytłumaczyć skomplikowane zagadnienia, możesz zaangażować widownię i sprawić, że będzie to dla nich ciekawe doświadczenie. Podczas warsztatów dowiesz się jak stworzyć opowieść, która wzbudzi emocje i sprawi, że Twoja prezentacja będzie interesująca. Nauczysz się jak poprzez wykorzystanie elementów Storytellingu przekazać drugiej osobie informacje w najbardziej przystępnej formie, a także będziesz miał możliwość wykorzystać zdobytą wiedzę w praktyce przygotowując krótką prezentację."
     type: 0
+    capacity: 20
     speakers: [54]
     tags: ["Train the trainer"]
     complexity: 0
@@ -722,6 +754,7 @@ list:
     title: "\"Przeszczepianie wiedzy\" - czyli jak fachowo uczyć programowania?"
     description: "Chcesz dowiedzieć się jak rozwinąć się programistycznie i spełnić dodatkowo jako człowiek? Naucz się przekazywać wiedzę innym i pomóż wejść im do magicznej krainy IT. Uczenie przyszłych programistów, ludzi, którzy naprawdę chcą zmienić swoje życia, daje ogromną radość oraz poczucie, że czynimy świat lepszym miejscem. Bądź jak Elon Musk – realizując się zawodowo (każde zajęcia to gruntowanie wiedzy, ale też spojrzenie na kodowanie z perspektywy „świeżych” w branży osób), pomożesz ambitnym osobom zrealizować ich marzenia o przygodzie w magicznym świecie programingu. Opowiem o tym, jak wyglądają spotkania z kursantami, jak z nimi rozmawiać, jak uczyć, jak słuchać i być słuchanym i wiele, wiele więcej. Jeśli lubisz pracę z ludźmi (w dosłownym rozumieniu) i chcesz nauczać zapraszam – warto."
     type: 0
+    capacity: 20
     speakers: [55]
     tags: ["Train the trainer"]
     complexity: 0
@@ -730,6 +763,7 @@ list:
     title: "Projektowanie i szlifowanie komunikacji. Jak słowa działają na mózg i jak to dobrze wykorzystać."
     description: "Komunikację można projektować – jak architekturę, kod, czy interfejs strony internetowej. Trzeba tylko wiedzieć, z grubsza jak działa mózg i jakie słowa smakują mu jak najlepsza włoska pizza, a które są tak mdłe jak szpitalny posiłek. Na warsztacie nauczymy się, jak dobrze i zwięźle sprzedawać idee. Dowiemy się, czy introwertycy robią lepsze prezentacje i sprawdzimy, czy zamek w Malborku jest lepszy niż \"stara budowla\"."
     type: 0
+    capacity: 20
     speakers: [53]
     tags: ["Train the trainer"]
     complexity: 0
@@ -743,6 +777,7 @@ list:
       "Pracować będziemy w oparciu o notebooki Jupyter, laptop i przeglądarka będzie więc wszystkim, czego będziemy potrzebować"
     ]}
     type: 0
+    capacity: 20
     speakers: [6]
     tags: [Architecture, "Machine Learning"]
     complexity: 0
@@ -755,6 +790,7 @@ list:
       "Dostęp do Amazon AWS (zarejestrowane konto)"
     ]}
     type: 0
+    capacity: 20
     speakers: [56]
     tags: [Architecture, Cloud, Frontend]
     complexity: 0
