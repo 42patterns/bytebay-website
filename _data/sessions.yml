@@ -135,7 +135,7 @@ list:
 
     Zastosujemy Event Storming Big Picture, Design Level oraz przyjrzymy się relacji modelu ES z kodem źródłowym."
     type: 0
-    capacity: 20
+    capacity: 24
     speakers: [7]
     tags: [Architektura, DDD]
     complexity: 1
@@ -200,7 +200,7 @@ list:
 
     - kilka wzorców tworzenia prezentacji: ADEPT, Context-problem-questions-solutions, triada, łuk narracyjny, metaprogramy"
     type: 0
-    capacity: 20
+    capacity: 25
     speakers: [5]
     tags: ["Train the trainer"]
     complexity: 0
@@ -373,7 +373,7 @@ list:
       "Konsola użytkownika i podstawowa umiejętność jej obsługi w swoim systemie operacyjnym    "
     ]}
     type: 0
-    capacity: 20
+    capacity: 23
     tags: [Docker, DevOps, Microservices]
     speakers: [9]
     complexity: 1
@@ -565,7 +565,7 @@ list:
 
     Skąd będę wiedział, że zrobiłem to dobrze? Jak to odzwierciedlić w strukturze paczek? Nie mam jedynych słusznych odpowiedzi, ale podzielę się z wami tym jak ja to robię."
     type: 0
-    capacity: 20
+    capacity: 29
     speakers: [10]
     tags: [Architektura, DDD]
     complexity: 1
