@@ -66,7 +66,7 @@ heroButtons:
 # About Block
 aboutTitle: "Co to jest ByteBay?"
 aboutBlock:
- - {title: "Keynote", image: "conference.jpg", text: "Programowanie to nie tylko rozmowy o kodzie. Rozpocznijmy inaczej, inspirująco - spójrzmy na to co robimy z zupełnie innej perspektywy!" }
+ - {title: "Keynote", image: "conference2.jpg", text: "Programowanie to nie tylko rozmowy o kodzie. Rozpocznijmy inaczej, inspirująco - spójrzmy na to co robimy z zupełnie innej perspektywy!" }
  - {title: "Warsztaty", image: "workshop.jpg", text: "100% praktycznej wiedzy przekazanej w warsztatowej formie. Bez zbędnej ściemy, nawijania - tylko kod, rozwiązania i doświadczenie." }
  - {title: "Deep dive", image: "hackathon.jpg", text: "Przez niektórych nazywane także <i>University Talks</i>. Ponad dwie godziny szczegółowego wykładu. Praktyka dla tych, co wolą słuchać niż robić." }
 aboutTopicsTitle: "ByteBay to pełne spektrum tematów"
