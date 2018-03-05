@@ -27,7 +27,12 @@
 -
   group: "Partner merytoryczny"
   elements:
-    - {name: "Travactory", description: "Travactory", link: "http://www.travactory.com/#job-offer", imageUrl: "travactory.png"}
+    - {
+      name: "Travactory",
+      description: "Travactory",
+      link: "http://www.travactory.com/#job-offer",
+      imageUrl: "travactory.png"
+      }
 
 -
   group: "Partner srebrny"
@@ -35,11 +40,11 @@
     - {
       name: "Radmor",
       description: "Radmor",
-      text: "RADMOR to przedsiębiorstwo o długoletniej historii sięgających 1947 roku. Prowadzi działalność na potrzeby obronności i bezpieczeństwa państwa. To producent i dostawca nowoczesnych urządzeń łączności dla wojska, w tym radiostacji programowalnych SDR, i radiotelefonów dla służb cywilnych. Od 2011r RADMOR wchodzi w skład WB GROUP - największej prywatnej grupy kapitałowej w polskim przemyśle obronnym.
+      # text: "RADMOR to przedsiębiorstwo o długoletniej historii sięgających 1947 roku. Prowadzi działalność na potrzeby obronności i bezpieczeństwa państwa. To producent i dostawca nowoczesnych urządzeń łączności dla wojska, w tym radiostacji programowalnych SDR, i radiotelefonów dla służb cywilnych. Od 2011r RADMOR wchodzi w skład WB GROUP - największej prywatnej grupy kapitałowej w polskim przemyśle obronnym.
 
-      RADMOR uczestniczy w europejskich programach badawczych. Między innymi bierze udział w europejskim programie ESSOR (European Secure Software defined Radio) mającym za zadanie opracowanie standardu europejskiego radia programowalnego, umożliwiającego współpracę systemów łączności wojsk różnych państw UE.
+      # RADMOR uczestniczy w europejskich programach badawczych. Między innymi bierze udział w europejskim programie ESSOR (European Secure Software defined Radio) mającym za zadanie opracowanie standardu europejskiego radia programowalnego, umożliwiającego współpracę systemów łączności wojsk różnych państw UE.
 
-      Wielokrotnie firma stawiana była w gronie najbardziej innowacyjnych firm. Specyficzne wymagania klientów krajowych i zagranicznych, postęp w elektronice, narzuca konieczność ciągłej nauki, zmian i podnoszenia jakości oferowanego sprzętu.",
+      # Wielokrotnie firma stawiana była w gronie najbardziej innowacyjnych firm. Specyficzne wymagania klientów krajowych i zagranicznych, postęp w elektronice, narzuca konieczność ciągłej nauki, zmian i podnoszenia jakości oferowanego sprzętu.",
       link: "http://www.radmor.com.pl/pol/Praca",
       imageUrl: "WB_Radmor_logoRGB.jpg"
     }
@@ -63,7 +68,7 @@
     - {name: "Radio Gdańsk", description: "Radio Gdańsk", link: "https://radiogdansk.pl/", imageUrl: "radio_gdansk.png"}
     - {name: "Trójmiasto.pl", description: "Trójmiasto.pl", link: "https://trojmiasto.pl/", imageUrl: "trojmiasto_pl.png"}
     - {name: "Crossweb", description: "Crossweb", link: "https://crossweb.pl/", imageUrl: "crossweb.png"}
-    - {name: "Just Join IT", description: "Just Join IT", link: "https://justjoin.it/", imageUrl: "jjit.png"}    
+    - {name: "Just Join IT", description: "Just Join IT", link: "https://justjoin.it/", imageUrl: "jjit.png"}
     - {name: "itfind", description: "itfind", link: "https://itfind.pl/", imageUrl: "itfind.png"}
     - {name: "Gazeta Wyborcza", description: "Gazeta Wyborcza", link: "https://gazeta.pl/", imageUrl: "wyborcza.png"}
 

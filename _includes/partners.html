@@ -13,11 +13,40 @@
                     <a href="{{ element.link }}" target="_blank">
                         <img src="{{ site.baseurl }}/img/partners/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
                     </a>
+                    {% if element.text != null %}
+                    <br /> <a href="javascript: void(0)" data-toggle="modal" data-target="#partnerDetail-{{ element.name }}">Czytaj więcej...</a>
+                    {% endif %}
+
                 </li>
                 {% endfor %}
             </ul>
             {% endfor %}
         </div>
+    </div>
+
+    <div class="modals" class="modals">
+      {% for group in site.data.partners %}
+        {% for partner in group.elements %}
+          {% if partner.text != null %}
+          <div class="modal fade text-left people-modal" id="partnerDetail-{{ partner.name }}" tabindex="-1" role="dialog" aria-labelledby="partnerDetailLabel-{{ partner.name }}" aria-hidden="true">          
+      			<div class="modal-dialog">
+      				<div class="modal-content">
+      					<div class="modal-body">
+      						<div class="close">
+      							<svg class="icon icon-cross" viewBox="0 0 32 32">
+      								<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-cross"></use>
+      							</svg>
+      							<div class="close-mask" data-dismiss="modal"></div>
+      						</div>
+                  <h4>{{ partner.name }}</h4>
+                  <p class="theme-description">{{ partner.text | newline_to_br }}</p>
+                </div>
+      				</div>
+      			</div>
+      		</div>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
     </div>
 </section>
 <!-- End Partners Section -->

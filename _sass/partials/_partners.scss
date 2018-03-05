@@ -23,7 +23,7 @@
     img {
         width: 100%;
         transition: $base-transition;
-        border-radius: 50%;
+        // border-radius: 50%;
         filter: grayscale(1);
         &:hover {
             filter: grayscale(0);
