@@ -58,6 +58,11 @@
                                     <h5 class="slot-title" itemprop="name" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">{{ session.title }}</h5>
                                     <span class="slot-language">{{session.language | upcase}}</span>
                                     <div>
+                                      <span>Zajęte miejsca: </span>
+                                      <span id="sessionRegs-{{ session.id }}">0</span>
+                                      <span> / {{ session.capacity }}</span>
+                                    </div>
+                                    <div>
                                       {% include tags.html tags=session.tags %}
                                     </div>
                                     <ul class="slot-speakers">

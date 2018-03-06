@@ -114,6 +114,16 @@
         });
 
         $(function() {
+          if (window.location.href.indexOf("schedule") > -1) {
+            $.getJSON("http://reg.bytebay.pl/mostPopularWorkshops", function(data) {
+              $.each(data, function(i, el) {
+                $('#sessionRegs-' + el.id).html(el.count)
+              })
+            });
+          }
+        })
+
+        $(function() {
             var appear, delay, i, offset, _i, _len, _ref;
             _ref = $(".appear-animation");
             for (_i = 0, _len = _ref.length; _i < _len; _i++) {
