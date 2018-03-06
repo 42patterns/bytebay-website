@@ -135,7 +135,7 @@ list:
 
     Zastosujemy Event Storming Big Picture, Design Level oraz przyjrzymy się relacji modelu ES z kodem źródłowym."
     type: 0
-    capacity: 20
+    capacity: 25
     speakers: [7]
     tags: [Architektura, DDD]
     complexity: 1
@@ -373,7 +373,7 @@ list:
       "Konsola użytkownika i podstawowa umiejętność jej obsługi w swoim systemie operacyjnym    "
     ]}
     type: 0
-    capacity: 20
+    capacity: 30
     tags: [Docker, DevOps, Microservices]
     speakers: [9]
     complexity: 1
