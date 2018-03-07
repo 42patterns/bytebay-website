@@ -329,7 +329,17 @@ list:
 
     Nie trzeba znać Scali, trzeba trochę znać Javę.
 
-    Kto chętny może zapoznać się z teorią : https://pawelwlodarski.gitbooks.io/workshops/content/"
+    Kto chętny może zapoznać się z teorią : https://pawelwlodarski.gitbooks.io/workshops/content/
+
+    <figure><figcaption>Przygotowanie środowisko</figcaption>
+      <ul>
+        <li> Wyciągnijcie kod : https://github.com/PawelWlodarski/workshops
+        <li> Zainstalujcie https://www.jetbrains.com/idea/ community edition (bezpłatne) i później w opcjach zainstalujcie plugin do scali.
+        <li> Zaimportujcie projekt (ten z wyciągniętego kodu) do IDE.
+        <li> Otwórzcie klaskę \"TestingJavaClassAnswer\" (2 razy Shift otwiera okno wyszukiwania) i odpalcie (ctrl+Shift+F10). Powinien pojawić się zielony pasek.
+      </ul>
+    </figure>
+    "
     prereq: {title: "Przed warsztatem warto przygotować środowisko", list: [
       "Wyciągnijcie kod : https://github.com/PawelWlodarski/workshops",
       "Zainstalujcie https://www.jetbrains.com/idea/ community edition (bezpłatne) i później w opcjach zainstalujcie plugin do scali.",
