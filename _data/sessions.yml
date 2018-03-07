@@ -375,7 +375,7 @@ list:
     type: 0
     capacity: 30
     tags: [Docker, DevOps, Microservices]
-    speakers: [9]
+    speakers: [9, 57]
     complexity: 1
 
   - id: 20
