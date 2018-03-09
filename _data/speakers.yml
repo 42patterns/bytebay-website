@@ -606,3 +606,15 @@
   company: "Onwelo"
   bio: "Programista od 10 lat nieustannie związany z Javą. Koduje, devopsuje i pomaga w rozwoju młodszym kolegom. Od czasu do czasu można go usłyszeć na konferencjach IT. Uczy się, kiedy tylko może. Prywatnie tata, miłośnik komiksu i czeskiego kina."
   thumbnailUrl: pawel_mlynarczyk.jpg
+
+- id: 58
+  name: "Tomek"
+  surname: "Sułkowski"
+  company: "FrontEnd.Coach"
+  bio: "I am an experienced IT trainer specializing in browsers-related technologies.  My  main  area  of  focus  is Angular 2 framework and its ecosystem.
+  
+  In  the  last  3  years  I  have  worked  with  mulDple  medium  and large-sized  companies  to  help  their  developers  increase  their level of experDse in front-end technologies."
+  thumbnailUrl: "tomek_sulkowski.jpg"
+  social:
+    - {name: "site", link: "http://frontend.coach/"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/tsulkowski"}

@@ -11,7 +11,7 @@
       </div>
 
 		{% for session in site.data.sessions.list %}
-			{% if session.service != true %}
+			{% if session.service != true and session.backup != true %}
         {% assign tags = session | map: "tags" %}
 				<div class="col-lg-10 col-lg-offset-1 sessionDetails {{ site.data.sessions.meta.sessiontype[session.type].title | replace: ' ', '-' | prepend: "type-" | downcase }} {{ site.data.sessions.meta.complexity[session.complexity].title | replace: ' ', '-' | downcase }} {{ tags | join: "%%tags-" | prepend: "tags-" | replace: ' ', '-' | downcase | replace: '%%', ' '}}" id="sessionDetails-{{ session.id }}" tabindex="-1">
           <div class="color-line" style="position: relative !important; margin-top: 20px; background: {{ site.data.sessions.meta.sessiontype[session.type].color }}"></div>
