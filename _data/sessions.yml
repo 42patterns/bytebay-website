@@ -541,18 +541,16 @@ list:
     description: "Czy wiesz co potrafi zrobić twój serwer reverse-proxy? Wydaje Ci się, że żeby zrobić sprytny routing / uwierzytelnianie / autoryzację (niepotrzebne skreślić) między serwisami musisz go napisać w Javie lub jako moduł w C? A co jeżeli odpalanie JVM tylko po to, żeby do każdego żądania http dokleić jeden nagłówek to armata na wróbla? Zwłaszcza, że prawie na pewno gdzieś tam po drodze mijasz nginx...
     Zapraszam Cię do świata idealnej symbiozy nginx i Lua.
 
-    Założenia co do uczestników:
-
-    Mogliby znać Dockera, bo wszystko będziemy na kontenerach odpalać. Przy czym widziałem, że są też warsztaty z niego, więc składa się idealnie...
-
-    Ani Lua ani NginX nie trzeba znać - będziemy robić warsztaty od \"zera do bohatera\" :)"
+    Znajomość Lua ani nginx nie jest wymagana - będziemy robić warsztaty od \"zera do bohatera\"."
     prereq: {title: "Jak przygotować sprzęt", list: [
-      "Linux + Docker, może być wirtualka Linuksa na Windowsie. Ulubiony edytor tekstu."
+      "docker (najlepiej na linuksie lub maszynie wirtualnej z linuksem)",
+      "docker-compose",
+      "ulubiony edytor tekstu"
     ]}
     type: 0
     capacity: 20
     speakers: [20]
-    tags: [Architektura, Microservices]
+    tags: [Architektura, Microservices, DevOps]
     complexity: 1
 
   - id: 30
