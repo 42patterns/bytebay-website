@@ -32,6 +32,18 @@
 										</div>
 										{% endif %}
 										<p class="theme-description">{{ session.description | newline_to_br }}</p>
+										{% if session.prereq %}
+										<div>
+											<figure>
+												<figcaption>{{ session.prereq["title"] }}</figcaption>
+												<ul>
+													{% for p in session.prereq["list"] %}
+													<li>{{ p }}
+													{% endfor %}
+												</ul>
+											</figure>
+										</div>
+										{% endif %}
 										{% if session.presentation %}
 										<a class="theme-presentation" href="{{ session.presentation }}" title="Presentation" target="_blank">View presentation</a>
 										{% endif %}

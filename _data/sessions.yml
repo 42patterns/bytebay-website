@@ -21,11 +21,12 @@ list:
     service: true
     tags: []
   - id: 1003
-    title: "Meet & Greet"
+    title: "Meet & Greet - Pub T29"
     place: "T29"
     service: true
     tags: []
-    description: "To ten moment gdy łapiesz piwo i rozmawiasz z uczestnikami, trenerami."
+    description: "To ten moment gdy łapiesz piwo i rozmawiasz z uczestnikami, trenerami.<br>
+    <img src=\"/img/mapka-t29.jpg\">"
   - id: 9990
     title: "Keynote"
     place: "Atom Club"
@@ -275,6 +276,9 @@ list:
     description: "Narzędzia JDK pozwalają na szczegółową analizę wydajności. Możemy liczyć że będą dostępne na (pre-)produkcji. Co daje nam duże możliwości diagnozowania problemów. Nawet jeśli podchodzimy do problemu ad hoc — nie planowaliśmy takiej możliwości przy wdrożeniu i instalacji.
 
     Na warsztacie zobaczymy jak za pomocą narzędzi JDK wykryć przykładowe problemy: wyciek pamięci, nadmierna alokacja obiektów, źle skonfigurowany GC. Porównamy informacje dostępne w maszynie wirtualnej, z tym co oferuje system operacyjny. Przyjrzymy się możliwościom wizualizacji i automatyzacji."
+    prereq: {title: "Przed laboratorium proszę zainstalować", list: [
+      "Java JDK8", "Oracle VirtualBox (https://www.virtualbox.org/)", "klienta SSH (np dla Windows: Putty)", "klienta SCP (np dla Windows: WinSCP)", "~ 10GB miejsca na dysku"
+    ]}
     type: 0
     capacity: 20
     speakers: [28, 29]
@@ -382,10 +386,11 @@ list:
     Wszystko to pozwoli Ci swobodnie pracować i przygotowywać konfiguracje aplikacji za które administratorzy Cię pokochają :)"
     prereq: {title: "Wymagania", list: [
       "Komputer z minimum 8GB pamięci (mocno zalecane 12GB) i procesor z minimum dwoma core'ami",
-      "Skonfigurowany i zainstalowany docker",
+      "Skonfigurowany i zainstalowany docker (https://docs.docker.com/install/)",
       "Podstawowa znajomość komend dockera (pobieranie obrazów z dockerhub, budowanie obrazów). Znajomość przygotowywania plików dockera może pomóc, ale nie jest konieczna.",
       "Zainstalowany edytor tekstu",
-      "Konsola użytkownika i podstawowa umiejętność jej obsługi w swoim systemie operacyjnym    "
+      "Konsola użytkownika i podstawowa umiejętność jej obsługi w swoim systemie operacyjnym",
+      "Dodatkowa instalacja minikube mile widziana: https://github.com/kubernetes/minikube"
     ]}
     type: 0
     capacity: 30
@@ -410,7 +415,7 @@ list:
     description: "W ramach warsztatu opiszę  na czym polega bardzo popularny framework OAuth 2.0  oraz pokażę jak wygląda jego implementacja w Spring Boot oraz jak  zabezpieczyć za jego pomocą system zbudowany w oparciu o mikroserwisy
 
     Uczestnicy powinni umieć programować w Javie."
-    prereq: {title: "Środowisko", list: ["Laptop, z IDE (pref. Intellij)", "JDK 1.8"]}
+    prereq: {title: "Środowisko", list: ["Laptop, z IDE (pref. Intellij)", "JDK 1.8", "Git"]}
     type: 0
     capacity: 20
     speakers: [32]
@@ -752,7 +757,12 @@ list:
       Dla kogo jest ten warsztat? Dla tych którzy znają już programowanie a chcieliby poznać TypeScript, praktycznie wykorzystać oraz dowiedzieć się co dalej.
 
       Co dostaniesz - dużą dawkę wiedzy, masę pytań i wątpliwości a także materiały by móc dalej samodzielnie rozwijać się w tym kierunku."
-    prereq: {title: "Co potrzebujesz", list: ["komputer z przygotowanym środowiskiem (opis przygotowania środowiska dostaniesz przed warsztatem)"]}
+    prereq: {title: "Co potrzebujesz na komputerze przez warsztatem", list: [
+      "nodejs (wersja w miarę aktualna)",
+      "TypeScript w wersji 2.7",
+      "IDE - najlepiej Visual Studio Code (wersja też w miarę aktualna) lub ewentualnie WebStorm, nawet notatnik może być ale tam nie będzie podpowiadania składni itp",
+      "git (by móc korzystać z repozytorium z materiałami)"
+    ]}
     type: 0
     capacity: 20
     speakers: [12]
@@ -841,7 +851,7 @@ list:
     description: "W ramach warsztatu opiszę  na czym polega bardzo popularny framework OAuth 2.0  oraz pokażę jak wygląda jego implementacja w Spring Boot oraz jak  zabezpieczyć za jego pomocą system zbudowany w oparciu o mikroserwisy
 
     Uczestnicy powinni umieć programować w Javie."
-    prereq: {title: "Środowisko", list: ["Laptop, z IDE (pref. Intellij)", "JDK 1.8"]}
+    prereq: {title: "Środowisko", list: ["Laptop, z IDE (pref. Intellij)", "JDK 1.8", "Git"]}
     type: 0
     capacity: 12
     speakers: [32]
