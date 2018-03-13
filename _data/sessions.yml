@@ -101,7 +101,7 @@ list:
 
     Oprócz tego zobaczymy kilka trików z klastrami (replica set) oraz na co zwrócić uwagę przy używaniu shardingu."
     type: 0
-    capacity: 20
+    capacity: 12
     speakers: [4]
     tags: [NoSQL, "Bazy danych", "Wydajność aplikacji"]
     complexity: 2
@@ -181,7 +181,7 @@ list:
     Zbudujmy coś praktycznego! Krok po kroku, małymi zmianami zbudujemy razem prostą aplikację, która będzie odpowiadać na http. Taki typowy przypadek użycia. Pozwoli to przećwiczyć wiedzę nabytą w pierwszej części warsztatu."
     prereq: {title: "Wymagania przed warsztatem", list: ["Laptop z nowożytna przeglądarka internetową"]}
     type: 0
-    capacity: 20
+    capacity: 18
     speakers: [13]
     tags: [JVM, Clojure, "Języki programowania", "Programowanie funkcyjne"]
     complexity: 1
@@ -352,7 +352,7 @@ list:
       "Otwórzcie klaskę \"TestingJavaClassAnswer\" (2 razy Shift otwiera okno wyszukiwania) i odpalcie (ctrl+Shift+F10). Powinien pojawić się zielony pasek."
     ]}
     type: 0
-    capacity: 20
+    capacity: 12
     speakers: [15]
     tags: [JVM, Scala, "Języki programowania", "Programowanie funkcyjne"]
     complexity: 1
@@ -421,7 +421,7 @@ list:
     title: "Functional concepts in JavaScript"
     description: "Niektóre elementy programowania funkcyjne przydadzą się każdemu. Nie będziemy omawiać monad, funktorow i innych ciekawych matematycznych terminów. Zobaczymy w jaki sposób programowanie funkcyjne pomoże nam udoskonalić nasz kod, uczyni go bardziej czytelnym. Będziemy eksperymentowali z kilkoma funkcyjnymi operacjami i typami danych. Prześledzimy konstrukcje, które wykorzystujemy na co dzień i przeniesiemy je do świata programowania funkcyjnego. "
     type: 0
-    capacity: 20
+    capacity: 18
     speakers: [17]
     tags: [JavaScript, "Języki programowania", "Programowanie funkcyjne"]
     complexity: 1
@@ -452,7 +452,7 @@ list:
       "pobrany kod źródłowy do workshopu (link będzie dostępny później)"
     ]}
     type: 0
-    capacity: 20
+    capacity: 18
     speakers: [33]
     tags: [JVM, Scala, "Języki programowania", "Programowanie funkcyjne"]
     complexity: 1
@@ -495,7 +495,7 @@ list:
 
     Our exercises ran for the two-and-half hour and at the end, you should have basic knowledge on how to do service discovery and failure detection in highly resilient environments. We will also cover some best practices for using Consul at scale."
     type: 0
-    capacity: 20
+    capacity: 18
     speakers: [37, 38]
     tags: [Architektura, Microservices]
     complexity: 1
@@ -548,7 +548,7 @@ list:
       "ulubiony edytor tekstu"
     ]}
     type: 0
-    capacity: 20
+    capacity: 12
     speakers: [20]
     tags: [Architektura, Microservices, DevOps]
     complexity: 1
@@ -831,7 +831,7 @@ list:
     description: ""
     type: 0
     speakers: [58]
-    capacity: 20
+    capacity: 18
     tags: [Frontend, JavaScript]
     complexity: 1
 
@@ -843,7 +843,7 @@ list:
     Uczestnicy powinni umieć programować w Javie."
     prereq: {title: "Środowisko", list: ["Laptop, z IDE (pref. Intellij)", "JDK 1.8"]}
     type: 0
-    capacity: 20
+    capacity: 12
     speakers: [32]
     tags: [Java, Microservices, Architektura, Security]
     complexity: 1
