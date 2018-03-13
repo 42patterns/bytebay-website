@@ -114,7 +114,8 @@
         });
 
         $(function() {
-          if (window.location.href.indexOf("schedule") > -1) {
+          if (window.location.href.indexOf("schedule") > -1
+             || window.location.href.indexOf("sessions") > -1) {
             $.getJSON("http://reg.bytebay.pl/mostPopularWorkshops", function(data) {
               $.each(data, function(i, el) {
                 $('#sessionRegs-' + el.id).html(el.count)
