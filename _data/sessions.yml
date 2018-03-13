@@ -161,7 +161,7 @@ list:
 
     <b>Oczekiwany poziom:</b> Podstawowa wiedza z zakresu linuxa - poruszanie się po konsoli, instalowanie paczek itd. Doświadczenie z dockerem mile widziane, gwarantuje że poznasz go lepiej."
     prereq: {title: "Co trzeba mieć na kompie", list: [
-      "zainstalowaną najnowszą wersję <a href=\"https://docs.docker.com/engine/installation/\"dockera (Community Edition)</a>",
+      "zainstalowaną najnowszą wersję <a href=\"https://docs.docker.com/engine/installation/\">dockera (Community Edition)</a>",
       "<a href=\"https://docs.docker.com/compose/install/\">docker-compose</a>",
       "zlecany linux lub os x"
     ]}
