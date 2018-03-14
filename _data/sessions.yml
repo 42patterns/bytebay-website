@@ -316,7 +316,9 @@ list:
     prereq: {title: "Wymagania względem uczestników", list: [
       "Żadna wiedza o Kotlinie nie jest wymagana (warsztaty będą od samych podstaw)",
       "Przyda się znajomość Javy (będzie sporo porównań Kotlin vs Java)",
-      "Przynosimy laptopy z zainstalowanym IntelliJ IDEA (może być darmowa wersja Community)"
+      "Przynosimy laptopy z zainstalowanym IntelliJ IDEA (może być darmowa wersja Community)",
+      "Przed warsztatem próbujemy: File > New > Project > Gradle > zaznaczamy dwa frameworki: Java i Kotlin (Java). Jeśli jakimś cudem nie masz takiej opcji, to pewnie musisz doinstalować do IntelliJ plugin o nazwie \"Kotlin\".",
+      "Utwórz jakąś prostą klasę w Javie i przykładowy Unit Test JUnit'owy do niej i sprawdź czy wszystko się buduje i czy test przechodzi. Jeśli Test nie działa, to pewnie musisz dodać JUnit'a w dependency w Gradle'u"
     ]}
     location: "Poziom -1"
     type: 0
