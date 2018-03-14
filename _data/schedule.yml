@@ -6,6 +6,11 @@
     - {title: "Deep dive", color: "#03a9f4"}
   timeslots:
     - {
+      startTime: "08:15",
+      endTime: "09:00",
+      singles: [1000]
+    }
+    - {
       startTime: "09:00",
       endTime: "10:00",
       singles: [41]

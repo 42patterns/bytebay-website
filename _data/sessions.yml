@@ -9,6 +9,12 @@ meta:
       - {title: "Deep dive", color: "#03a9f4"}
       - {title: "Keynote", color: "#e91e63"}
 list:
+  - id: 1000
+    title: "Rejestracja"
+    place: ""
+    service: true
+    description: ""
+    tags: []
   - id: 1001
     title: "Przerwa kawowa"
     place: "Atom Club"
