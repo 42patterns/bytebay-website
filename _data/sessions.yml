@@ -484,7 +484,7 @@ list:
       "Sbt >= 1.0",
       "Scala >= 2.12",
       "ulubiony edytor / IDE, zalecam Intellij (prowadzący będzie korzystał z Intellij z wtyczką do scali)",
-      "pobrany kod źródłowy do workshopu (link będzie dostępny później)"
+      "pobrany kod źródłowy do workshopu https://github.com/andrjew/workshop-fp-in-scala"
     ]}
     location: "Poziom -1"
     type: 0
