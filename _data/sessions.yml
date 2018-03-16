@@ -908,7 +908,7 @@ list:
     Uczestnicy powinni umieć programować w Javie."
     prereq: {title: "Środowisko", list: ["Laptop, z IDE (pref. Intellij)", "JDK 1.8", "Git"]}
     type: 0
-    location: "Poziom 2"
+    location: "Poziom -1"
     capacity: 12
     speakers: [32]
     tags: [Java, Microservices, Architektura, Security]
