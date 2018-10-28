@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://bytebay.pl/</loc>
+<loc>http://bytebay.pl/2018/</loc>
 </url>
 <url>
-<loc>http://bytebay.pl/schedule/</loc>
+<loc>http://bytebay.pl/2018/schedule/</loc>
 </url>
 <url>
-<loc>http://bytebay.pl/sessions-all</loc>
+<loc>http://bytebay.pl/2018/sessions-all</loc>
 </url>
 <url>
-<loc>http://bytebay.pl/sessions/</loc>
+<loc>http://bytebay.pl/2018/sessions/</loc>
 </url>
 <url>
-<loc>http://bytebay.pl/speakers/</loc>
+<loc>http://bytebay.pl/2018/speakers/</loc>
 </url>
 <url>
-<loc>http://bytebay.pl/regulamin_uczestnictwa_ByteBay_2018.pdf</loc>
-<lastmod>2018-03-16T09:38:50+00:00</lastmod>
+<loc>http://bytebay.pl/2018/regulamin_uczestnictwa_ByteBay_2018.pdf</loc>
+<lastmod>2018-03-01T13:03:14+01:00</lastmod>
 </url>
 </urlset>
