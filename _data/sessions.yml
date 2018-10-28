@@ -31,8 +31,7 @@ list:
     place: "T29"
     service: true
     tags: []
-    description: "To ten moment gdy łapiesz piwo i rozmawiasz z uczestnikami, trenerami.<br>
-    <img src=\"/img/mapka-t29.jpg\">"
+    description: "To ten moment gdy łapiesz piwo i rozmawiasz z uczestnikami, trenerami."
   - id: 9990
     title: "Keynote"
     place: "Atom Club"

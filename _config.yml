@@ -13,7 +13,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'Rakefile', 'Gemfile', 'Ge
 title: "ByteBay 2018: 100% warsztatów"
 email: "hi@bytebay.pl"
 description: "15-16 marca 2018. Stadion Energa Gdańsk. 100% warsztatów, 100% praktyki - ByteBay 2018"
-baseurl: ""
+baseurl: "/2018"
 url: "http://bytebay.pl"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-111693074-1"
